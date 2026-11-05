@@ -4091,8 +4091,9 @@ function renderNeedPhotos(){
     by[cat].forEach(function(it){
       var d=document.createElement('div');d.className='needcard';
       var fn=foodFile(it.id)+'.jpg',pr=photoPrompt(it);
-      d.innerHTML='<button type="button" class="needopen">'+String(it.label)+'</button><div class="needfile">File name: <b>'+esc(fn)+'</b></div><p class="needprompt">'+esc(pr)+'</p><button type="button" class="needcopy">Copy prompt</button>';
+      d.innerHTML='<button type="button" class="needopen">'+String(it.label)+'</button><div class="needfile">File name: <b>'+esc(fn)+'</b></div><p class="needprompt">'+esc(pr)+'</p><button type="button" class="needcopy">Copy prompt</button> <button type="button" class="needcopy needrec">Full recipe ›</button>';
       d.querySelector('.needopen').addEventListener('click',function(){navigate({screen:'recipe',id:it.id})});
+      d.querySelector('.needrec').addEventListener('click',function(){navigate({screen:'recipe',id:it.id})});
       var cb=d.querySelector('.needcopy');
       cb.addEventListener('click',function(){var done=function(){cb.textContent='Copied';setTimeout(function(){cb.textContent='Copy prompt'},1500)};try{navigator.clipboard.writeText(pr).then(done,function(){selectText(d.querySelector('.needprompt'))})}catch(e){selectText(d.querySelector('.needprompt'))}});
       box.appendChild(d);
