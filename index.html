@@ -263,6 +263,23 @@ img{max-width:100%}
 .rackzoom button{width:42px;height:42px;border-radius:14px;border:1px solid rgba(255,255,255,.14);background:rgba(20,14,10,.72);color:var(--ink);font:500 22px/1 Inter;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);cursor:pointer}
 .rackzoom button:active{transform:scale(.92)}
 
+.nutgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.nut{background:rgba(255,255,255,.04);border:1px solid var(--line);border-radius:10px;padding:8px 6px;text-align:center}
+.nut b{display:block;font:800 18px Inter,system-ui,sans-serif;color:var(--ink)}.nut b i{font-style:normal;font-size:12px;color:var(--muted);margin-left:1px}
+.nut span{display:block;font:600 11px Inter,system-ui,sans-serif;color:var(--muted);margin-top:2px}
+.mpsafe{display:block;text-decoration:none;margin:4px 0 14px;padding:14px 16px;border-radius:14px;border:1px solid rgba(255,197,107,.45);background:linear-gradient(135deg,rgba(255,197,107,.16),rgba(255,120,60,.08));color:var(--ink)}
+.mpsafe b{display:block;font:800 15px Inter,system-ui,sans-serif;color:#FFC56B}.mpsafe span{display:block;font:500 13px Inter,system-ui,sans-serif;color:var(--muted);margin-top:3px}
+.searchmode{display:flex;gap:8px;margin:10px 0 0}
+.searchmode button{flex:0 0 auto;border:1px solid rgba(255,255,255,.18);background:rgba(0,0,0,.35);color:#ddd;border-radius:999px;padding:7px 14px;font:700 13px Inter,system-ui,sans-serif;cursor:pointer;-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+.searchmode button[aria-pressed="true"]{background:#FFC56B;color:#1a1208;border-color:#FFC56B}
+.needcard{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin:0 0 10px}
+.needopen{all:unset;cursor:pointer;display:block;font:800 15px Inter,system-ui,sans-serif;color:var(--ink)}
+.needfile{font:600 12px Inter,system-ui,sans-serif;color:var(--muted);margin:4px 0 6px}.needfile b{color:#FFC56B;font-family:ui-monospace,Menlo,monospace;word-break:break-all}
+.needprompt{font:400 13px/1.45 Inter,system-ui,sans-serif;color:var(--ink);opacity:.85;margin:0 0 8px;user-select:text;-webkit-user-select:text}
+.needcopy{border:1px solid var(--accent);background:transparent;color:var(--accent);border-radius:9px;padding:6px 12px;font:700 12px Inter,system-ui,sans-serif;cursor:pointer}
+
+.mptab{display:grid;grid-template-columns:76px 1fr;gap:6px 12px;margin:0 0 6px}.mptab dt{font:700 13px Inter,system-ui,sans-serif;color:var(--muted)}.mptab dd{margin:0;font:500 14px/1.4 Inter,system-ui,sans-serif;color:var(--ink)}
+
 </style>
 </head>
 <body>
@@ -1423,6 +1440,18 @@ PHOTO_CARDS.forEach(function(c){
 });
 CARD_ORDER=CARD_ORDER.concat(PHOTO_CARDS.filter(function(c){return CARD_GRP[c.key]==='Entrees'}).map(function(c){return c.key})).concat(PHOTO_CARDS.filter(function(c){return CARD_GRP[c.key]!=='Entrees'}).map(function(c){return c.key}));
 
+// ---- one-recipe photo cards (Nov 5): entrees ----
+var PHOTO_CARDS2=[{"key": "lasagna", "title": "Lasagna Bolognese", "img": "img/lasagna-sheet.jpg", "note": "A one-recipe card for a recipe already in the app. The app keeps its existing measurements; this card is the photo and a reference copy.", "link": "entree-lasagna"}, {"key": "wellington", "title": "Beef Wellington", "img": "img/wellington-sheet.jpg", "note": "A one-recipe card for a recipe already in the app. The app keeps its existing measurements; this card is the photo and a reference copy.", "link": "entree-beefwellington"}, {"key": "smashburgers", "title": "Smash Burgers", "img": "img/smashburgers-sheet.jpg", "note": "A one-recipe card for a recipe already in the app. The app keeps its existing measurements; this card is the photo and a reference copy.", "link": "entree-smashburgers"}, {"key": "salisbury", "title": "Salisbury Steak with Mushroom Gravy", "img": "img/salisbury-sheet.jpg", "note": "A one-recipe card for a recipe already in the app. The app keeps its existing measurements; this card is the photo and a reference copy.", "link": "entree-salisburysteak"}, {"key": "cfribeye", "title": "Country-Fried Ribeye with Pepper Gravy", "img": "img/cfribeye-sheet.jpg", "note": "A one-recipe card for a recipe already in the app. The app keeps its existing measurements; this card is the photo and a reference copy.", "link": "entree-ribeye-country-fried"}, {"key": "cfsteak", "title": "Chicken-Fried Steak with Pepper Gravy", "img": "img/cfsteak-sheet.jpg", "note": "A one-recipe card for a recipe already in the app. The app keeps its existing measurements; this card is the photo and a reference copy.", "link": "entree-chickenfriedsteak"}, {"key": "meatloaf", "title": "Classic Glazed Meatloaf", "img": "img/meatloaf-sheet.jpg", "note": "A one-recipe card for a recipe already in the app. The app keeps its existing measurements; this card is the photo and a reference copy.", "link": "entree-meatloaf"}, {"key": "sesamebeef", "title": "Sesame Beef", "img": "img/sesamebeef-sheet.jpg", "doc": "10ieuys22pnwswfaqh3o", "note": "A one-recipe card for a recipe already in the app. The app keeps its existing measurements; this card is the photo and a reference copy.", "link": "entree-sesame-beef"}, {"key": "orangebeef", "title": "Orange Beef", "img": "img/orangebeef-sheet.jpg", "doc": "c7likrqosz0srewfgspy", "note": "A one-recipe card for a recipe already in the app. The app keeps its existing measurements; this card is the photo and a reference copy.", "link": "entree-orange-beef"}, {"key": "kungpaobeef", "title": "Kung Pao Beef", "img": "img/kungpaobeef-sheet.jpg", "doc": "zvnik8idf2sb7x1mka06", "note": "A one-recipe card for a recipe already in the app. The app keeps its existing measurements; this card is the photo and a reference copy.", "link": "entree-kungpao-beef"}];
+PHOTO_CARDS2.forEach(function(c){
+  CARDS.push(c);
+  var img='img/dish/'+c.key+'-1.jpg';
+  ITEM_IMG[c.link]={img:img,card:c.key};
+  var r=R.filter(function(x){return x.id===c.link})[0];
+  if(r){r.img=img;r.imgCard=c.key;r.imgExact=true;(r.alsoCards=r.alsoCards||[]).push(c.key)}
+  CARD_GRP[c.key]='Entrees';
+});
+(function(){var ix=CARD_ORDER.indexOf('mongolian');var ks=PHOTO_CARDS2.map(function(c){return c.key});if(ix>-1)CARD_ORDER.splice.apply(CARD_ORDER,[ix+1,0].concat(ks));else CARD_ORDER=CARD_ORDER.concat(ks)})();
+
 // ==== Breakfast (Nov 1) — from links Chris sent ====
 function BR(o){var d={group:'Breakfast',k:'n',v:1,min:1,max:24,name:'Classic'};for(var p in o)d[p]=o[p];d.style=d.lbl;d.d=d.b;return d}
 [
@@ -1495,6 +1524,243 @@ R.push(BR({id:'entree-sausagemeatloaf',group:'Entrees: American',lbl:'Homestyle 
  st:['Heat the oven to 350°F. Line a shallow baking pan with foil and grease it lightly.','In a small bowl, stir together the ketchup, brown sugar and dry mustard. Set aside.','In a large bowl, combine about {ing:ketch:0.667} of the ketchup mixture with all the remaining ingredients; mix well.','Shape into a loaf on the pan. Bake 1 hour.','Pour the remaining ketchup mixture over the top and bake 10 minutes more, until the center reaches 160°F.','Rest 5 minutes before slicing.'],
  swaps:['Mustard: leave the dry mustard out of the glaze. Nothing else needs to change.'],
  an:'Making 2 or more: shape separate 2-lb loaves with space between them; bake time stays about the same. Go by the 160°F center temperature.'}));
+
+// ==== Meal Prep (Nov 5) — links Chris sent. forN = Nicole only ====
+// nu: nutrition per serving as published by the source (null fields = not listed)
+function MP(o){var d={group:'Meal Prep',k:'n',v:1,min:1,max:24,name:'Classic',u:['serving','servings']};for(var p in o)d[p]=o[p];d.style=d.lbl;d.d=d.b;if(!d.c)d.c=[1,2,4,6,8];return d}
+function NU(cal,fat,sat,chol,na,carb,fib,sug,pro,extra){var o={cal:cal,fat:fat,sat:sat,chol:chol,na:na,carb:carb,fib:fib,sug:sug,pro:pro};for(var p in extra||{})o[p]=extra[p];return o}
+var LB=453.6,OZ=28.35;
+[
+// ---------- BEEF BOWLS ----------
+MP({id:'mp-koreanbeefrice',lbl:'Korean Beef and Rice',mt:'beef',prot:['beef'],b:4,
+ url:'https://www.tasteofhome.com/recipes/korean-beef-and-rice/',src:'Taste of Home',
+ nt:'Published recipe — Taste of Home, “Korean Beef and Rice.”',
+ ing:[IW('beef','Lean ground beef (90% lean)',LB),IE('garlic','Garlic cloves, minced',3),IV('bs','Packed brown sugar',12),IV('soy','Reduced-sodium soy sauce',12),IV('so','Sesame oil',2),IV('ging','Ground ginger',.25),IV('rpf','Crushed red pepper flakes',.25),IV('pep','Pepper',.25),IV('rice','Hot cooked brown rice',128),IE('go','Green onions, thinly sliced',3)],
+ st:['In a large skillet, cook the beef and garlic over medium heat 6–8 minutes, breaking the beef into crumbles, until no longer pink. Drain.','In a small bowl, mix the brown sugar, soy sauce, sesame oil and seasonings.','Stir the sauce into the beef; heat through.','Serve with rice and sprinkle with green onions.'],
+ nu:NU(413,13,4,71,647,46,3,14,27,{basis:'⅔ cup beef mixture with ⅔ cup rice'}),
+ mp:{fridge:'3–4 days',freezer:'Beef mixture up to 3 months (rice freezes fine too)',reheat:'Microwave covered with a splash of water, stirring halfway, until steaming hot (165°F).',tips:['Pack rice and beef in the same container; add the green onions the day you eat it.']}}),
+MP({id:'mp-skinnykoreanbeef',lbl:'Korean Beef Rice Bowls (Skinnytaste)',mt:'beef',prot:['beef'],b:4,
+ url:'https://www.skinnytaste.com/korean-beef-rice-bowls/',src:'Skinnytaste',
+ nt:'Published recipe — Skinnytaste, “Korean Beef Rice Bowls.” Cooking spray swapped for a little avocado oil (most sprays are canola).',
+ ing:[IV('soy','Low-sodium soy sauce',12),IV('water','Water',6),IV('bs','Light brown sugar',2),IV('so','Sesame oil',1),IV('rpf','Crushed red pepper flakes',.5),IV('oil','Avocado oil (instead of cooking spray)',1),IW('beef','93% lean ground beef',LB),IV('onion','Minced onion',12),IE('garlic','Garlic cloves, minced',2),IV('ging','Fresh grated ginger',1),IV('rice','Cooked brown rice',144),IE('cuc','Small cucumber, sliced',1),IV('gochu','Gochujang (Korean chili paste)',6),IV('ses','Sesame seeds',1.5),IE('scal','Scallions, sliced',2)],
+ st:['Mix the soy sauce, water, brown sugar, sesame oil and red pepper flakes.','Heat a large skillet over high heat with the avocado oil. Add the beef and cook, breaking it up, until browned, about 4 minutes.','Add the onion, garlic and ginger; cook 2 minutes. Pour in the soy mixture and simmer 2–3 minutes.','Divide into 4 containers: ¾ cup rice and a scant ⅔ cup beef each. Top with cucumber, gochujang, sesame seeds and scallions.'],
+ nu:NU(394,9,3,70,807,47,4,7,30,{basis:'1 bowl (¾ cup rice + ⅔ cup beef)'}),
+ mp:{fridge:'4 days',freezer:'Beef only, up to 3 months',reheat:'Reheat beef and rice to steaming (165°F).',tips:['Keep the cucumber in a separate small cup so it stays crisp — add after reheating.']}}),
+MP({id:'mp-beefspinachlomein',lbl:'Beef Spinach Lo Mein',mt:'beef',prot:['beef'],b:5,
+ url:'https://www.tasteofhome.com/recipes/beef-spinach-lo-mein/',src:'Taste of Home',
+ nt:'Published recipe — Taste of Home, “Beef Spinach Lo Mein.” Canola swapped for avocado oil.',
+ ing:[IV('hoisin','Hoisin sauce',12),IV('soy','Soy sauce',6),IV('water','Water',3),IV('so','Sesame oil',2),IE('garlic','Garlic cloves, minced',2),IV('rpf','Crushed red pepper flakes',.25),IW('beef','Beef top round steak, thinly sliced',LB),IW('spag','Uncooked spaghetti',6*OZ),IV('oil','Avocado oil, divided (recipe: canola)',4),IW('wc','Can sliced water chestnuts, drained',8*OZ),IE('go','Green onions, sliced',2),IW('spin','Fresh baby spinach',10*OZ),IE('chili','Red chili pepper, seeded and thinly sliced (optional)',1)],
+ st:['Mix the hoisin, soy sauce, water, sesame oil, garlic and pepper flakes. Toss ¼ cup of the sauce with the beef; let stand 10 minutes.','Cook the spaghetti according to the package; drain.','Heat 2 tsp avocado oil in a large skillet over medium-high heat. Stir-fry half the beef 1–2 minutes until no longer pink; remove. Repeat with 1 tsp oil and the rest of the beef.','Stir-fry the water chestnuts and green onions in the last 1 tsp oil 30 seconds. Stir in the spinach and remaining sauce; cook until the spinach wilts.','Return the beef; add the spaghetti and toss to heat through. Sprinkle with chili if using.'],
+ nu:NU(358,10,2,51,681,40,4,6,28,{basis:'1⅓ cups'}),
+ mp:{fridge:'3–4 days',freezer:'Not recommended — spinach and noodles turn mushy',reheat:'Splash of water, covered, microwave until 165°F.',tips:['Undercook the noodles by a minute; they soften as they sit.']}}),
+MP({id:'mp-burritobowl',lbl:'Beef Burrito Bowls',mt:'beef',prot:['beef'],cu:'Mexican',b:4,
+ url:'https://feelgoodfoodie.net/recipe/beef-burrito-bowl/',src:'Feel Good Foodie',
+ nt:'Published recipe — Feel Good Foodie, “Beef Burrito Bowl.” Store-bought taco seasoning often has anti-caking oils — the app’s Taco Seasoning in Rubs is a clean swap (about 2 tbsp per lb).',
+ ing:[IV('rice','Uncooked white or brown rice',48),IV('salt','Salt (for rice)',.25),IV('rwater','Water (for rice)',72),IE('lime','Lime, juiced',1),IV('cil','Chopped cilantro',12),IV('oil','Olive oil',3),IE('onion','Small onion, diced',1),IE('garlic','Garlic cloves, minced',2),IW('beef','Lean ground beef',LB),IV('tp','Tomato paste',6),IV('taco','Taco seasoning',6),IV('water','Water',12),IW('beans','Can black beans, drained and rinsed',15*OZ),IV('corn','Corn',48),IV('tom','Diced tomatoes',48),IV('let','Shredded lettuce',48),ITT('guac','Guacamole, for serving'),ITT('limew','Lime wedges, for serving')],
+ st:['Cook the rice with the salt and water. Stir in the lime juice and cilantro.','Heat the olive oil in a skillet over medium heat. Cook the onion until soft, add the garlic for 30 seconds.','Add the beef and cook, breaking it up, until browned. Drain if needed.','Stir in the tomato paste, taco seasoning and water; simmer until thick, 3–5 minutes.','Divide the rice, beef, beans and corn among 4 containers. Pack tomatoes, lettuce and guacamole separately.'],
+ nu:NU(569,16,5,74,549,72,11,4,35,{basis:'1 bowl'}),
+ mp:{fridge:'4 days',freezer:'Beef and rice up to 3 months (no lettuce, tomato or guac)',reheat:'Reheat rice, beef, beans and corn to 165°F; add the cold toppings after.',tips:['Lettuce, tomato and guacamole go in a separate container — never reheat them.']}}),
+MP({id:'mp-eggrollbowl',lbl:'Egg Roll in a Bowl',mt:'beef',prot:['beef'],cu:'Chinese',b:4,
+ url:'https://feelgoodfoodie.net/recipe/egg-roll-in-a-bowl/',src:'Feel Good Foodie',
+ nt:'Published recipe — Feel Good Foodie, “Egg Roll in a Bowl,” made with lean ground beef.',
+ ing:[IV('oil','Avocado oil',3),IW('beef','Lean ground beef',LB),IE('onion','Large onion, diced',1),IE('garlic','Garlic cloves, minced',3),IV('ging','Fresh grated ginger',3),IE('egg','Large eggs',2,1),IW('slaw','Bag coleslaw mix',14*OZ),IV('soy','Low-sodium soy sauce',12),IV('rv','Rice vinegar',3),IV('sri','Sriracha',3),IV('so','Sesame oil',1),IE('go','Green onions, sliced',2),IV('ses','Sesame seeds',3)],
+ st:['Heat the avocado oil in a large skillet over medium-high heat. Brown the beef with the onion, breaking it up, 6–8 minutes.','Add the garlic and ginger; cook 1 minute.','Push the beef to one side, crack in the eggs and scramble them, then stir together.','Add the coleslaw mix, soy sauce, rice vinegar and sriracha. Cook, stirring, until the cabbage is just tender, 3–5 minutes.','Stir in the sesame oil; top with green onions and sesame seeds.'],
+ nu:NU(343,19,6,167,791,12,4,5,30),
+ mp:{fridge:'4 days',freezer:'Don’t freeze — the cabbage goes watery',reheat:'Microwave to 165°F, stirring once.',tips:['Leave the cabbage a little crunchy so it holds up through day 4.']}}),
+MP({id:'mp-teriyakibeef',lbl:'Teriyaki Beef Stir Fry',mt:'beef',prot:['beef'],cu:'Japanese',b:4,
+ url:'https://feelgoodfoodie.net/recipe/teriyaki-beef-stir-fry/',src:'Feel Good Foodie',
+ nt:'Published recipe — Feel Good Foodie. Nutrition doesn’t include the rice.',
+ ing:[IV('soy','Reduced-sodium soy sauce',9),IV('rv','Rice vinegar',9),IV('bs','Dark brown sugar',3),IV('ging','Fresh grated ginger',2),IE('garlic','Garlic cloves, minced',2),IV('cs','Cornstarch',2),IV('swater','Water (for sauce)',12),IV('oil','Avocado oil, divided',3),IE('onion','Onion, sliced',1),IE('rp','Red bell pepper, sliced',1),IV('water','Water',24),IV('broc','Broccoli florets',144),IW('flank','Flank steak, thinly sliced against the grain',LB),IV('salt','Salt',.5),IV('pep','Pepper',.25),ITT('rice','Cooked rice, for serving'),ITT('ses','Sesame seeds, for serving')],
+ st:['Whisk the soy sauce, rice vinegar, brown sugar, ginger, garlic, cornstarch and ¼ cup water.','Heat half the oil in a large skillet over medium-high heat. Cook the onion and red pepper 3 minutes.','Add the broccoli and ½ cup water; cover and steam until crisp-tender, 3–4 minutes. Move the vegetables to a plate.','Add the rest of the oil. Season the steak with salt and pepper and sear in one layer until browned, 2–3 minutes.','Return the vegetables, pour in the sauce and cook until glossy and thick, 1–2 minutes. Serve over rice with sesame seeds.'],
+ nu:NU(256,10,3,68,811,14,3,7,28,{excludes:'rice'}),
+ mp:{fridge:'4 days',freezer:'Up to 3 months (broccoli softens a bit)',reheat:'Reheat to 165°F with a splash of water.',tips:['Slice the flank across the grain thin — it stays tender when reheated.']}}),
+MP({id:'mp-beefstroganoff',lbl:'Beef Stroganoff (Meal Prep)',mt:'beef',prot:['beef'],b:6,
+ url:'https://feelgoodfoodie.net/recipe/beef-stroganoff',src:'Feel Good Foodie',
+ nt:'Published recipe — Feel Good Foodie, made with chuck and Greek yogurt instead of sour cream. Nutrition doesn’t include the noodles.',
+ swaps:['Dijon (2 tsp): leave it out and add ½ tsp Worcestershire for the tang, or use ½ tsp dry mustard if a little is OK.','No Greek yogurt: sour cream, same amount, stirred in off the heat.'],
+ ing:[IV('oil','Olive oil',3),IW('beef','Beef chuck, cut in 2-inch cubes',1.25*LB),IV('salt','Kosher salt, divided',1.5),IV('pep','Black pepper, divided',1),IW('mush','Baby bella mushrooms, sliced',24*OZ),IE('onion','Onion, diced',1),IV('acv','Apple cider vinegar',3),IV('flour','All-purpose flour',12),IV('dijon','Dijon mustard (see Swaps)',2),IV('pap','Paprika',1),IV('stock','Beef stock',144),IV('yog','Plain Greek yogurt',6),IV('pars','Chopped parsley',6),ITT('nood','Egg noodles, for serving')],
+ st:['Heat the oil in a Dutch oven over medium-high. Season the beef with half the salt and pepper and brown it in batches. Remove.','Add the mushrooms and onion; cook until the mushrooms release their liquid and brown, 8–10 minutes.','Add the vinegar and scrape up the browned bits. Sprinkle in the flour and stir 1 minute.','Stir in the Dijon (or swap), paprika and stock. Return the beef with the rest of the salt and pepper.','Cover and simmer gently until the beef is fork-tender, about 2 hours.','Off the heat, stir in the yogurt and parsley. Serve over egg noodles.'],
+ nu:NU(264,14,5,65,925,13,1,4,25,{excludes:'egg noodles'}),
+ mp:{fridge:'4 days',freezer:'Up to 3 months — best frozen before adding the yogurt; stir it in after reheating',reheat:'Reheat gently until 165°F; boiling can split the yogurt.',tips:['Store noodles separately so they don’t soak up all the sauce.']}}),
+MP({id:'mp-beefcasserole',lbl:'Ground Beef Pasta Casserole',mt:'beef',prot:['beef'],b:8,
+ url:'https://feelgoodfoodie.net/recipe/ground-beef-casserole/',src:'Feel Good Foodie',
+ nt:'Published recipe — Feel Good Foodie. Check the marinara label for soybean or canola oil — pick one made with olive oil.',
+ pan:{label:'9×13" dish',plural:'9×13" dishes',each:8},
+ ing:[IW('penne','Penne pasta',LB),IV('oil','Olive oil',3),IW('beef','Lean ground beef',LB),IE('onion','Large onion, diced',1),IV('ital','Italian seasoning',2),IV('salt','Salt',.5),IV('pep','Pepper',.5),IE('garlic','Garlic cloves, minced',2),IW('mar','Jar marinara sauce',25*OZ),IV('basil','Chopped fresh basil',12),IV('mozz','Shredded mozzarella',72)],
+ st:['Heat the oven to 375°F. Cook the penne 2 minutes short of the package time; drain.','Heat the oil in a large skillet. Brown the beef with the onion, Italian seasoning, salt and pepper. Add the garlic for the last minute.','Stir in the marinara and basil, then the pasta.','Spread in a 9×13-inch dish and top with the mozzarella.','Bake about 15 minutes, until bubbly and the cheese melts.'],
+ nu:NU(411,12,5,50,738,50,4,6,25),
+ mp:{fridge:'4 days',freezer:'Up to 3 months — freeze in portions',reheat:'Covered, until 165°F in the center.',tips:['Cool it in portions, not as one big dish — a full 9×13 stays warm in the middle too long.']}}),
+MP({id:'mp-salisbury',lbl:'Meal Prep Salisbury Steak',mt:'beef',prot:['beef'],b:6,
+ url:'https://www.asweetpeachef.com/?p=29697',src:'A Sweet Pea Chef',
+ nt:'Published recipe — A Sweet Pea Chef, “Meal Prep Salisbury Steak” with mashed red potatoes and peas. The gravy is thickened with chickpea (garbanzo) flour, so it’s gluten-free; all-purpose flour works the same.',
+ ing:[IW('beef','Lean ground beef',1.5*LB),IV('onion','Minced onion',24),IE('garlic','Garlic cloves, minced',3),IV('pep','Pepper',.5),IV('salt','Salt',.5),IV('oil','Olive oil',3),IW('mush','Cremini mushrooms, sliced',LB),IV('gflour','Garbanzo (chickpea) flour',9),IV('broth','Low-sodium beef broth',84),IV('rwv','Red wine vinegar',1.5),IW('pot','Red potatoes, cubed',LB),IV('psalt','Salt (potatoes)',.5),IV('ppep','Pepper (potatoes)',.25),IV('pbroth','Beef broth for mashing (2–4 tbsp)',9),IV('poil','Olive oil (peas)',1),IV('ponion','Minced onion (peas)',9),IV('peas','Frozen peas',192),IV('pesalt','Salt (peas)',.25),IV('pepep','Pepper (peas)',.25)],
+ st:['Mix the beef, onion, garlic, salt and pepper. Shape into 6 oval patties.','Heat the oil in a large skillet over medium-high. Brown the patties 3–4 minutes per side; remove.','Cook the mushrooms in the same pan until browned. Sprinkle in the chickpea flour and stir 1 minute.','Whisk in the broth and vinegar; simmer until it thickens. Return the patties and simmer until they reach 160°F.','Meanwhile boil the potatoes until tender, drain, and mash with salt, pepper and a few tablespoons of broth.','Cook the onion in the oil 2 minutes, add the peas, salt and pepper and heat through.','Pack each container with a patty and gravy, potatoes and peas.'],
+ nu:NU(350,9,3,70,555,32,7,8,34,{basis:'1 patty with gravy, potatoes and peas'}),
+ mp:{fridge:'4 days',freezer:'Up to 3 months',reheat:'Covered, until the patty reaches 165°F.',tips:['Ground beef patties must hit 160°F when first cooked — check the thickest one.']}}),
+// ---------- STEAK / SUBBED ----------
+MP({id:'mp-steakhummus',lbl:'Steak & Hummus Lunch Boxes',mt:'beef',prot:['beef'],cu:'Mediterranean',b:4,
+ url:'https://feelgoodfoodie.net/?p=45973',src:'Feel Good Foodie',
+ nt:'Adapted: the published recipe is “Chicken & Hummus” with 4 chicken breasts. Per your note it uses steak here — I picked sirloin (about 1½ lb), same marinade. Check the naan label for soybean or canola oil.',
+ swaps:['Dijon in the marinade: leave it out, or use ¼ tsp dry mustard; the oil, garlic and oregano carry it.','Any tender grilling steak works: sirloin, flat iron or flank.'],
+ ing:[IW('steak','Sirloin steak (replaces 4 chicken breasts)',1.5*LB),IV('oil','Olive oil',12),IV('dijon','Dijon mustard (see Swaps)',3),IV('salt','Salt',.5),IV('pep','Pepper',.5),IV('gp','Garlic powder',.5),IV('oreg','Dried oregano',.5),IV('hum','Roasted red pepper hummus',24),IE('naan','Mini naan',12,1),IE('cuc','English cucumber, sliced',1),IV('tom','Cherry tomatoes',48)],
+ st:['Whisk the oil, Dijon (or swap), salt, pepper, garlic powder and oregano. Coat the steak and refrigerate 2 hours.','Heat a grill or cast-iron pan to medium-high. Cook the steak to 145°F for medium-rare (plus a 3-minute rest) — about 4–6 minutes per side for a 1-inch sirloin.','Rest 5 minutes, then slice thin against the grain.','Divide the steak, hummus, naan, cucumber and tomatoes among 4 containers.'],
+ nu:NU(369,21,3,74,693,17,3,3,29,{note:'The published numbers are for the chicken version. Sirloin runs a little higher in fat and calories.'}),
+ mp:{fridge:'3–4 days',freezer:'Not recommended (hummus and cucumbers)',reheat:'Eat cold or warm just the steak; hummus stays cold.',tips:['Keep it cold — this is a no-reheat lunch, so it needs an ice pack in a cooler.']}}),
+// ---------- SHEET PAN ----------
+MP({id:'mp-fajitas',lbl:'Sheet Pan Chicken Fajitas',mt:'sheet',prot:['chicken'],cu:'Mexican',b:4,
+ url:'https://feelgoodfoodie.net/videos/sheet-pan-chicken-fajitas/',src:'Feel Good Foodie',
+ nt:'Published recipe — Feel Good Foodie. The page didn’t list its seasoning amounts, so this uses the app’s Fajita Seasoning (about 1 tbsp per lb). Store tortillas often contain soybean or canola oil — the app’s Flour Tortillas are a clean swap. Swap the chicken for flank or skirt steak if you like; cook it to 145°F.',
+ ing:[IW('chick','Boneless chicken breast, sliced in strips',1.5*LB),IE('bp','Bell peppers, sliced',3),IE('ro','Red onion, sliced',1),IE('garlic','Garlic cloves, minced',2),IV('oil','Olive oil',9),IV('fs','Fajita Seasoning (app recipe in Rubs)',4.5),ITT('tort','Tortillas, for serving'),ITT('lime','Lime wedges, cilantro and avocado, for serving')],
+ st:['Heat the oven to 425°F.','Toss the chicken, peppers, onion and garlic with the oil and fajita seasoning on a large sheet pan. Spread in one layer.','Roast 15–20 minutes, until the chicken reaches 165°F and the peppers are tender.','Serve in tortillas with lime, cilantro and avocado.'],
+ nu:NU(332,16,3,109,511,10,3,5,38,{excludes:'tortillas and toppings'}),
+ mp:{fridge:'3–4 days',freezer:'Up to 3 months (filling only)',reheat:'Skillet or microwave until 165°F.',tips:['Pack avocado and tortillas separately; cut avocado the day you eat it.']}}),
+MP({id:'mp-sausageveg',lbl:'Sheet Pan Sausage & Veggies',mt:'sheet',prot:['chicken'],b:4,
+ src:'Isabel Eats',
+ nt:'Published recipe — Isabel Eats. Uses hot Italian chicken sausage; pork Italian sausage works too. Cooking spray swapped for olive oil. Check the sausage label for added oils.',
+ ing:[IW('bs','Brussels sprouts, halved',12*OZ),IW('squash','Butternut squash, cubed',LB),IE('bp','Bell peppers, chopped',2),IE('onion','Large onion, chopped',1),IV('oil','Olive oil',12),IV('sage','Dried sage',1),IV('gp','Garlic powder',.5),IV('thyme','Dried thyme',.5),IV('rose','Dried rosemary',.5),IV('chili','Chili powder',.5),IV('salt','Salt',.5),ITT('pep','Pepper, a pinch'),IW('saus','Hot Italian chicken sausage (about 5 links), sliced',14*OZ)],
+ st:['Heat the oven to 375°F and oil a large sheet pan.','Toss the vegetables with the oil and seasonings; spread on the pan.','Roast 15 minutes. Add the sausage, toss, and roast 15 minutes more.','Broil about 5 minutes for color. Sausage should reach 165°F (160°F if pork).'],
+ nu:NU(418,24,5,81,null,31,8,11,22),
+ mp:{fridge:'4 days',freezer:'Up to 3 months',reheat:'Oven or air fryer at 375°F keeps the vegetables from going soggy; heat to 165°F.',tips:['Use two pans if crowded — steamed vegetables don’t keep as well.']}}),
+MP({id:'mp-salmonsheet',lbl:'Sheet Pan Lemon Garlic Parmesan Salmon',mt:'sheet',forN:1,prot:['seafood'],b:4,
+ url:'https://feelgoodfoodie.net/recipe/sheet-pan-lemon-garlic-parmesan-salmon/',src:'Feel Good Foodie',
+ nt:'Published recipe — Feel Good Foodie. For Nicole.',
+ ing:[IW('salmon','Salmon fillets (4 × 6 oz)',24*OZ),IW('pot','Baby yellow potatoes, halved',LB),IW('gb','Green beans, trimmed',.5*LB),IV('lemon','Lemon juice',12),IV('parm','Grated Parmesan',12),IV('oil','Olive oil',6),IE('garlic','Garlic cloves, minced',2),IV('pars','Chopped parsley',3),ITT('salt','Salt and pepper')],
+ st:['Boil the potatoes until just tender, about 15 minutes; drain. Heat the oven to 400°F.','Whisk the lemon juice, oil, garlic and parsley.','Arrange the salmon, potatoes and green beans on a sheet pan. Brush with the lemon mixture, season with salt and pepper, and sprinkle with Parmesan.','Bake about 15 minutes, until the salmon reaches 145°F and flakes easily.'],
+ nu:NU(441,20,4,99,203,26,4,3,39),
+ mp:{fridge:'3 days (fish keeps less time than meat)',freezer:'Up to 2–3 months, quality drops',reheat:'Low and slow — 275°F oven about 15 minutes, or eat cold over greens. Reheat to 165°F if warming.',tips:['Fish is the first thing to eat in a week of meal prep — plan it for days 1–3.']}}),
+MP({id:'mp-teriyakichicken',lbl:'Teriyaki Chicken Meal Prep',mt:'sheet',prot:['chicken'],cu:'Japanese',b:4,
+ url:'https://feelgoodfoodie.net/recipe/teriyaki-chicken-meal-prep/',src:'Feel Good Foodie',
+ nt:'Published recipe — Feel Good Foodie. Easily made with flank steak instead — marinate the same and sear to 145°F.',
+ ing:[IV('soy','Soy sauce',12),IV('rwv','Rice wine vinegar',6),IV('honey','Honey',6),IV('cs','Cornstarch',3),IV('oil','Avocado oil',3),ITT('ging','Fresh ginger, thumb-size piece, grated'),IE('garlic','Garlic clove, minced',1),IV('so','Sesame oil',1),IW('chick','Boneless chicken breasts (4 × 6 oz)',24*OZ),IV('rice','Uncooked rice',48),IV('salt','Salt',.5),ITT('pep','Pepper'),IV('water','Water (1½ cups + 3 tbsp)',81),IE('broc','Head of broccoli, cut in florets',1)],
+ st:['Mix the soy sauce, vinegar, honey, cornstarch, ginger, garlic and sesame oil. Marinate the chicken in half of it 20 minutes up to 24 hours.','Cook the rice in 1½ cups water with the salt.','Heat the avocado oil in a skillet over medium. Cook the chicken until it reaches 165°F; rest and slice. Throw away the used marinade.','Simmer the reserved sauce with 3 tbsp water until thick; toss with the chicken.','Steam the broccoli. Divide the rice, chicken and broccoli among 4 containers.'],
+ nu:NU(454,9,2,109,1306,49,1,9,41),
+ mp:{fridge:'4 days',freezer:'Up to 3 months',reheat:'Covered with a splash of water until 165°F.',tips:['Marinade that touched raw chicken never goes on cooked food unless you boil it first — that’s why half is held back.']}}),
+// ---------- NICOLE'S BOWLS & SALADS ----------
+MP({id:'mp-chickenquinoa',lbl:'Chicken & Quinoa Bowls',mt:'bowl',forN:1,prot:['chicken'],b:4,
+ url:'https://feelgoodfoodie.net/recipe/chicken-quinoa-bowl/',src:'Feel Good Foodie',
+ nt:'Published recipe — Feel Good Foodie. For Nicole.',
+ ing:[IV('quinoa','Quinoa, rinsed',48),IV('qwater','Water',72),IW('chick','Chicken tenders',1.5*LB),IV('pap','Paprika',2),IV('cor','Ground coriander',1.5),IV('op','Onion powder',1),IV('turm','Turmeric',.5),IV('salt','Salt',.75),IV('pep','Pepper',.5),IV('oil','Olive oil',6),IV('kale','Chopped kale',288),IW('tom','Cherry tomatoes (1 pint)',10*OZ),IV('alm','Slivered almonds',24),ITT('pars','Chopped parsley, for garnish')],
+ st:['Simmer the quinoa in the water, covered, until absorbed, about 15 minutes. Fluff.','Mix the spices and rub over the chicken.','Heat the oil in a large skillet over medium-high heat. Cook the chicken until it reaches 165°F, 3–4 minutes per side.','Divide the quinoa, kale, tomatoes, chicken and almonds among 4 containers. Top with parsley.'],
+ nu:NU(531,22,3,109,671,38,8,4,47),
+ mp:{fridge:'4 days',freezer:'Quinoa and chicken only',reheat:'Eat cold or warm the chicken and quinoa to 165°F.',tips:['Kale holds up for days without wilting — a good base for prep bowls.']}}),
+MP({id:'mp-grainbowls',lbl:'Grain Bowls 3 Ways',mt:'bowl',forN:1,prot:[],b:6,u:['bowl','bowls'],c:[2,4,6],
+ url:'https://feelgoodfoodie.net/recipe/grain-bowl/',src:'Feel Good Foodie',
+ nt:'Published vegan recipe — Feel Good Foodie: 2 brown-rice bowls, 2 farro bowls and 2 quinoa bowls with a creamy cilantro-avocado sauce. For Nicole. The page didn’t say what portion its nutrition is for.',
+ ing:[IV('brice','Brown rice (uncooked)',24),IV('brw','Water for brown rice',60),IV('cab','Shredded green cabbage',96),IV('bb','Black beans',24),IE('tom','Tomato, diced',1),IV('corn','Corn',24),IE('avo1','Avocado (half)',.5),IV('farro','Farro (uncooked)',24),IV('fw','Water for farro',36),IV('spin','Spinach',96),IV('chk','Chickpeas',24),IV('ctom','Cherry tomatoes',24),IE('pc','Persian cucumbers, sliced',2),IV('alm','Almonds',12),IV('quinoa','Quinoa (uncooked)',24),IV('qw','Water for quinoa',36),IV('pcab','Shredded purple cabbage',96),IV('eda','Shelled edamame',24),IE('rp','Red bell pepper, sliced',1),IE('car','Carrots, shredded',2),IV('pnut','Salted peanuts',24),ITT('cil','Cilantro, 1 bunch (sauce)'),IV('oat','Oat milk (sauce)',24),IV('oil','Olive oil (sauce)',12),IE('avo','Small avocado (sauce)',1),IE('garlic','Garlic clove (sauce)',1),IV('salt','Salt (sauce)',.5),IV('pep','Pepper (sauce)',.25)],
+ st:['Cook the grains: brown rice about 40 minutes, farro about 20, quinoa about 15, each in its listed water. Cool.','Blend the cilantro, oat milk, olive oil, avocado, garlic, salt and pepper until smooth.','Brown rice bowls (2): rice, green cabbage, black beans, tomato, corn and avocado.','Farro bowls (2): farro, spinach, chickpeas, cherry tomatoes, cucumber and almonds.','Quinoa bowls (2): quinoa, purple cabbage, edamame, red pepper, carrots and peanuts.','Pack the sauce in small separate cups.'],
+ nu:NU(652,38,5,null,823,63,20,10,25,{note:'Portion basis not stated on the source.'}),
+ mp:{fridge:'5 days per the source — 4 is safer for the avocado ones (eat those first)',freezer:'No',reheat:'Eat cold.',tips:['Sauce in separate cups; add the avocado the day you eat it if you can.','Cool cooked grains fast — spread on a sheet pan — before they go in the fridge.']}}),
+MP({id:'mp-chipotlebowl',lbl:'Chipotle Chicken Brown Rice Bowls',mt:'bowl',prot:['chicken'],cu:'Mexican',b:4,
+ url:'https://mealpreponfleek.com/?p=22409',src:'Meal Prep on Fleek',
+ nt:'Published recipe — Meal Prep on Fleek, with a cilantro-basil-lime dressing. Not marked for Nicole in your list, but it’s chicken — make it with flank steak for yourself (sear to 145°F).',
+ ing:[IV('doil','Olive oil (dressing)',12),IV('dlime','Lime juice (dressing)',12),IV('agave','Agave or honey (dressing)',3),IV('dcil','Cilantro (dressing)',12),IV('basil','Basil (dressing)',12),IE('dgarlic','Garlic clove (dressing)',1),IV('dsalt','Salt (dressing)',.5),IW('chick','Boneless chicken',LB),IV('oil','Olive oil',6),IV('chip','Chipotle chili powder',1),IV('cumin','Cumin',1),IV('gp','Garlic powder',.25),IV('salt','Salt',1),IV('rice','Cooked brown rice',96),IV('kale','Chopped kale',192),IV('bb','Black beans',48),IV('tom','Cherry tomatoes',48),IV('cil','Cilantro',48),IV('ro','Diced red onion',24)],
+ st:['Blend the dressing ingredients until smooth.','Rub the chicken with the oil and spices. Grill over medium heat about 8 minutes per side, until 165°F. Rest and slice.','Divide the rice, kale, black beans, tomatoes, cilantro, onion and chicken among 4 containers. Dressing goes on the side.'],
+ nu:NU(506,24,null,null,1263,45,9,null,33,{note:'The source listed only some values.'}),
+ mp:{fridge:'4 days',freezer:'Chicken and rice only',reheat:'Eat cold, or warm the chicken and rice to 165°F.',tips:['Dressing in a separate cup.']}}),
+MP({id:'mp-sesamenoodle',lbl:'Sesame Noodle Bowls',mt:'bowl',prot:['chicken'],cu:'Chinese',b:4,
+ url:'https://pinchofyum.com/15-minute-meal-prep-sesame-noodle-bowls',src:'Pinch of Yum',
+ nt:'Published recipe — Pinch of Yum. Chicken is optional; thin-sliced flank steak works well. Only the sodium was listed.',
+ ing:[IV('tahini','Sesame paste or tahini',12),IV('ww','Warm water',12),IV('soy','Soy sauce',9),IV('so','Sesame oil',3),IV('rv','Rice vinegar',3),IE('garlic','Garlic clove',1),ITT('sri','Sriracha, to taste'),ITT('sug','Sugar, to taste'),IW('nood','Noodles (6–8 oz)',7*OZ),IV('eda','Shelled edamame',96),IE('cuc','Cucumbers, sliced',2),IW('chick','Cooked chicken or steak (optional)',LB),ITT('ses','Sesame seeds')],
+ st:['Whisk the sesame paste, water, soy sauce, sesame oil, rice vinegar, garlic, sriracha and sugar.','Cook the noodles; rinse in cold water and drain well.','Toss the noodles with most of the sauce.','Divide with edamame, cucumber and the protein; top with sesame seeds and the rest of the sauce.'],
+ nu:{na:671,note:'Only sodium (about 671 mg) was listed.'},
+ mp:{fridge:'4 days',freezer:'No',reheat:'Served cold.',tips:['Cold noodle bowls still need the cooler and ice pack — they’re never left out.']}}),
+MP({id:'mp-chickpeasalad',lbl:'Mediterranean Chickpea Salad',mt:'bowl',forN:1,prot:[],cu:'Mediterranean',b:3,
+ url:'https://jessicainthekitchen.com/15-minute-mediterranean-chickpea-salad-meal-prep/',src:'Jessica in the Kitchen',
+ nt:'Published vegan recipe — Jessica in the Kitchen. For Nicole. The source doesn’t list servings — about 3 is my estimate — and gives no nutrition.',
+ ing:[IV('chk','Cooked chickpeas',72),IV('tom','Cherry tomatoes, halved',48),IE('ro','Large red onion (half), diced',.5),IV('cuc','Diced cucumber',48),IV('feta','Vegan feta (or regular feta)',12),IV('pars','Chopped parsley',24),IV('oil','Extra-virgin olive oil',12),IV('bal','Balsamic vinegar',3),IV('lemon','Lemon or lime juice',2),IV('dijon','Dijon mustard (or leave it out)',1),IV('salt','Salt',.5),IV('pep','Pepper',.25)],
+ st:['Whisk the olive oil, balsamic, lemon juice, Dijon if using, salt and pepper.','Toss the chickpeas, tomatoes, onion, cucumber, feta and parsley.','Pour on the dressing and toss.'],
+ nu:null,
+ mp:{fridge:'2–3 days',freezer:'No',reheat:'Eat cold.',tips:['Tastes better on day 2; the cucumber softens by day 3.']}}),
+// ---------- LUNCH BOXES ----------
+MP({id:'mp-avocadoegg',lbl:'Avocado Egg Meal Prep',mt:'box',bt:'handheld',prot:[],b:4,
+ url:'https://feelgoodfoodie.net/recipe/avocado-egg-meal-prep',src:'Feel Good Foodie',
+ nt:'Published recipe — Feel Good Foodie. Breakfast or lunch. Check the bread label for soybean or canola oil.',
+ ing:[IE('egg','Large eggs',6,1),IE('avo','Avocado',1),IV('tom','Grape tomatoes',96),IE('bread','Slices whole wheat bread',6,1)],
+ st:['Place the eggs in a pot, cover with water and bring to a boil. Cover, remove from heat and let stand 12 minutes. Cool in ice water and peel.','Divide the eggs, tomatoes and bread among 4 containers.','Halve and slice the avocado the morning you eat it (or squeeze lemon on it if packed ahead).'],
+ nu:NU(292,15,3,246,269,25,7,5,15),
+ mp:{fridge:'Hard-boiled eggs: 1 week peeled or unpeeled',freezer:'No',reheat:'Eat cold.',tips:['Peeled eggs keep best in a sealed container with a damp paper towel.']}}),
+MP({id:'mp-pbj',lbl:'PB&J Lunch Box',mt:'box',prot:[],b:4,
+ url:'https://feelgoodfoodie.net/recipe/pbj-meal-prep/',src:'Feel Good Foodie',
+ nt:'Published recipe — Feel Good Foodie. Check the peanut butter (some add palm or hydrogenated oils) and the bread label. Ranch is mayo-based — Greek yogurt ranch is the swap.',
+ ing:[IE('bread','Slices whole wheat bread',8,1),IV('pb','Natural peanut butter',24),IV('jam','Jam',24),IE('cheese','Cheese sticks',4,1),IV('car','Baby carrots',24),IV('cel','Celery sticks',24),IV('ranch','Ranch dressing (or yogurt ranch)',24)],
+ st:['Make 4 sandwiches with the peanut butter and jam.','Pack each with a cheese stick, carrots, celery and a small cup of ranch.'],
+ nu:NU(424,20,7,20,695,46,6,17,19),
+ mp:{fridge:'3 days (bread gets soggy after that)',freezer:'PB&J sandwiches freeze well up to 1 month — thaw in the lunch box',reheat:'Eat cold.',tips:['Cheese and ranch need to stay cold — ice pack.']}}),
+MP({id:'mp-pizzalunchable',lbl:'DIY Pizza Lunchable',mt:'box',prot:[],cu:'Italian',b:4,
+ url:'https://feelgoodfoodie.net/recipe/diy-pizza-lunchable',src:'Feel Good Foodie',
+ nt:'Published recipe — Feel Good Foodie. The source says it doesn’t need refrigeration — it does: cheese and opened sauce should be kept cold (2-hour rule). Check the naan label for seed oils.',
+ ing:[IE('naan','Mini naans',4,1),IV('sauce','Pizza sauce',24),IV('mozz','Shredded mozzarella',24),IV('tom','Cherry tomatoes, sliced',12),IV('olive','Sliced olives',12),IV('gp','Diced green pepper',12)],
+ st:['Pack each container with a mini naan, a small cup of sauce, and the cheese and toppings in separate compartments.','Build the pizzas at lunch.'],
+ nu:NU(159,7,3,14,593,18,1,3,6),
+ mp:{fridge:'4 days',freezer:'No',reheat:'Eat cold, or toast the built pizza.',tips:['Keep it in the cooler with an ice pack — the source’s “no fridge needed” isn’t safe for cheese.']}})
+].forEach(function(r){R.push(r)});
+
+// ---- Meal-prep food safety guide (FoodSafety.gov / USDA FSIS) ----
+var MP_SAFE=[
+ ['The big rules',[
+  'Two-hour rule: cooked food goes in the fridge within 2 hours — 1 hour if it’s over 90°F (a hot truck cab or job site counts).',
+  'The danger zone is 40°F–140°F. Bacteria can double every 20 minutes in that range.',
+  'Fridge at 40°F or colder, freezer at 0°F. A $5 fridge thermometer is worth it.',
+  'Most cooked meat, rice and pasta meal prep: eat within 3–4 days. Fish: 2–3 days. Freeze anything you won’t get to.',
+  'When in doubt, throw it out. Smell and looks don’t tell you if food is safe.']],
+ ['Cooking',[
+  'Use a thermometer: beef, pork, lamb steaks/roasts 145°F + 3-min rest; ground beef and pork 160°F; all chicken and turkey 165°F; fish 145°F; egg dishes 160°F.',
+  'Never put cooked food back on a plate or board that held raw meat.',
+  'Marinade that touched raw meat gets thrown out — or boiled a full minute before using as sauce. Save some aside before it touches the meat.',
+  'Wash hands, knives and boards with hot soapy water between raw meat and everything else.']],
+ ['Cooling fast',[
+  'Don’t let a big pot cool on the stove. Split it into shallow containers (2 inches deep or less) and refrigerate right away — it’s fine to put warm food in the fridge.',
+  'Spread rice, grains and pasta on a sheet pan to cool quickly. Cooked rice left warm is a known food-poisoning risk (Bacillus cereus).',
+  'Leave lids cracked until the food is cold, then seal.',
+  'Big roasts and casseroles: cut into portions before chilling.']],
+ ['Packing & labeling',[
+  'Label each container with the dish and the date it was cooked. Masking tape and a Sharpie works.',
+  'Freeze anything for days 5–7 the same day you cook it; move it to the fridge the night before.',
+  'Wet stuff on the side: dressings, sauces, salsa, avocado, lettuce, tomatoes — they make everything soggy and shouldn’t be reheated.',
+  'Glass containers can go straight from fridge to microwave; leave room for steam.']],
+ ['On the job site or in the truck',[
+  'Use an insulated lunch box or cooler with at least two frozen ice packs. A frozen water bottle doubles as one.',
+  'A truck cab in summer can top 120°F — never leave a lunch on the dash or seat, even for an hour.',
+  'Cold food must stay at 40°F or below until you eat it. If it’s been out of the cooler more than 2 hours (1 hour over 90°F), toss it.',
+  'Shared job-site microwaves: cover the food and stir halfway so there are no cold spots.']],
+ ['Thawing & reheating',[
+  'Thaw in the fridge overnight — never on the counter. Microwave thawing is fine if you cook it right away.',
+  'Reheat leftovers to 165°F all the way through. Stir and let stand a minute so the heat evens out.',
+  'Reheat only what you’ll eat. Don’t reheat the same portion twice.',
+  'Food thawed in the fridge can be refrozen; food thawed in the microwave or cold water should be cooked first.']],
+ ['Freezer guide for prep',[
+  'Freezes well: chili, soups, stews, stroganoff (before the dairy), meatballs, meatloaf, Salisbury steak, cooked ground beef, casseroles, rice, burritos.',
+  'Doesn’t freeze well: salads, raw vegetables, cucumbers, lettuce, hard-boiled eggs, mayo or yogurt dressings, cooked pasta in light sauce (gets mushy), fried coatings.',
+  'Cooked meat dishes keep best quality 2–3 months frozen. Food kept at 0°F stays safe indefinitely; only the quality drops.',
+  'Squeeze air out of bags and lay them flat to freeze — they thaw faster and stack neatly.']]
+];
+function renderMpSafe(){
+  var h='<p class="note" style="margin:4px 2px 10px">Meal prep means cooked food sits for days, so how you cool, store and reheat it matters as much as the recipe.</p>';
+  MP_SAFE.forEach(function(g){h+='<section class="card"><h2>'+g[0]+'</h2><ul class="swaplist">'+g[1].map(function(x){return '<li>'+x+'</li>'}).join('')+'</ul></section>'});
+  h+='<p class="note">Sources: <a href="https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts" target="_blank" rel="noopener">FoodSafety.gov storage chart</a>, <a href="https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures" target="_blank" rel="noopener">safe minimum temperatures</a>, and <a href="https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety" target="_blank" rel="noopener">USDA FSIS: Leftovers and food safety</a>.</p>';
+  $('toolBody').innerHTML=h;
+}
+
+// ---- Nutrition + prep/storage cards on the recipe page ----
+function nutHtml(r){
+  if(!r) return '';
+  var n=r.nu;
+  if(n===undefined) return '';
+  if(n===null) return '<section class="card"><h2>Nutrition</h2><p class="note" style="margin:0">The source doesn’t publish nutrition for this recipe, so none is shown rather than a guess.</p></section>';
+  var F=[['cal','Calories',''],['pro','Protein','g'],['carb','Carbs','g'],['fat','Fat','g'],['sat','Saturated fat','g'],['fib','Fiber','g'],['sug','Sugars','g'],['na','Sodium','mg'],['chol','Cholesterol','mg']];
+  var cells=F.filter(function(f){return n[f[0]]!=null}).map(function(f){return '<div class="nut"><b>'+n[f[0]]+(f[2]?'<i>'+f[2]+'</i>':'')+'</b><span>'+f[1]+'</span></div>'}).join('');
+  var basis='Per serving'+(n.basis?' ('+n.basis+')':'')+(n.excludes?' — doesn’t include '+n.excludes:'')+'. From '+(r.src||'the source')+', as published; ingredient swaps can shift these a little.';
+  return '<section class="card"><h2>Nutrition</h2>'+(cells?'<div class="nutgrid">'+cells+'</div>':'')+'<p class="note" style="margin:8px 0 0">'+basis+(n.note?' '+n.note:'')+'</p></section>';
+}
+function mpHtml(r){
+  if(!r||!r.mp) return '';
+  var m=r.mp;
+  return '<section class="card"><h2>Prep &amp; store</h2><dl class="mptab"><dt>Fridge</dt><dd>'+m.fridge+'</dd><dt>Freezer</dt><dd>'+m.freezer+'</dd><dt>Reheat</dt><dd>'+m.reheat+'</dd></dl>'+
+   (m.tips&&m.tips.length?'<ul class="swaplist">'+m.tips.map(function(x){return '<li>'+x+'</li>'}).join('')+'</ul>':'')+
+   '<a class="cardlink" href="#/tool/mpsafe">Meal prep food safety guide →</a></section>';
+}
+function mpRow(r){var x=rrow(r);x.sub=(r.forN?'Nicole · ':'')+(r.src||'Published')+(r.nu&&r.nu.cal?' · '+r.nu.cal+' cal':'');return x}
+function mpItems(f){return R.filter(function(r){return r.group==='Meal Prep'&&f(r)}).map(mpRow)}
 
 // ==== TOOLS ====
 // --- unit tables ---
@@ -1859,6 +2125,7 @@ var TOOLS=[
  {key:'convert',label:'Convert & Scale',sub:'Any amount, any unit, any batch size',icon:'scale',render:renderConverter},
  {key:'temps',label:'Cook Temps',sub:'Safe temps, steak doneness, BBQ',icon:'therm',render:renderTemps},
  {key:'storage',label:'Storage & Thawing',sub:'Fridge and freezer times',icon:'fridge',render:renderStorage},
+ {key:'mpsafe',label:'Meal Prep Safety',sub:'Cool, store, reheat, pack for the job',icon:'fridge',render:renderMpSafe},
  {key:'subs',label:'Substitutions',sub:'Buttermilk, cream, mayo, oils…',icon:'swap',render:renderSubs}
 ];
 
@@ -2986,7 +3253,7 @@ function renderGeneric(){
    (r.k==='n'?'':'<section class="card"><h2>Elevation: '+ft.toLocaleString()+' ft</h2>'+eh+'</section>')+
    (r.swaps?'<section class="card"><h2>Swaps</h2><ul class="swaplist">'+r.swaps.map(function(x){return '<li>'+x+'</li>'}).join('')+'</ul></section>':'')+
    equipHtml+
-   '<section class="card"><h2>Method</h2>'+ttHtml+sourceBadge(r)+panNote(r,mult)+'<ol>'+steps+'</ol>'+(r.nt?'<p class="note">'+r.nt+'</p>':'')+(r.k==='n'&&r.an&&!/altitude|elevation/i.test(r.an)?'<p class="note">'+r.an+'</p>':'')+(r.url?'<p class="note"><a href="'+r.url+'" target="_blank" rel="noopener">Source</a></p>':'')+'</section>';
+   '<section class="card"><h2>Method</h2>'+ttHtml+sourceBadge(r)+panNote(r,mult)+'<ol>'+steps+'</ol>'+(r.nt?'<p class="note">'+r.nt+'</p>':'')+(r.k==='n'&&r.an&&!/altitude|elevation/i.test(r.an)?'<p class="note">'+r.an+'</p>':'')+(r.url?'<p class="note"><a href="'+r.url+'" target="_blank" rel="noopener">Source</a></p>':'')+'</section>'+nutHtml(r)+mpHtml(r);
 }
 
 var curPStyle='ny',curPSizeIdx=2;
@@ -3214,6 +3481,7 @@ function sideItems(s){return R.filter(function(r){return r.side===s}).map(rrow)}
 var CATS=[
  {key:'baking',label:'Baking & Dough',special:'section',sectionKey:'baking',icon:'bread'},
  {key:'breakfast',label:'Breakfast',special:'section',sectionKey:'breakfast',icon:'pan'},
+ {key:'mealprep',label:'Meal Prep',special:'section',sectionKey:'mealprep',icon:'bowl'},
  {key:'entrees',label:'Entrees',special:'section',sectionKey:'entrees',icon:'entree'},
  {key:'sides',label:'Sides',special:'section',sectionKey:'sides',icon:'potato'},
  {key:'soups',label:'Soups & Stocks',special:'section',sectionKey:'soups',icon:'soup'},
@@ -3254,8 +3522,16 @@ var SECTIONS={
   {key:'burgers',label:'Burgers & Sandwiches',items:function(){return protItems('burgers')}},
   {key:'pastarice',label:'Pasta & Rice',items:function(){return protItems('pastarice')}}
  ]},
+ mealprep:{label:'Meal Prep',top:function(){return '<a class="mpsafe" href="#/tool/mpsafe"><b>Meal prep food safety</b><span>Cooling, storing, reheating and keeping lunch cold on the job</span></a>'},tabs:[
+  {key:'all',label:'All Meal Prep',items:function(){return mpItems(function(){return true})}},
+  {key:'beef',label:'Beef',items:function(){return mpItems(function(r){return r.mt==='beef'})}},
+  {key:'sheet',label:'Sheet Pan',items:function(){return mpItems(function(r){return r.mt==='sheet'})}},
+  {key:'bowls',label:'Bowls & Salads',items:function(){return mpItems(function(r){return r.mt==='bowl'})}},
+  {key:'box',label:'Lunch Boxes',items:function(){return mpItems(function(r){return r.mt==='box'})}},
+  {key:'nicole',label:'Nicole’s',items:function(){return mpItems(function(r){return r.forN})}}
+ ]},
  breakfast:{label:'Breakfast',tabs:[
-  {key:'all',label:'All Breakfast',items:function(){return byGroup('Breakfast')}},
+  {key:'all',label:'All Breakfast',items:function(){return byGroup('Breakfast').concat(byIds(['mp-avocadoegg']))}},
   {key:'eggs',label:'Eggs & Skillets',items:function(){return R.filter(function(r){return r.bt==='eggs'}).map(rrow)}},
   {key:'make',label:'Make-Ahead & Handhelds',items:function(){return R.filter(function(r){return r.bt==='handheld'||r.bt==='bake'}).map(rrow)}},
   {key:'sweet',label:'French Toast & Sweet',items:function(){return R.filter(function(r){return r.bt==='sweet'}).map(rrow)}},
@@ -3730,7 +4006,7 @@ function renderCardsGrid(){
     w.appendChild(hl);
   }
   var need=needPhotoItems().length;
-  if(need&&!PH.editCards){w.insertAdjacentHTML('beforeend','<div class="sectionlabel">Still need a photo</div>');var nl=document.createElement('div');nl.className='navlist';nl.appendChild(makeRow({icon:'cards',title:need+' recipes have no photo yet',sub:'Send a card for these to Claude',onClick:function(){navigate({screen:'needphotos'})}}));w.appendChild(nl)}
+  if(need&&!PH.editCards){w.insertAdjacentHTML('beforeend','<div class="sectionlabel">Still need a photo</div>');var nl=document.createElement('div');nl.className='navlist';nl.appendChild(makeRow({icon:'cards',title:need+' recipes have no photo yet',sub:'File names and image prompts for each',onClick:function(){navigate({screen:'needphotos'})}}));w.appendChild(nl)}
   var eb=$('cardsEdit');if(eb) eb.addEventListener('click',function(){PH.editCards=!PH.editCards;renderCardsGrid()});
   var na=$('nameAll');if(na) na.addEventListener('click',function(){nameAllUntitled(na)});
 }
@@ -3773,7 +4049,7 @@ function renderNeedPhotos(){
   var box=$('needList');box.innerHTML='';
   var items=needPhotoItems(),by={};
   items.forEach(function(it){(by[it.catLabel]=by[it.catLabel]||[]).push(it)});
-  $('needCount').textContent=items.length?items.length+' recipes don\u2019t have a photo yet. Send recipe cards for them to Claude to add.':'Every recipe has a photo.';
+  $('needCount').textContent=items.length?items.length+' recipes don\u2019t have a photo yet. Tap one and use \u201cAdd your photo of this dish.\u201d':'Every recipe has a photo.';
   Object.keys(by).forEach(function(cat){
     box.insertAdjacentHTML('beforeend','<div class="sectionlabel">'+esc(cat)+' ('+by[cat].length+')</div>');
     var l=document.createElement('div');l.className='navlist';
@@ -3782,6 +4058,91 @@ function renderNeedPhotos(){
   });
 }
 
+// ---- Named food photos (Nov 5): drop img/food/<dish-name>.jpg and it shows up ----
+function foodSlug(t){return String(t||'').toLowerCase().replace(/&/g,' and ').replace(/[’'"“”]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'')}
+var _FF={};
+function foodFile(id){
+  if(_FF[id]!==undefined) return _FF[id];
+  var it=(typeof findItemById==='function')?findItemById(id):null;
+  var r=R.filter(function(x){return x.id===id})[0];
+  var label=it?it.label:(r?(r.lbl||recipeLabel(r)):id);
+  return (_FF[id]=foodSlug(String(label).replace(/<[^>]+>/g,'')));
+}
+var PROMPT_SKIP=/^(salt|pepper|black pepper|kosher salt|water|ice|.*\boil\b|.*cooking spray|sugar|baking (soda|powder)|cornstarch|.*for serving.*)$/i;
+function photoPrompt(it){
+  var r=R.filter(function(x){return x.id===it.id})[0];
+  var name=String(it.label).replace(/<[^>]+>/g,'');
+  var ings=[];
+  if(r&&r.ing){r.ing.forEach(function(i){var n=String(i[1]).split(/[,(]/)[0].replace(/\b(divided|optional|chopped|minced|diced|sliced|grated|fresh|large|small|medium|can|jar|bag|cups?|packed|uncooked|cooked)\b/gi,'').replace(/\s+/g,' ').trim().toLowerCase().replace(/^(or|and|of) /,'');if(n&&!PROMPT_SKIP.test(n)&&ings.indexOf(n)<0)ings.push(n)})}
+  var mp=r&&r.group==='Meal Prep';
+  var sauce=r&&/^(Sauces|Marinades|Rubs)/.test(r.group||'');
+  var scene=mp?'portioned into glass meal-prep containers with lids set beside them, on a dark wood counter':
+    sauce?'in a small ceramic bowl with a spoon, a few of the key ingredients scattered around it, on a dark slate surface':
+    'plated and ready to eat on a dark stoneware plate, on a dark rustic wood table';
+  return 'Professional food photograph of '+name+(ings.length?', made with '+ings.slice(0,7).join(', '):'')+'. Shown '+scene+'. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.';
+}
+function renderNeedPhotos(){
+  var box=$('needList');box.innerHTML='';
+  var items=needPhotoItems(),by={};
+  items.forEach(function(it){(by[it.catLabel]=by[it.catLabel]||[]).push(it)});
+  $('needCount').innerHTML=items.length?items.length+' recipes don’t have a photo yet. Each one shows the file name to save it as and a prompt for an image generator. Send the finished images to Claude to add.':'Every recipe has a photo.';
+  Object.keys(by).forEach(function(cat){
+    box.insertAdjacentHTML('beforeend','<div class="sectionlabel">'+esc(cat)+' ('+by[cat].length+')</div>');
+    by[cat].forEach(function(it){
+      var d=document.createElement('div');d.className='needcard';
+      var fn=foodFile(it.id)+'.jpg',pr=photoPrompt(it);
+      d.innerHTML='<button type="button" class="needopen">'+String(it.label)+'</button><div class="needfile">File name: <b>'+esc(fn)+'</b></div><p class="needprompt">'+esc(pr)+'</p><button type="button" class="needcopy">Copy prompt</button>';
+      d.querySelector('.needopen').addEventListener('click',function(){navigate({screen:'recipe',id:it.id})});
+      var cb=d.querySelector('.needcopy');
+      cb.addEventListener('click',function(){var done=function(){cb.textContent='Copied';setTimeout(function(){cb.textContent='Copy prompt'},1500)};try{navigator.clipboard.writeText(pr).then(done,function(){selectText(d.querySelector('.needprompt'))})}catch(e){selectText(d.querySelector('.needprompt'))}});
+      box.appendChild(d);
+    });
+  });
+}
+function selectText(el){try{var r=document.createRange();r.selectNodeContents(el);var s=getSelection();s.removeAllRanges();s.addRange(r)}catch(e){}}
+
+// ---- Ingredient search ----
+var ING_INDEX=null;
+function ingIndex(){
+  if(ING_INDEX) return ING_INDEX;
+  var cat={};allSearchItems().forEach(function(it){if(!cat[it.id])cat[it.id]=it});
+  ING_INDEX=[];
+  R.forEach(function(r){if(!cat[r.id]||!r.ing)return;ING_INDEX.push({it:cat[r.id],txt:r.ing.map(function(i){return String(i[1]).toLowerCase()}).join(' | ')})});
+  if(typeof BREADS!=='undefined')BREADS.forEach(function(b){var it=cat['bread:'+b.id];if(!it)return;var n=(b.flours||[]).concat(b.other||[]).map(function(i){return String(i.name||'').toLowerCase()});n.push('water','salt');if(b.starter)n.push('sourdough starter');ING_INDEX.push({it:it,txt:n.join(' | ')})});
+  return ING_INDEX;
+}
+function ingTerm(t){t=t.trim().toLowerCase().replace(/\s+/g,' ');if(t.length>3)t=t.replace(/(oes|es|s)$/,function(m){return m==='oes'?'o':''});return t}
+var SEARCH_MODE='name';
+function SEARCH2(){
+  var raw=this.value,q=raw.trim().toLowerCase();
+  if(!q){$('searchResults').style.display='none';$('homeBrowse').style.display='block';return}
+  var hb=$('homeBrowse');hb.style.display='none';
+  var box=$('searchResults');box.style.display='block';box.innerHTML='';
+  var add=function(it,sub){box.appendChild(makeRow({img:imgFor(it.id),title:it.label,sub:sub,onClick:function(){openRecipe(it)}}))};
+  var shown={};
+  if(SEARCH_MODE==='name'){
+    allSearchItems().forEach(function(it){if(!shown[it.id]&&it.label.toLowerCase().indexOf(q)>-1){shown[it.id]=1;add(it,it.catLabel)}});
+  }
+  var terms=q.split(/,|\band\b|\+/).map(ingTerm).filter(function(t){return t.length>1});
+  var hits=ingIndex().filter(function(x){return !shown[x.it.id]&&terms.every(function(t){return x.txt.indexOf(t)>-1})});
+  if(SEARCH_MODE==='ing'||hits.length){
+    if(hits.length) box.insertAdjacentHTML('beforeend','<div class="sectionlabel">'+(SEARCH_MODE==='ing'?'':'Also ')+'Uses '+esc(terms.join(' + '))+' ('+hits.length+')</div>');
+    hits.forEach(function(x){if(shown[x.it.id])return;shown[x.it.id]=1;add(x.it,x.it.catLabel)});
+  }
+  if(!box.children.length) box.innerHTML='<p class="note" style="padding:14px 2px">No matches for “'+esc(raw)+'.”'+(SEARCH_MODE==='ing'?' Try fewer ingredients, separated by commas.':'')+'</p>';
+}
+(function(){
+  var sb=document.querySelector('.searchbar');if(!sb)return;
+  var w=document.createElement('div');w.className='searchmode';
+  w.innerHTML='<button type="button" data-m="name" aria-pressed="true">Recipe name</button><button type="button" data-m="ing" aria-pressed="false">By ingredients</button>';
+  sb.parentNode.insertBefore(w,sb.nextSibling);
+  w.addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;SEARCH_MODE=b.dataset.m;
+    Array.prototype.forEach.call(w.children,function(x){x.setAttribute('aria-pressed',x===b?'true':'false')});
+    var inp=$('searchInput');inp.placeholder=SEARCH_MODE==='ing'?'e.g. ground beef, rice, garlic':'Search recipes, sauces, rubs…';
+    SEARCH2.call(inp);inp.focus()});
+})();
+
+var FOOD_IMGS={};
 var SCROLL_POS={};
 function findItemById(id){
   var it=allSearchItems().filter(function(x){return x.id===id})[0];
@@ -4099,6 +4460,7 @@ function renderSectionCategory(sectionKey){
   var list=$('catItemList');list.innerHTML='';
   var tab=section.tabs[curTabIdx];
   var items=tab.items();
+  if(section.top){var tp=document.createElement('div');tp.innerHTML=section.top();list.appendChild(tp)}
   if(section.tabs.length>1){
     var hint=document.createElement('div');hint.className='swipehint';hint.textContent='Swipe left or right to switch';
     list.appendChild(hint);
@@ -4170,6 +4532,7 @@ function renderHome(){
 $('catBack').addEventListener('click',function(){history.back()});
 $('recipeBack').addEventListener('click',function(){history.back()});
 $('searchInput').addEventListener('input',function(){
+  if(typeof SEARCH2==='function') return SEARCH2.call(this);
   var q=this.value.trim().toLowerCase();
   if(!q){
     $('searchResults').style.display='none';
@@ -4236,8 +4599,8 @@ else{try{history.replaceState(null,'','#/')}catch(e){} applyRoute({screen:'home'
 
 // ==== New UI layer: photo tiles, tilt, reveal ====
 function catImg(k){return ({soups:'img/dish/soupbases-2.jpg',desserts:'img/dish/dessertsauce-1.jpg',entrees:'img/dish/burgers-1.jpg',sides:'img/dish/vegseas-5.jpg',sauces:'img/dish/mother-6.jpg',marinades:'img/dish/beefmar-2.jpg',rubs:'img/dish/seasblends-1.jpg',intl:'img/dish/asian-5.jpg',copycat:'img/dish/bbqsauce-1.jpg'})[k]}
-function catGen(k){return ({baking:'gen1',desserts:'gen2',glutenfree:'gen3'})[k]}
-function imgFor(id){if(typeof ITEM_IMG!=='undefined'&&ITEM_IMG[id])return ITEM_IMG[id].img;var r=R.filter(function(x){return x.id===id})[0];if(r&&r.img)return r.img;var p=(typeof PH!=='undefined'&&PH.rows)?PH.rows.filter(function(x){return x.kind==='dish'&&x.rid===id})[0]:null;return p?photoUrl(p):null}
+function catGen(k){return ({baking:'gen1',desserts:'gen2',glutenfree:'gen3',mealprep:'gen3',breakfast:'gen1'})[k]}
+function imgFor(id){if(typeof ITEM_IMG!=='undefined'&&ITEM_IMG[id])return ITEM_IMG[id].img;var r=R.filter(function(x){return x.id===id})[0];if(r&&r.img)return r.img;var fs=typeof foodFile==='function'?foodFile(id):null;if(fs&&typeof FOOD_IMGS!=='undefined'&&FOOD_IMGS[fs])return 'img/food/'+fs+'.jpg';var p=(typeof PH!=='undefined'&&PH.rows)?PH.rows.filter(function(x){return x.kind==='dish'&&x.rid===id})[0]:null;return p?photoUrl(p):null}
 function makeRow(opts){
   var b=document.createElement('button');b.type='button';b.className='navrow';
   var h='';
