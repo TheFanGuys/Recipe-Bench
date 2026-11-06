@@ -1542,6 +1542,8 @@ PHOTO_CARDS7.push.apply(PHOTO_CARDS7,[]);
 ([{"key": "quesoblanco", "title": "Wholesome Queso Blanco", "img": "img/quesoblanco-sheet.jpg", "link": "sauce-queso", "grp": "Mexican & Latin Sauces"}, {"key": "pandaorange", "title": "Orange Chicken (Panda Express–style)", "img": "img/pandaorange-sheet.jpg", "link": "copycat-orangechicken", "grp": "Copycat"}, {"key": "ogsgorgonzola", "title": "Steak Gorgonzola Alfredo (Olive Garden–style)", "img": "img/ogsgorgonzola-sheet.jpg", "link": "copycat-steakgorgonzola", "grp": "Copycat"}, {"key": "steakgorgonzola", "title": "Steak Gorgonzola Alfredo", "img": "img/steakgorgonzola-sheet.jpg", "link": "entree-steakgorgonzola", "grp": "Entrees"}, {"key": "sloppyjoes", "title": "Homemade Sloppy Joes", "img": "img/sloppyjoes-sheet.jpg", "link": "entree-sloppyjoes", "grp": "Entrees"}]).forEach(function(c){c.note=c.key==='quesoblanco'?'Your recipe card. The app matches the card.':'A one-recipe card for a recipe already in the app. The app keeps its existing measurements; this card is the photo and a reference copy.';CARD_GRP[c.key]=c.grp;CARDS.push(c);CARD_ORDER.push(c.key);
   var img='img/dish/'+c.key+'-1.jpg';ITEM_IMG[c.link]={img:img,card:c.key};
   var r=R.filter(function(x){return x.id===c.link})[0];if(r){r.img=img;r.imgCard=c.key;r.imgExact=true;(r.alsoCards=r.alsoCards||[]).push(c.key)}});
+// Ted's pickles (vinegar version) shares the Ted's card photo
+ITEM_IMG['side-teds-pickles']={img:'img/dish/halfsour-1.jpg',card:'halfsour'};
 
 // ==== Breakfast (Nov 1) — from links Chris sent ====
 function BR(o){var d={group:'Breakfast',k:'n',v:1,min:1,max:24,name:'Classic'};for(var p in o)d[p]=o[p];d.style=d.lbl;d.d=d.b;return d}
