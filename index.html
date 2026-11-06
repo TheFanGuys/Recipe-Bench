@@ -1765,6 +1765,15 @@ function mpHtml(r){
 function mpRow(r){var x=rrow(r);x.sub=(r.forN?'Nicole · ':'')+(r.src||'Published')+(r.nu&&r.nu.cal?' · '+r.nu.cal+' cal':'');return x}
 function mpItems(f){return R.filter(function(r){return r.group==='Meal Prep'&&f(r)}).map(mpRow)}
 
+// ---- Nov 5: Ted's Montana Grill pickled cucumbers (copycat side) ----
+R.push(SR({id:'side-teds-pickles',group:'Sides',side:'pickles',lbl:'Ted’s Montana Grill Pickled Cucumbers',u:['serving','servings'],b:4,d:4,c:[4,8,12,16],max:32,
+ url:'https://guyfierirecipes.com/teds-montana-grill-pickled-cucumbers-recipe/',src:'Guy Fieri Recipes',tt:'20 min + 2 hr rest',
+ nt:'Published recipe — guyfierirecipes.com. A copycat of the pickles Ted’s Montana Grill puts on the table. It doesn’t say when to add the dill, so it goes in the jar with the cucumbers.',
+ ing:[IE('cuc','Large cucumber, cut in ¼-inch slices',1),IV('water','Water',48),IV('vin','White vinegar',24),IV('sugar','Granulated sugar',12),IV('salt','Salt',1),IV('pep','Black pepper',.25),IV('dill','Fresh dill, chopped',12)],
+ st:['Slice the cucumber into even ¼-inch rounds with a mandoline or sharp knife. Thinner slices go mushy.','Whisk the water, vinegar, sugar, salt and pepper 2–3 minutes until the sugar and salt dissolve. Warm water speeds it up.','Pack the cucumber and dill into a glass jar, leaving ½ inch at the top. Pour in the brine so everything is covered.','Let the jar sit at room temperature at least 2 hours. Much longer and they get too sour.','Refrigerate at least 30 minutes and serve cold.'],
+ nu:{cal:25,note:'Only calories were listed, and the page is unclear whether that’s per serving or for the jar.'},
+ mp:{fridge:'Up to 2 weeks, sealed, at 40°F or colder',freezer:'Don’t — freezing turns cucumbers mushy',reheat:'Serve cold.',tips:['Toss them if the brine turns slimy or you see mold.','Always use a clean fork to pull pickles out of the jar.']}}));
+
 // ==== TOOLS ====
 // --- unit tables ---
 // Volume units in teaspoons (US). Weight units in grams.
@@ -3590,7 +3599,7 @@ var SECTIONS={
   return {key:c.toLowerCase().replace(/\s+/g,'-'),label:c,items:function(){return cuItems(c)}};
  })},
  copycat:{label:'Copycat',tabs:[
-  {key:'restaurant',label:'Restaurant Dishes',items:function(){return byGroup('Entrees: Copycat')}},
+  {key:'restaurant',label:'Restaurant Dishes',items:function(){return byGroup('Entrees: Copycat').concat(byIds(['side-teds-pickles']))}},
   {key:'fry',label:'Restaurant Fry Seasonings',items:function(){return R.filter(function(r){return r.copycat}).map(rrow)}},
   {key:'chefpizza',label:'Chef Pizza Dough',items:function(){return CHEFPIZZA.map(function(c){return {id:'cp:'+c.id,label:c.chef+(c.adapted?' (adapted)':''),sub:c.size+' pizza dough'}})}}
  ]}
