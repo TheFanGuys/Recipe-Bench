@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>The Recipe Bench</title>
@@ -1532,6 +1533,11 @@ PHOTO_CARDS7.push.apply(PHOTO_CARDS7,[]);
   var img='img/dish/'+c.key+'-1.jpg';ITEM_IMG[c.link]={img:img,card:c.key};
   var r=R.filter(function(x){return x.id===c.link})[0];if(r){r.img=img;r.imgCard=c.key;r.imgExact=true;(r.alsoCards=r.alsoCards||[]).push(c.key)}});
 
+// ---- cards (Nov 6, batch 6) ----
+([{"key": "pizzalunch", "title": "DIY Pizza Lunchable", "img": "img/pizzalunch-sheet.jpg", "link": "mp-pizzalunchable", "grp": "Meal Prep"}, {"key": "sausagemeatloaf", "title": "Homestyle Sausage & Beef Meatloaf", "img": "img/sausagemeatloaf-sheet.jpg", "link": "entree-sausagemeatloaf", "grp": "Entrees"}, {"key": "halfsour", "title": "Ted’s-Inspired Half-Sour Pickles", "img": "img/halfsour-sheet.jpg", "link": "side-teds-halfsour", "grp": "Sides & Soups"}]).forEach(function(c){c.note='Your recipe card. The app matches the card.';CARD_GRP[c.key]=c.grp;CARDS.push(c);CARD_ORDER.push(c.key);
+  var img='img/dish/'+c.key+'-1.jpg';ITEM_IMG[c.link]={img:img,card:c.key};
+  var r=R.filter(function(x){return x.id===c.link})[0];if(r){r.img=img;r.imgCard=c.key;r.imgExact=true;(r.alsoCards=r.alsoCards||[]).push(c.key)}});
+
 // ==== Breakfast (Nov 1) — from links Chris sent ====
 function BR(o){var d={group:'Breakfast',k:'n',v:1,min:1,max:24,name:'Classic'};for(var p in o)d[p]=o[p];d.style=d.lbl;d.d=d.b;return d}
 [
@@ -1598,9 +1604,9 @@ BR({id:'bf-biscuitsgravy',lbl:'Buttermilk Biscuits with Maple Sausage Gravy',bt:
 R.push(BR({id:'entree-sausagemeatloaf',group:'Entrees: American',lbl:'Homestyle Sausage & Ground Beef Meatloaf',name:'Homestyle Sausage & Ground Beef Meatloaf',style:'Beef',prot:['beef','pork'],
  u:['loaf (2 lb, serves 5–8)','loaves'],b:1,c:[1,2,3],max:6,
  url:'https://www.food.com/recipe/homestyle-sausage-ground-beef-meatloaf-387574',
- nt:'Published recipe — Food.com, “Homestyle Sausage/Ground Beef Meatloaf” by MarshHen. Two notes: the page lists the oven temperature without °F, so 350°F is assumed; and it says “ready in 16 minutes,” which doesn’t match the 70 minutes of baking in its own steps. Nonstick spray is often canola; a light coat of avocado oil works instead.',
+ nt:'Published recipe — Food.com, “Homestyle Sausage/Ground Beef Meatloaf” by MarshHen. Two notes: the page lists the oven temperature without °F, so 350°F is assumed; and it says “ready in 16 minutes,” which doesn’t match the 70 minutes of baking in its own steps. Your card lines the pan with parchment, so no cooking spray is needed.',
  ing:[['#','Ketchup glaze (split)'],IV('ketch','Ketchup',24),IV('bs','Brown sugar',2),IV('mus','Dry mustard',1),['#','Meatloaf'],IW('saus','Bulk pork sausage',453.6),IW('beef','Lean ground beef',453.6),IV('oats','Quick oats, uncooked (not instant)',48),IV('onion','Chopped onion',24),IE('egg','Egg, beaten',1,1),IV('salt','Salt',1),IV('pep','Black pepper',.25)],
- st:['Heat the oven to 350°F. Line a shallow baking pan with foil and grease it lightly.','In a small bowl, stir together the ketchup, brown sugar and dry mustard. Set aside.','In a large bowl, combine about {ing:ketch:0.667} of the ketchup mixture with all the remaining ingredients; mix well.','Shape into a loaf on the pan. Bake 1 hour.','Pour the remaining ketchup mixture over the top and bake 10 minutes more, until the center reaches 160°F.','Rest 5 minutes before slicing.'],
+ st:['Heat the oven to 350°F. Line a shallow baking pan with parchment (no cooking spray needed).','In a small bowl, stir together the ketchup, brown sugar and dry mustard. Set aside.','In a large bowl, combine about {ing:ketch:0.667} of the ketchup mixture with all the remaining ingredients; mix well.','Shape into a loaf on the pan. Bake 1 hour.','Pour the remaining ketchup mixture over the top and bake 10 minutes more, until the center reaches 160°F.','Rest 5 minutes before slicing.'],
  swaps:['Mustard: leave the dry mustard out of the glaze. Nothing else needs to change.'],
  an:'Making 2 or more: shape separate 2-lb loaves with space between them; bake time stays about the same. Go by the 160°F center temperature.'}));
 
@@ -1768,10 +1774,10 @@ MP({id:'mp-pbj',lbl:'PB&J Lunch Box',mt:'box',prot:[],b:4,
 MP({id:'mp-pizzalunchable',lbl:'DIY Pizza Lunchable',mt:'box',prot:[],cu:'Italian',b:4,
  url:'https://feelgoodfoodie.net/recipe/diy-pizza-lunchable',src:'Feel Good Foodie',
  nt:'Published recipe — Feel Good Foodie. The source says it doesn’t need refrigeration — it does: cheese and opened sauce should be kept cold (2-hour rule). Check the naan label for seed oils.',
- ing:[IE('naan','Mini naans',4,1),IV('sauce','Pizza sauce',24),IV('mozz','Shredded mozzarella',24),IV('tom','Cherry tomatoes, sliced',12),IV('olive','Sliced olives',12),IV('gp','Diced green pepper',12)],
+ ing:[IE('naan','Round mini naans (seed-oil-free)',4,1),IV('sauce','Pizza sauce',24),IV('mozz','Shredded mozzarella',24),IV('tom','Cherry tomatoes, sliced',12),IV('olive','Sliced olives',12),IV('gp','Diced green pepper',12)],
  st:['Pack each container with a mini naan, a small cup of sauce, and the cheese and toppings in separate compartments.','Build the pizzas at lunch.'],
  nu:NU(159,7,3,14,593,18,1,3,6),
- mp:{fridge:'4 days',freezer:'No',reheat:'Eat cold, or toast the built pizza.',tips:['Keep it in the cooler with an ice pack — the source’s “no fridge needed” isn’t safe for cheese.']}})
+ mp:{fridge:'3–4 days',freezer:'No',reheat:'Eat cold, or heat the built pizza until warm.',tips:['Keep it in the cooler with an ice pack — the source’s “no fridge needed” isn’t safe for cheese.']}})
 ].forEach(function(r){R.push(r)});
 
 // ---- Meal-prep food safety guide (FoodSafety.gov / USDA FSIS) ----
@@ -1849,6 +1855,13 @@ function mpItems(f){return R.filter(function(r){return r.group==='Meal Prep'&&f(
  st:['Slice the cucumber into even ¼-inch rounds with a mandoline or sharp knife. Thinner slices go mushy.','Whisk the water, vinegar, sugar, salt and pepper 2–3 minutes until the sugar and salt dissolve. Warm water speeds it up.','Pack the cucumber and dill into a glass jar, leaving ½ inch at the top. Pour in the brine so everything is covered.','Let the jar sit at room temperature at least 2 hours. Much longer and they get too sour.','Refrigerate at least 30 minutes and serve cold.'],
  nu:{cal:25,note:'Only calories were listed, and the page is unclear whether that’s per serving or for the jar.'},
  mp:{fridge:'Up to 2 weeks, sealed, at 40°F or colder',freezer:'Don’t — freezing turns cucumbers mushy',reheat:'Serve cold.',tips:['Toss them if the brine turns slimy or you see mold.','Always use a clean fork to pull pickles out of the jar.']}}));
+
+// ---- Ted's-inspired half-sour pickles (your card, Nov 6) ----
+(function(r){delete r.img;R.push(r)})(SR({id:'side-teds-halfsour',group:'Sides',side:'pickles',lbl:'Ted’s-Inspired Half-Sour Pickles',u:['serving','servings'],b:4,d:4,c:[4,8,12],max:24,
+ nt:'From your recipe card. A Ted’s-inspired home version, not the restaurant’s own recipe. Half-sours use a salt brine — no vinegar or sugar.',
+ ing:[IE('cuc','Large English cucumber, cut in ½-inch rounds',1),IV('water','Cool water',96),IV('salt','Sea salt',4),IE('garlic','Garlic cloves, minced',2),IV('cor','Crushed coriander seeds',.25),IV('mus','Crushed mustard seeds',.25),IV('pep','Crushed black peppercorns',.25),IE('bay','Bay leaves',3),ITT('dill','Several sprigs fresh dill')],
+ st:['Dissolve the salt in the water.','Divide the cucumber, garlic, spices, bay leaves and dill between two clean pint jars.','Pour the brine over to cover the cucumber. Close the jars and refrigerate right away.','Chill 4–5 days for flavor. Serve cold.'],
+ mp:{fridge:'Keep refrigerated; best within about 2–3 weeks',freezer:'No',reheat:'Serve cold.',tips:['Not shelf-stable and not for canning — always keep them in the fridge.','Toss them if the brine turns slimy or you see mold.']}}));
 
 // ==== TOOLS ====
 // --- unit tables ---
@@ -3675,7 +3688,7 @@ var SECTIONS={
   return {key:c.toLowerCase().replace(/\s+/g,'-'),label:c,items:function(){return cuItems(c)}};
  })},
  copycat:{label:'Copycat',tabs:[
-  {key:'restaurant',label:'Restaurant Dishes',items:function(){return byGroup('Entrees: Copycat').concat(byIds(['side-teds-pickles']))}},
+  {key:'restaurant',label:'Restaurant Dishes',items:function(){return byGroup('Entrees: Copycat').concat(byIds(['side-teds-pickles','side-teds-halfsour']))}},
   {key:'fry',label:'Restaurant Fry Seasonings',items:function(){return R.filter(function(r){return r.copycat}).map(rrow)}},
   {key:'chefpizza',label:'Chef Pizza Dough',items:function(){return CHEFPIZZA.map(function(c){return {id:'cp:'+c.id,label:c.chef+(c.adapted?' (adapted)':''),sub:c.size+' pizza dough'}})}}
  ]}
@@ -4322,7 +4335,7 @@ function applyRoute(route){
     $('favBtn').setAttribute('aria-pressed',isFavorited(route.id)?'true':'false');
     var rr=R.filter(function(x){return x.id===route.id})[0];
     if(!rr&&typeof ITEM_IMG!=='undefined'&&ITEM_IMG[route.id]) rr={img:ITEM_IMG[route.id].img,imgCard:ITEM_IMG[route.id].card,imgExact:true};
-    $('dishHero').innerHTML=(rr&&rr.img?'<img class="dishimg" src="'+rr.img+'" alt="'+esc(rr.lbl||'')+'">'+'<a class="cardlink" href="'+hashFor({screen:'card',key:rr.card||rr.imgCard})+'">'+(rr.card?'See the full recipe card ›':(rr.imgExact?'Photo from your recipe card ›':'Photo: similar sauce from your card ›'))+'</a>':'')+'<div id="userPhotos"></div>';
+    $('dishHero').innerHTML=(rr&&rr.img?'<img class="dishimg" src="'+DU(rr.img)+'" alt="'+esc(rr.lbl||'')+'">'+'<a class="cardlink" href="'+hashFor({screen:'card',key:rr.card||rr.imgCard})+'">'+(rr.card?'See the full recipe card ›':(rr.imgExact?'Photo from your recipe card ›':'Photo: similar sauce from your card ›'))+'</a>':'')+'<div id="userPhotos"></div>';
     renderRecipePhotos(route.id);
     showScreen('recipe');
   }else if(route.screen==='shopping'){
@@ -4704,9 +4717,10 @@ if(location.hash&&location.hash!=='#/'){applyRoute(parseHash())}
 else{try{history.replaceState(null,'','#/')}catch(e){} applyRoute({screen:'home'})}
 
 // ==== New UI layer: photo tiles, tilt, reveal ====
-function catImg(k){return ({soups:'img/dish/soupbases-2.jpg',desserts:'img/dish/dessertsauce-1.jpg',entrees:'img/dish/burgers-1.jpg',sides:'img/dish/vegseas-5.jpg',sauces:'img/dish/mother-6.jpg',marinades:'img/dish/beefmar-2.jpg',rubs:'img/dish/seasblends-1.jpg',intl:'img/dish/asian-5.jpg',copycat:'img/dish/bbqsauce-1.jpg'})[k]}
+function catImg(k){return DU(({soups:'img/dish/soupbases-2.jpg',desserts:'img/dish/dessertsauce-1.jpg',entrees:'img/dish/burgers-1.jpg',sides:'img/dish/vegseas-5.jpg',sauces:'img/dish/mother-6.jpg',marinades:'img/dish/beefmar-2.jpg',rubs:'img/dish/seasblends-1.jpg',intl:'img/dish/asian-5.jpg',copycat:'img/dish/bbqsauce-1.jpg'})[k])}
 function catGen(k){return ({baking:'gen1',desserts:'gen2',glutenfree:'gen3',mealprep:'gen3',breakfast:'gen1'})[k]}
-function imgFor(id){if(typeof ITEM_IMG!=='undefined'&&ITEM_IMG[id])return ITEM_IMG[id].img;var r=R.filter(function(x){return x.id===id})[0];if(r&&r.img)return r.img;var fs=typeof foodFile==='function'?foodFile(id):null;if(fs&&typeof FOOD_IMGS!=='undefined'&&FOOD_IMGS[fs])return 'img/food/'+fs+'.jpg';var p=(typeof PH!=='undefined'&&PH.rows)?PH.rows.filter(function(x){return x.kind==='dish'&&x.rid===id})[0]:null;return p?photoUrl(p):null}
+function imgFor(id){return DU(imgFor0(id))}
+function imgFor0(id){if(typeof ITEM_IMG!=='undefined'&&ITEM_IMG[id])return ITEM_IMG[id].img;var r=R.filter(function(x){return x.id===id})[0];if(r&&r.img)return r.img;var fs=typeof foodFile==='function'?foodFile(id):null;if(fs&&typeof FOOD_IMGS!=='undefined'&&FOOD_IMGS[fs])return 'img/food/'+fs+'.jpg';var p=(typeof PH!=='undefined'&&PH.rows)?PH.rows.filter(function(x){return x.kind==='dish'&&x.rid===id})[0]:null;return p?photoUrl(p):null}
 function makeRow(opts){
   var b=document.createElement('button');b.type='button';b.className='navrow';
   var h='';
@@ -4776,6 +4790,12 @@ function renderContinue(){
 document.documentElement.setAttribute('data-theme','dark');
 
 window.addEventListener('hashchange',function(){if(location.hash.indexOf('#/tool/rack')!==0&&typeof closeSpice==='function')closeSpice()});
+
+// Claude-app copy bundles the small photos into img/small.js (file-count limit)
+function DU(u){return (u&&window.DISH_DATA&&DISH_DATA[u])||u}
+function fixSmallImgs(){if(!window.DISH_DATA)return;
+  R.forEach(function(r){if(r.img)r.img=DU(r.img)});
+  if(typeof ITEM_IMG!=='undefined')for(var k in ITEM_IMG)ITEM_IMG[k].img=DU(ITEM_IMG[k].img);}
 
 // ==== 3D hero: cast-iron skillet, double smash burger, steam, floating spices ====
 (function(){

@@ -1,18 +1,18 @@
 # Recipes Still Needing Photos
 
-Updated 2026-11-06 — 11 recipes.
+Updated 2026-11-06 — 9 recipes.
 
 For each one: paste the image prompt into your image generator, save the image with the **exact file name** shown, and send it to Claude. It shows up on that recipe automatically, and this list shrinks every update. The full recipe is included so the generator (or you) can see what the dish really is.
 
 ## Contents
-- Meal Prep (3)
-- Entrees (6)
+- Meal Prep (2)
+- Entrees (5)
 - Sides (1)
 - Sauces & Gravy (1)
 
 ---
 
-## Meal Prep (3)
+## Meal Prep (2)
 
 ### Chicken & Quinoa Bowls
 **File name:** `chicken-and-quinoa-bowls.jpg`
@@ -90,29 +90,9 @@ Source: https://feelgoodfoodie.net/recipe/chicken-quinoa-bowl/
 
 Source: https://feelgoodfoodie.net/recipe/grain-bowl/
 
-### DIY Pizza Lunchable
-**File name:** `diy-pizza-lunchable.jpg`
-
-**Image prompt:**
-> Professional food photograph of DIY Pizza Lunchable, made with mini naans, pizza sauce, shredded mozzarella, cherry tomatoes, olives, green pepper. Shown portioned into glass meal-prep containers with lids set beside them, on a dark wood counter. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**Ingredients for 4 servings**
-- 4 — Mini naans
-- ½ cup (118 ml) — Pizza sauce
-- ½ cup (118 ml) — Shredded mozzarella
-- ¼ cup (59 ml) — Cherry tomatoes, sliced
-- ¼ cup (59 ml) — Sliced olives
-- ¼ cup (59 ml) — Diced green pepper
-
-**Method**
-1. Pack each container with a mini naan, a small cup of sauce, and the cheese and toppings in separate compartments.
-2. Build the pizzas at lunch.
-
-Source: https://feelgoodfoodie.net/recipe/diy-pizza-lunchable
-
 ---
 
-## Entrees (6)
+## Entrees (5)
 
 ### Hunan Beef
 **File name:** `hunan-beef.jpg`
@@ -240,36 +220,6 @@ Source: https://www.thechunkychef.com/best-homemade-sloppy-joes/
 3. In the same pan, melt the butter and cook the garlic 30 seconds. Add the cream; simmer 2 minutes.
 4. Stir in the parmesan and gorgonzola until melted and smooth.
 5. Toss the pasta with the sauce. Top with the sliced steak and a drizzle of balsamic glaze.
-
-### Homestyle Sausage & Ground Beef Meatloaf
-**File name:** `homestyle-sausage-and-ground-beef-meatloaf.jpg`
-
-**Image prompt:**
-> Professional food photograph of Homestyle Sausage & Ground Beef Meatloaf, made with ketchup glaze, ketchup, brown sugar, dry mustard, meatloaf, bulk pork sausage, lean ground beef. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**Ingredients for 1 loaf (2 lb, serves 5–8)**
-- Ketchup glaze (split)
-- ½ cup (118 ml) — Ketchup
-- 2 tsp (9.9 ml) — Brown sugar
-- 1 tsp (4.9 ml) — Dry mustard
-- Meatloaf
-- 454 g (1 lb) — Bulk pork sausage
-- 454 g (1 lb) — Lean ground beef
-- 1 cup (237 ml) — Quick oats, uncooked (not instant)
-- ½ cup (118 ml) — Chopped onion
-- 1 — Egg, beaten
-- 1 tsp (4.9 ml) — Salt
-- ¼ tsp (1.2 ml) — Black pepper
-
-**Method**
-1. Heat the oven to 350°F. Line a shallow baking pan with foil and grease it lightly.
-2. In a small bowl, stir together the ketchup, brown sugar and dry mustard. Set aside.
-3. In a large bowl, combine about ⅓ cup of the ketchup mixture with all the remaining ingredients; mix well.
-4. Shape into a loaf on the pan. Bake 1 hour.
-5. Pour the remaining ketchup mixture over the top and bake 10 minutes more, until the center reaches 160°F.
-6. Rest 5 minutes before slicing.
-
-Source: https://www.food.com/recipe/homestyle-sausage-ground-beef-meatloaf-387574
 
 ### Orange Chicken (Panda Express)
 **File name:** `orange-chicken-panda-express.jpg`
