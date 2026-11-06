@@ -1538,6 +1538,11 @@ PHOTO_CARDS7.push.apply(PHOTO_CARDS7,[]);
   var img='img/dish/'+c.key+'-1.jpg';ITEM_IMG[c.link]={img:img,card:c.key};
   var r=R.filter(function(x){return x.id===c.link})[0];if(r){r.img=img;r.imgCard=c.key;r.imgExact=true;(r.alsoCards=r.alsoCards||[]).push(c.key)}});
 
+// ---- cards (Nov 6, batch 7) ----
+([{"key": "quesoblanco", "title": "Wholesome Queso Blanco", "img": "img/quesoblanco-sheet.jpg", "link": "sauce-queso", "grp": "Mexican & Latin Sauces"}, {"key": "pandaorange", "title": "Orange Chicken (Panda Express–style)", "img": "img/pandaorange-sheet.jpg", "link": "copycat-orangechicken", "grp": "Copycat"}, {"key": "ogsgorgonzola", "title": "Steak Gorgonzola Alfredo (Olive Garden–style)", "img": "img/ogsgorgonzola-sheet.jpg", "link": "copycat-steakgorgonzola", "grp": "Copycat"}, {"key": "steakgorgonzola", "title": "Steak Gorgonzola Alfredo", "img": "img/steakgorgonzola-sheet.jpg", "link": "entree-steakgorgonzola", "grp": "Entrees"}, {"key": "sloppyjoes", "title": "Homemade Sloppy Joes", "img": "img/sloppyjoes-sheet.jpg", "link": "entree-sloppyjoes", "grp": "Entrees"}]).forEach(function(c){c.note=c.key==='quesoblanco'?'Your recipe card. The app matches the card.':'A one-recipe card for a recipe already in the app. The app keeps its existing measurements; this card is the photo and a reference copy.';CARD_GRP[c.key]=c.grp;CARDS.push(c);CARD_ORDER.push(c.key);
+  var img='img/dish/'+c.key+'-1.jpg';ITEM_IMG[c.link]={img:img,card:c.key};
+  var r=R.filter(function(x){return x.id===c.link})[0];if(r){r.img=img;r.imgCard=c.key;r.imgExact=true;(r.alsoCards=r.alsoCards||[]).push(c.key)}});
+
 // ==== Breakfast (Nov 1) — from links Chris sent ====
 function BR(o){var d={group:'Breakfast',k:'n',v:1,min:1,max:24,name:'Classic'};for(var p in o)d[p]=o[p];d.style=d.lbl;d.d=d.b;return d}
 [
@@ -1862,6 +1867,16 @@ function mpItems(f){return R.filter(function(r){return r.group==='Meal Prep'&&f(
  ing:[IE('cuc','Large English cucumber, cut in ½-inch rounds',1),IV('water','Cool water',96),IV('salt','Sea salt',4),IE('garlic','Garlic cloves, minced',2),IV('cor','Crushed coriander seeds',.25),IV('mus','Crushed mustard seeds',.25),IV('pep','Crushed black peppercorns',.25),IE('bay','Bay leaves',3),ITT('dill','Several sprigs fresh dill')],
  st:['Dissolve the salt in the water.','Divide the cucumber, garlic, spices, bay leaves and dill between two clean pint jars.','Pour the brine over to cover the cucumber. Close the jars and refrigerate right away.','Chill 4–5 days for flavor. Serve cold.'],
  mp:{fridge:'Keep refrigerated; best within about 2–3 weeks',freezer:'No',reheat:'Serve cold.',tips:['Not shelf-stable and not for canning — always keep them in the fridge.','Toss them if the brine turns slimy or you see mold.']}}));
+
+// ---- Queso: replaced with your "Wholesome Queso Blanco" card (no Velveeta) ----
+(function(){var r=R.filter(function(x){return x.id==='sauce-queso'})[0];if(!r)return;
+ r.name='Wholesome Queso Blanco';r.lbl='Queso Blanco — Real Cheese, No Velveeta';r.u=['serving','servings'];r.b=6;r.d=6;r.c=[3,6,12];r.min=1;r.max=24;r.v=0;delete r.url;
+ r.nt='From your recipe card “Wholesome Queso Blanco,” adapted from The Kitchn. Real cheese, no Velveeta.';
+ r.ing=[IW('jack','Monterey Jack block, freshly grated (about 2 cups)',226.8),IV('onion','Finely diced yellow onion (about ½ small)',16),IW('chile','Can diced green chiles, drained',113.4),IV('butter','Unsalted butter',9),IV('flour','All-purpose flour',6),IV('milk','Whole milk',72),IV('cumin','Ground cumin',.5),IV('salt','Kosher salt',.5),ITT('garn','Cilantro and pickled jalapeños, optional')];
+ r.st=['Grate the cheese from a block (pre-shredded won’t melt smooth). Drain the green chiles.','Melt the butter over medium heat. Cook the onion, cumin and salt about 3 minutes until softened. Whisk in the flour for 30 seconds.','Slowly whisk in the milk; simmer, stirring, 2–3 minutes until it coats a spoon.','Reduce the heat to low. Add the cheese a handful at a time, whisking until melted. Stir in the chiles. Serve warm; don’t let it boil.'];
+ r.an='Refrigerate leftovers up to 4 days. Rewarm gently with a splash of milk.';
+ r.swaps=null;
+})();
 
 // ==== TOOLS ====
 // --- unit tables ---
