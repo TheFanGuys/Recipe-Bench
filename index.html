@@ -4739,7 +4739,7 @@ if(location.hash&&location.hash!=='#/'){applyRoute(parseHash())}
 else{try{history.replaceState(null,'','#/')}catch(e){} applyRoute({screen:'home'})}
 
 // ==== New UI layer: photo tiles, tilt, reveal ====
-function catImg(k){return DU(({soups:'img/dish/soupbases-2.jpg',desserts:'img/dish/dessertsauce-1.jpg',entrees:'img/dish/burgers-1.jpg',sides:'img/dish/vegseas-5.jpg',sauces:'img/dish/mother-6.jpg',marinades:'img/dish/beefmar-2.jpg',rubs:'img/dish/seasblends-1.jpg',intl:'img/dish/asian-5.jpg',copycat:'img/dish/bbqsauce-1.jpg'})[k])}
+function catImg(k){return DU(({baking:'img/dish/focaccia-1.jpg',breakfast:'img/dish/sheetpanbreakfast-1.jpg',mealprep:'img/dish/burritobowls-1.jpg',glutenfree:'img/dish/gfbread-1.jpg',soups:'img/dish/soupbases-2.jpg',desserts:'img/dish/dessertsauce-1.jpg',entrees:'img/dish/burgers-1.jpg',sides:'img/dish/vegseas-5.jpg',sauces:'img/dish/mother-6.jpg',marinades:'img/dish/beefmar-2.jpg',rubs:'img/dish/seasblends-1.jpg',intl:'img/dish/asian-5.jpg',copycat:'img/dish/bbqsauce-1.jpg'})[k])}
 function catGen(k){return ({baking:'gen1',desserts:'gen2',glutenfree:'gen3',mealprep:'gen3',breakfast:'gen1'})[k]}
 function imgFor(id){return DU(imgFor0(id))}
 function imgFor0(id){if(typeof ITEM_IMG!=='undefined'&&ITEM_IMG[id])return ITEM_IMG[id].img;var r=R.filter(function(x){return x.id===id})[0];if(r&&r.img)return r.img;var fs=typeof foodFile==='function'?foodFile(id):null;if(fs&&typeof FOOD_IMGS!=='undefined'&&FOOD_IMGS[fs])return 'img/food/'+fs+'.jpg';var p=(typeof PH!=='undefined'&&PH.rows)?PH.rows.filter(function(x){return x.kind==='dish'&&x.rid===id})[0]:null;return p?photoUrl(p):null}
