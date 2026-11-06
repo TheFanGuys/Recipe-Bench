@@ -1,6 +1,6 @@
 # Recipes Still Needing Photos
 
-Updated 2026-11-06 — 90 recipes.
+Updated 2026-11-06 — 91 recipes.
 
 For each one: paste the image prompt into your image generator, save the image with the **exact file name** shown, and send it to Claude. It shows up on that recipe automatically, and this list shrinks every update. The full recipe is included so the generator (or you) can see what the dish really is.
 
@@ -8,6 +8,7 @@ For each one: paste the image prompt into your image generator, save the image w
 - Breakfast (11)
 - Meal Prep (21)
 - Entrees (39)
+- Sides (1)
 - Sauces & Gravy (4)
 - Desserts & Sweets (9)
 - Copycat (4)
@@ -2127,6 +2128,34 @@ Source: https://www.recipetineats.com/mushroom-risotto/
 3. Stir in the tomato sauce, broth, cumin, chili powder, and salt. Bring to a boil.
 4. Reduce heat to low, cover, and simmer 18 to 20 minutes until the liquid is absorbed and the rice is tender.
 5. Remove from heat, let sit covered 5 minutes, then fluff with a fork.
+
+---
+
+## Sides (1)
+
+### Ted’s Montana Grill Pickled Cucumbers
+**File name:** `teds-montana-grill-pickled-cucumbers.jpg`
+
+**Image prompt:**
+> Professional food photograph of Ted’s Montana Grill Pickled Cucumbers, made with cucumber, white vinegar, granulated sugar, dill. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
+
+**Ingredients for 4 servings**
+- 1 — Large cucumber, cut in ¼-inch slices
+- 1 cup (237 ml) — Water
+- ½ cup (118 ml) — White vinegar
+- ¼ cup (59 ml) — Granulated sugar
+- 1 tsp (4.9 ml) — Salt
+- ¼ tsp (1.2 ml) — Black pepper
+- ¼ cup (59 ml) — Fresh dill, chopped
+
+**Method**
+1. Slice the cucumber into even ¼-inch rounds with a mandoline or sharp knife. Thinner slices go mushy.
+2. Whisk the water, vinegar, sugar, salt and pepper 2–3 minutes until the sugar and salt dissolve. Warm water speeds it up.
+3. Pack the cucumber and dill into a glass jar, leaving ½ inch at the top. Pour in the brine so everything is covered.
+4. Let the jar sit at room temperature at least 2 hours. Much longer and they get too sour.
+5. Refrigerate at least 30 minutes and serve cold.
+
+Source: https://guyfierirecipes.com/teds-montana-grill-pickled-cucumbers-recipe/
 
 ---
 

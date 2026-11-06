@@ -4,9 +4,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>The Recipe Bench</title>
-<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png?v=1">
-<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
-<meta name="apple-mobile-web-app-title" content="Recipe Bench">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..600,0..100,0..1;1,9..144,300..600,0..100,0..1&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
 <meta name="theme-color" content="#0B0907">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
@@ -1766,7 +1763,7 @@ function mpRow(r){var x=rrow(r);x.sub=(r.forN?'Nicole · ':'')+(r.src||'Publishe
 function mpItems(f){return R.filter(function(r){return r.group==='Meal Prep'&&f(r)}).map(mpRow)}
 
 // ---- Nov 5: Ted's Montana Grill pickled cucumbers (copycat side) ----
-R.push(SR({id:'side-teds-pickles',group:'Sides',side:'pickles',lbl:'Ted’s Montana Grill Pickled Cucumbers',u:['serving','servings'],b:4,d:4,c:[4,8,12,16],max:32,
+(function(r){delete r.img;R.push(r)})(SR({id:'side-teds-pickles',group:'Sides',side:'pickles',lbl:'Ted’s Montana Grill Pickled Cucumbers',u:['serving','servings'],b:4,d:4,c:[4,8,12,16],max:32,
  url:'https://guyfierirecipes.com/teds-montana-grill-pickled-cucumbers-recipe/',src:'Guy Fieri Recipes',tt:'20 min + 2 hr rest',
  nt:'Published recipe — guyfierirecipes.com. A copycat of the pickles Ted’s Montana Grill puts on the table. It doesn’t say when to add the dill, so it goes in the jar with the cucumbers.',
  ing:[IE('cuc','Large cucumber, cut in ¼-inch slices',1),IV('water','Water',48),IV('vin','White vinegar',24),IV('sugar','Granulated sugar',12),IV('salt','Salt',1),IV('pep','Black pepper',.25),IV('dill','Fresh dill, chopped',12)],
