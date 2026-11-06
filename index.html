@@ -279,6 +279,14 @@ img{max-width:100%}
 .needcopy{border:1px solid var(--accent);background:transparent;color:var(--accent);border-radius:9px;padding:6px 12px;font:700 12px Inter,system-ui,sans-serif;cursor:pointer}
 
 .mptab{display:grid;grid-template-columns:76px 1fr;gap:6px 12px;margin:0 0 6px}.mptab dt{font:700 13px Inter,system-ui,sans-serif;color:var(--muted)}.mptab dd{margin:0;font:500 14px/1.4 Inter,system-ui,sans-serif;color:var(--ink)}
+.cgtools{display:flex;gap:8px;justify-content:flex-end;margin:-6px 0 10px}
+.cgtools button{border:1px solid var(--line);background:transparent;color:var(--muted);border-radius:999px;padding:6px 12px;font:700 12px Inter,system-ui,sans-serif;cursor:pointer}
+.cgroup{margin:0 0 10px;border:1px solid var(--line);border-radius:16px;background:var(--card);overflow:hidden}
+.cghead{all:unset;box-sizing:border-box;cursor:pointer;display:flex;align-items:center;gap:12px;width:100%;padding:10px 14px;-webkit-tap-highlight-color:transparent}
+.cgthumbs{display:flex;flex:0 0 auto}.cgthumbs img{width:34px;height:48px;object-fit:cover;border-radius:5px;border:1px solid rgba(0,0,0,.5);margin-left:-14px;box-shadow:0 2px 6px rgba(0,0,0,.5)}.cgthumbs img:first-child{margin-left:0}
+.cgname{flex:1;min-width:0;font:800 16px Inter,system-ui,sans-serif;color:var(--ink)}.cgname i{display:block;font-style:normal;font-weight:600;font-size:12px;color:var(--muted);margin-top:2px}
+.cgchev{color:#FFC56B;transition:transform .25s}.cgroup.open .cgchev{transform:rotate(180deg)}
+.cgroup>.cardgrid{display:none;padding:4px 12px 14px}.cgroup.open>.cardgrid{display:grid}
 
 </style>
 </head>
@@ -1451,6 +1459,18 @@ PHOTO_CARDS2.forEach(function(c){
   CARD_GRP[c.key]='Entrees';
 });
 (function(){var ix=CARD_ORDER.indexOf('mongolian');var ks=PHOTO_CARDS2.map(function(c){return c.key});if(ix>-1)CARD_ORDER.splice.apply(CARD_ORDER,[ix+1,0].concat(ks));else CARD_ORDER=CARD_ORDER.concat(ks)})();
+
+// ---- one-recipe photo cards (Nov 6) ----
+var PHOTO_CARDS3=[{"key": "spagbolognese", "title": "Spaghetti Bolognese", "img": "img/spagbolognese-sheet.jpg", "note": "A one-recipe card for a recipe already in the app. The app keeps its existing measurements; this card is the photo and a reference copy.", "link": "entree-spaghettibolognese"}, {"key": "steakalfredo", "title": "Steak Alfredo", "img": "img/steakalfredo-sheet.jpg", "note": "A one-recipe card for a recipe already in the app. The app keeps its existing measurements; this card is the photo and a reference copy.", "link": "entree-steakalfredo"}, {"key": "mushroomsteakpasta", "title": "Creamy Mushroom Steak Pasta", "img": "img/mushroomsteakpasta-sheet.jpg", "note": "A one-recipe card for a recipe already in the app. The app keeps its existing measurements; this card is the photo and a reference copy.", "link": "entree-mushroomsteakpasta"}, {"key": "cajunsteakpasta", "title": "Creamy Cajun Steak Pasta", "img": "img/cajunsteakpasta-sheet.jpg", "note": "A one-recipe card for a recipe already in the app. The app keeps its existing measurements; this card is the photo and a reference copy.", "link": "entree-cajunsteakpasta"}, {"key": "carneasada", "title": "Carne Asada", "img": "img/carneasada-sheet.jpg", "note": "A one-recipe card for a recipe already in the app. The app keeps its existing measurements; this card is the photo and a reference copy.", "link": "entree-carneasada"}, {"key": "steakfajitas", "title": "Steak Fajitas", "img": "img/steakfajitas-sheet.jpg", "note": "A one-recipe card for a recipe already in the app. The app keeps its existing measurements; this card is the photo and a reference copy.", "link": "entree-steakfajitas"}, {"key": "quesadillas", "title": "Beef Quesadillas", "img": "img/quesadillas-sheet.jpg", "note": "A one-recipe card for a recipe already in the app. The app keeps its existing measurements; this card is the photo and a reference copy.", "link": "entree-quesadillas"}, {"key": "empanadas", "title": "Baked Beef Empanadas", "img": "img/empanadas-sheet.jpg", "note": "A one-recipe card for a recipe already in the app. The app keeps its existing measurements; this card is the photo and a reference copy.", "link": "entree-empanadas"}, {"key": "beefenchiladas", "title": "Beef Enchiladas", "img": "img/beefenchiladas-sheet.jpg", "note": "A one-recipe card for a recipe already in the app. The app keeps its existing measurements; this card is the photo and a reference copy.", "link": "entree-beefenchiladas"}, {"key": "phillycheesesteak", "title": "Philly Cheesesteak", "img": "img/phillycheesesteak-sheet.jpg", "note": "A one-recipe card for a recipe already in the app. The app keeps its existing measurements; this card is the photo and a reference copy.", "link": "entree-phillycheesesteak"}, {"key": "parmchicken", "title": "Parmesan Crusted Chicken", "img": "img/parmchicken-sheet.jpg", "note": "A one-recipe card for a recipe already in the app. The app keeps its existing measurements; this card is the photo and a reference copy.", "link": "copycat-longhornchicken"}, {"key": "alicesprings", "title": "Alice Springs-Inspired Chicken", "img": "img/alicesprings-sheet.jpg", "note": "A one-recipe card for a recipe already in the app. The app keeps its existing measurements; this card is the photo and a reference copy.", "link": "copycat-alicesprings"}, {"key": "pfmongolian", "title": "Mongolian Beef (P.F. Chang\u2019s-inspired)", "img": "img/pfmongolian-sheet.jpg", "note": "A one-recipe card for a recipe already in the app. The app keeps its existing measurements; this card is the photo and a reference copy.", "link": "copycat-mongolianbeef"}, {"key": "chipotlesteak", "title": "Chipotle-Style Steak", "img": "img/chipotlesteak-sheet.jpg", "note": "A one-recipe card for a recipe already in the app. The app keeps its existing measurements; this card is the photo and a reference copy.", "link": "copycat-chipotlesteak"}, {"key": "generaltso", "title": "General Tso\u2019s Chicken", "img": "img/generaltso-sheet.jpg", "note": "A one-recipe card for a recipe already in the app. The app keeps its existing measurements; this card is the photo and a reference copy.", "link": "entree-general-tso"}, {"key": "orangechicken", "title": "Orange Chicken", "img": "img/orangechicken-sheet.jpg", "note": "A one-recipe card for a recipe already in the app. The app keeps its existing measurements; this card is the photo and a reference copy.", "link": "entree-orange-chicken"}, {"key": "sesamechicken", "title": "Baked Sesame Chicken", "img": "img/sesamechicken-sheet.jpg", "note": "A one-recipe card for a recipe already in the app. The app keeps its existing measurements; this card is the photo and a reference copy.", "link": "entree-sesame-chicken"}, {"key": "kungpaochicken", "title": "Kung Pao Chicken", "img": "img/kungpaochicken-sheet.jpg", "note": "A one-recipe card for a recipe already in the app. The app keeps its existing measurements; this card is the photo and a reference copy.", "link": "entree-kungpao-chicken"}, {"key": "mallteriyaki", "title": "Mall Chicken Teriyaki", "img": "img/mallteriyaki-sheet.jpg", "note": "A one-recipe card for a recipe already in the app. The app keeps its existing measurements; this card is the photo and a reference copy.", "link": "entree-teriyaki-chicken"}, {"key": "chickenpotpie", "title": "Homemade Chicken Pot Pie", "img": "img/chickenpotpie-sheet.jpg", "note": "A one-recipe card for a recipe already in the app. The app keeps its existing measurements; this card is the photo and a reference copy.", "link": "entree-chickenpotpie"}];
+PHOTO_CARDS3.forEach(function(c){
+  CARDS.push(c);
+  var img='img/dish/'+c.key+'-1.jpg';
+  ITEM_IMG[c.link]={img:img,card:c.key};
+  var r=R.filter(function(x){return x.id===c.link})[0];
+  if(r){r.img=img;r.imgCard=c.key;r.imgExact=true;(r.alsoCards=r.alsoCards||[]).push(c.key)}
+  CARD_GRP[c.key]=/^copycat-/.test(c.link)?'Copycat':'Entrees';
+  CARD_ORDER.push(c.key);
+});
 
 // ==== Breakfast (Nov 1) — from links Chris sent ====
 function BR(o){var d={group:'Breakfast',k:'n',v:1,min:1,max:24,name:'Classic'};for(var p in o)d[p]=o[p];d.style=d.lbl;d.d=d.b;return d}
@@ -3986,14 +4006,7 @@ function renderCardsGrid(){
   if(PH.editCards) h+='<p class="note" style="margin:-4px 2px 12px">Use the arrows to move a card. ✕ hides a built-in card (its recipes stay in the app) or deletes one you uploaded.</p>';
   if(untitled&&PH.sample&&!PH.editCards) h+='<button type="button" class="nameall" id="nameAll">Read titles for '+untitled+' untitled card'+(untitled>1?'s':'')+'</button>';
   w.innerHTML=h;
-  var grid=document.createElement('div');grid.className='cardgrid'+(PH.editCards?' editing':'');
-  var lastG=null;
-  vis.forEach(function(c,i){
-    var g=c.builtin?(CARD_GRP[c.key]||'More cards'):'New \u2014 not typed in yet';
-    if(!PH.editCards&&g!==lastG){
-      if(grid.children.length){w.appendChild(grid);grid=document.createElement('div');grid.className='cardgrid'}
-      w.insertAdjacentHTML('beforeend','<div class="sectionlabel">'+esc(g)+'</div>');lastG=g;
-    }
+  var mkTile=function(c,i){
     var t=document.createElement(PH.editCards?'div':'a');t.className='cardtile';
     if(!PH.editCards) t.href=hashFor({screen:'card',key:c.key});
     t.innerHTML='<img src="'+esc(c.img)+'" alt="" loading="lazy"><span>'+esc(c.title)+(c.builtin?'<em>'+c.n+' recipes</em>':'<em class="newtag">New · not typed in yet</em>')+'</span>'+
@@ -4004,9 +4017,33 @@ function renderCardsGrid(){
       b[1].addEventListener('click',function(){removeCard(c,b[1])});
       b[2].addEventListener('click',function(){moveCard(c.key,1)});
     }else if(typeof tilt==='function') tilt(t,8);
-    grid.appendChild(t);
-  });
-  w.appendChild(grid);
+    return t;
+  };
+  if(PH.editCards){
+    var grid=document.createElement('div');grid.className='cardgrid editing';
+    vis.forEach(function(c,i){grid.appendChild(mkTile(c,i))});
+    w.appendChild(grid);
+  }else{
+    var groups=[],gi={};
+    vis.forEach(function(c){var g=c.builtin?(CARD_GRP[c.key]||'More cards'):'New — not typed in yet';if(gi[g]===undefined){gi[g]=groups.length;groups.push({name:g,cards:[]})}groups[gi[g]].cards.push(c)});
+    var open={};try{open=JSON.parse(localStorage.getItem('bk_cardgroups')||'{}')}catch(e){}
+    var isOpen=function(g){return open[g]!==undefined?open[g]:/^New/.test(g)};
+    var save=function(){try{localStorage.setItem('bk_cardgroups',JSON.stringify(open))}catch(e){}};
+    w.insertAdjacentHTML('beforeend','<div class="cgtools"><button type="button" id="cgOpenAll">Expand all</button><button type="button" id="cgCloseAll">Collapse all</button></div>');
+    groups.forEach(function(g){
+      var sec=document.createElement('div');sec.className='cgroup'+(isOpen(g.name)?' open':'');
+      var hd=document.createElement('button');hd.type='button';hd.className='cghead';hd.setAttribute('aria-expanded',isOpen(g.name)?'true':'false');
+      hd.innerHTML='<span class="cgthumbs">'+g.cards.slice(0,3).map(function(c){return '<img src="'+esc(c.img)+'" alt="" loading="lazy">'}).join('')+'</span><span class="cgname">'+esc(g.name)+'<i>'+g.cards.length+' card'+(g.cards.length>1?'s':'')+'</i></span><svg class="cgchev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>';
+      var grid=document.createElement('div');grid.className='cardgrid';
+      var filled=false,fill=function(){if(filled)return;filled=true;g.cards.forEach(function(c){grid.appendChild(mkTile(c,0))})};
+      if(isOpen(g.name)) fill();
+      hd.addEventListener('click',function(){var o=!sec.classList.contains('open');if(o)fill();sec.classList.toggle('open',o);hd.setAttribute('aria-expanded',o?'true':'false');open[g.name]=o;save()});
+      sec.appendChild(hd);sec.appendChild(grid);w.appendChild(sec);
+    });
+    var setAll=function(o){groups.forEach(function(g){open[g.name]=o});save();renderCardsGrid()};
+    $('cgOpenAll').addEventListener('click',function(){setAll(true)});
+    $('cgCloseAll').addEventListener('click',function(){setAll(false)});
+  }
   var hidden=allCardItems().filter(function(c){return PH.cardSet.hidden.indexOf(c.key)>-1});
   if(hidden.length&&PH.editCards){
     w.insertAdjacentHTML('beforeend','<div class="sectionlabel">Hidden cards</div>');
