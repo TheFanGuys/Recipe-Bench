@@ -1,6 +1,6 @@
 # Recipes Still Needing Photos
 
-Updated 2026-11-06 — 53 recipes.
+Updated 2026-11-06 — 43 recipes.
 
 For each one: paste the image prompt into your image generator, save the image with the **exact file name** shown, and send it to Claude. It shows up on that recipe automatically, and this list shrinks every update. The full recipe is included so the generator (or you) can see what the dish really is.
 
@@ -10,8 +10,7 @@ For each one: paste the image prompt into your image generator, save the image w
 - Entrees (6)
 - Sides (1)
 - Sauces & Gravy (1)
-- Desserts & Sweets (7)
-- Copycat (4)
+- Copycat (1)
 - Gluten-Free (2)
 
 ---
@@ -1219,256 +1218,7 @@ Source: https://guyfierirecipes.com/teds-montana-grill-pickled-cucumbers-recipe/
 
 ---
 
-## Desserts & Sweets (7)
-
-### Pecan — Karo Classic
-**File name:** `pecan-karo-classic.jpg`
-
-**Image prompt:**
-> Professional food photograph of Pecan — Karo Classic, made with light or dark corn syrup, eggs, granulated sugar, unsalted butter, vanilla extract, pecans. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**Ingredients for 1 9-inch pie**
-- 328 g (1½ cups) — Light or dark corn syrup
-- 150 g (3 eggs) — Large eggs
-- 200 g (1 cup) — Granulated sugar
-- 28 g (2 tbsp) — Unsalted butter, melted
-- 5.0 g (1 tsp) — Vanilla extract
-- 170 g (6 oz) — Pecans
-
-**Method**
-1. Mix the corn syrup, eggs, sugar, melted butter, and vanilla with a spoon.
-2. Stir in the pecans.
-3. Pour into an unbaked 9" deep-dish pie crust.
-4. Bake at 350°F for 60 to 70 minutes. It’s done when the center reaches 200°F and springs back when tapped; cover the edges with foil if they brown too fast.
-5. Cool at least 2 hours before slicing.
-
-### Key Lime — Classic, with condensed milk
-**File name:** `key-lime-classic-with-condensed-milk.jpg`
-
-**Image prompt:**
-> Professional food photograph of Key Lime — Classic, with condensed milk, made with graham cracker crumbs, granulated sugar, unsalted butter, sweetened condensed milk, egg yolks, key lime juice, egg whites. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**Ingredients for 1 9-inch pie**
-- 170 g (6 oz) — Graham cracker crumbs (crust)
-- 50 g (4 tbsp) — Granulated sugar (crust)
-- 57 g (4 tbsp) — Unsalted butter, melted (crust)
-- 396 g (1¾ cups) — Sweetened condensed milk (one 14oz can) — brands vary; look for one with just milk and sugar on the label, nothing else
-- 56 g (2 oz) — Egg yolks (about 3)
-- 120 g (8 tbsp) — Key lime juice (real key limes are tiny and tedious to juice — bottled regular lime juice is the standard substitute most people actually use)
-- 100 g (3½ oz) — Egg whites, about 3 (for optional meringue)
-- 1.0 g (⅜ tsp) — Cream of tartar (for meringue; can be left out, or use a few drops of lemon juice or vinegar per egg white instead)
-- 50 g (4 tbsp) — Sugar (for meringue)
-
-**Method**
-1. For the crust, mix the graham crumbs, sugar, and melted butter; press into a 9" pie pan. Bake at 350°F for 8 to 10 minutes, then cool.
-2. Beat the egg yolks until thick and pale. Beat in the condensed milk.
-3. Slowly beat in the lime juice and continue until the mixture is very thick.
-4. Pour into the cooled crust.
-5. For a no-bake finish, chill at least 3 hours and serve plain or with whipped cream. For a meringue top, beat the egg whites with the cream of tartar to soft peaks, gradually beat in the sugar to stiff peaks, spread over the filling sealing to the crust, and bake at 350°F for 10 to 15 minutes until golden, then chill.
-
-### Lemon Meringue — King Arthur Classic
-**File name:** `lemon-meringue-king-arthur-classic.jpg`
-
-**Image prompt:**
-> Professional food photograph of Lemon Meringue — King Arthur Classic, made with granulated sugar, cold water, egg yolks, butter, lemon juice, vanilla extract, egg whites. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**Ingredients for 1 9-inch pie**
-- 298 g (1½ cups) — Granulated sugar
-- 53 g (6½ tbsp) — Cornstarch
-- 355 g (1½ cups) — Cold water
-- 56 g (2 oz) — Large egg yolks, about 3
-- 43 g (3 tbsp) — Butter
-- 113 g (7¾ tbsp) — Lemon juice (juice of about 2 lemons, plus zest of 1)
-- 2.5 g (½ tsp) — Vanilla extract
-- 100 g (3½ oz) — Large egg whites, about 3 (for meringue)
-- 1.0 g (⅜ tsp) — Cream of tartar (can be left out, or use a few drops of lemon juice or vinegar per egg white instead)
-- 68 g (5½ tbsp) — Sugar (for meringue)
-- 5.0 g (1 tsp) — Vanilla extract (for meringue)
-
-**Method**
-1. Whisk the sugar and cornstarch together in a saucepan. Gradually whisk in the water.
-2. Cook over medium heat, stirring, until thick and bubbling.
-3. Temper the egg yolks with a little of the hot mixture, then stir the yolks back into the pan. Cook 1 to 2 minutes more.
-4. Off the heat, stir in the butter, lemon zest, lemon juice, and vanilla.
-5. Pour into a fully baked 9" pie crust.
-6. For the meringue, beat the egg whites with the cream of tartar to soft peaks, then gradually beat in the sugar and vanilla to stiff, glossy peaks.
-7. Spread the meringue over the hot filling, sealing it to the crust edge. Bake at 350°F for 10 to 12 minutes until golden. Cool, then chill before slicing.
-
-### Chocolate Chip Cookies — Jacques Torres / NYT-style
-**File name:** `chocolate-chip-cookies-jacques-torres-nyt-style.jpg`
-
-**Image prompt:**
-> Professional food photograph of Chocolate Chip Cookies — Jacques Torres / NYT-style, made with cake flour, bread flour, coarse salt, unsalted butter, light brown sugar, granulated sugar, eggs. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**Ingredients for 18 cookies**
-- 241 g (2 cups) — Cake flour (don’t keep both cake and bread flour on hand? All-purpose flour, same total weight, is the commonly used single-flour substitute — texture will be a little less distinct between chewy and tender, but it works)
-- 241 g (2 cups) — Bread flour (check label — verify unenriched)
-- 6.0 g (1⅛ tsp) — Baking soda
-- 7.0 g (1¾ tsp) — Baking powder
-- 9.0 g (1½ tsp) — Coarse salt
-- 283 g (1¼ cups) — Unsalted butter, room temperature
-- 284 g (1½ cups) — Light brown sugar, packed
-- 227 g (1¼ cups) — Granulated sugar
-- 100 g (2 eggs) — Large eggs
-- 10 g (2 tsp) — Vanilla extract
-- 567 g (1¼ lb) — Bittersweet chocolate discs or chunks, 60%+ cacao
-
-**Method**
-1. Sift the cake flour, bread flour, baking soda, baking powder, and salt together.
-2. Cream the butter with both sugars until light and fluffy, about 5 minutes.
-3. Beat in the eggs one at a time, then the vanilla.
-4. Mix in the flour mixture just until combined, then fold in the chocolate.
-5. Press plastic wrap onto the dough and chill 24 to 72 hours — this rest is what the original recipe is built around, not an optional step.
-6. Scoop into balls (about 55g each for standard cookies, or 100g for the bakery-style extra-large version), leaving room to spread. Sprinkle with flaky sea salt.
-7. Bake at 350°F for 18 to 20 minutes until golden but still soft in the center.
-
-### Oatmeal Raisin Cookies — Quaker’s Vanishing
-**File name:** `oatmeal-raisin-cookies-quakers-vanishing.jpg`
-
-**Image prompt:**
-> Professional food photograph of Oatmeal Raisin Cookies — Quaker’s Vanishing, made with unsalted butter, brown sugar, granulated sugar, eggs, vanilla extract, all-purpose flour, ground cinnamon. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**Ingredients for 48 cookies**
-- 196 g (¾ cup) — Unsalted butter, softened
-- 160 g (¾ cup) — Brown sugar, packed
-- 100 g (8 tbsp) — Granulated sugar
-- 100 g (2 eggs) — Large eggs
-- 5.0 g (1 tsp) — Vanilla extract
-- 180 g (1½ cups) — All-purpose flour (check label — verify unenriched)
-- 5.0 g (⅞ tsp) — Baking soda
-- 2.0 g (2 tsp) — Ground cinnamon
-- 3.0 g (½ tsp) — Salt
-- 240 g (8½ oz) — Old-fashioned rolled oats
-- 145 g (5 oz) — Raisins
-
-**Method**
-1. Preheat the oven to 350°F.
-2. Beat the butter and both sugars until creamy.
-3. Beat in the eggs and vanilla.
-4. Whisk the flour, baking soda, cinnamon, and salt in a separate bowl, then mix into the butter mixture.
-5. Stir in the oats and raisins.
-6. Drop by rounded tablespoons onto ungreased cookie sheets.
-7. Bake 8 to 10 minutes until light golden. Cool 1 minute on the sheet before moving to a rack.
-
-### Snickerdoodles — King Arthur Buttery
-**File name:** `snickerdoodles-king-arthur-buttery.jpg`
-
-**Image prompt:**
-> Professional food photograph of Snickerdoodles — King Arthur Buttery, made with unsalted butter, granulated sugar, egg, vanilla extract, bread flour or all-purpose flour, ground cinnamon. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**Ingredients for 20 cookies**
-- 113 g (8 tbsp) — Unsalted butter, room temperature
-- 149 g (11¾ tbsp) — Granulated sugar
-- 50 g (1 egg) — Large egg
-- 5.0 g (1 tsp) — Vanilla extract
-- 4.0 g (1 tsp) — Baking powder
-- 3.0 g (½ tsp) — Salt
-- 160 g (1¼ cups) — Bread flour or all-purpose flour (check label — verify unenriched)
-- 25 g (2 tbsp) — Granulated sugar (for the coating)
-- 3.0 g (1¼ tsp) — Ground cinnamon (for the coating)
-
-**Method**
-1. Preheat the oven to 375°F. Line two baking sheets with parchment.
-2. Beat the butter and sugar until smooth. Beat in the egg, then the vanilla, salt, and baking powder.
-3. Mix in the flour until fully incorporated.
-4. Shake the coating sugar and cinnamon together in a bag. Roll each ball of dough in it until fully coated.
-5. Space at least 1.5 inches apart on the sheets.
-6. Bake 8 minutes for soft cookies, 10 for crunchier ones.
-
-### Peanut Butter Cookies — King Arthur Classic
-**File name:** `peanut-butter-cookies-king-arthur-classic.jpg`
-
-**Image prompt:**
-> Professional food photograph of Peanut Butter Cookies — King Arthur Classic, made with vegetable shortening, granulated sugar, brown sugar, eggs, vanilla extract, smooth peanut butter, all-purpose flour. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**Ingredients for 48 cookies**
-- 190 g (¾ cup) — Vegetable shortening (usually hydrogenated or interesterified — unsalted butter works 1:1 if you’d rather avoid it, though cookies spread a little more and are less uniformly crisp)
-- 200 g (1 cup) — Granulated sugar
-- 220 g (1 cup) — Brown sugar, packed
-- 100 g (2 eggs) — Large eggs
-- 5.0 g (1 tsp) — Vanilla extract
-- 258 g (1¼ cups) — Smooth peanut butter (supermarket-style, not natural)
-- 360 g (3 cups) — All-purpose flour (check label — verify unenriched)
-- 10 g (1⅞ tsp) — Baking soda
-- 3.0 g (½ tsp) — Salt
-
-**Method**
-1. Preheat the oven to 350°F.
-2. Beat the shortening, both sugars, eggs, vanilla, and peanut butter together until smooth.
-3. Sift the flour, baking soda, and salt together, then stir into the peanut butter mixture.
-4. Drop by spoonfuls onto an ungreased baking sheet.
-5. Press down with a fork in a crisscross pattern.
-6. Bake about 10 minutes, until lightly browned.
-
----
-
-## Copycat (4)
-
-### Pizzeria Bianco (Chris Bianco)
-**File name:** `pizzeria-bianco-chris-bianco.jpg`
-
-**Image prompt:**
-> Professional food photograph of Pizzeria Bianco (Chris Bianco). Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**Pizzeria Bianco (Chris Bianco) (10") for 4 pizzas**
-- 667 g (5½ cups) — Bread flour or other high-protein flour (check label — verify unenriched)
-- 473 ml (2 cups) — Water
-- 7.0 g (2¼ tsp) — Active dry yeast
-- 12 g (2 tsp) — Fine sea salt
-
-**Method**
-1. Dissolve the yeast in the warm water and let it sit 5 minutes.
-2. Mix in the flour gradually until it comes together, then add the salt.
-3. Turn out and knead by hand about 10 minutes, until smooth, soft, and a little tacky.
-4. Rise, covered, until doubled.
-5. Divide into 4 balls, shape, and let rest before stretching and baking.
-
-Source: https://www.foodandwine.com/bianco-pizza-dough-6418483
-
-### Roberta's (Brooklyn)
-**File name:** `robertas-brooklyn.jpg`
-
-**Image prompt:**
-> Professional food photograph of Roberta's (Brooklyn). Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**Roberta's (Brooklyn) (12") for 4 pizzas**
-- 306 g (2½ cups) — 00 flour
-- 306 g (2½ cups) — All-purpose flour (check label — verify unenriched)
-- 400 ml (1¾ cups) — Water
-- 4.0 g (1¼ tsp) — Active dry yeast
-- 16 g (1 tbsp) — Fine sea salt
-- 8.0 ml (1⅝ tsp) — Olive oil
-
-**Method**
-1. Whisk the flours and salt together in a bowl.
-2. Stir together the water, yeast, and olive oil; pour into the flour.
-3. Mix by hand until no dry lumps remain, then rest 15 minutes.
-4. Knead 3 more minutes until smooth.
-5. Rise as above, then divide into 4 balls.
-
-Source: https://www.epicurious.com/recipes/food/views/robertas-pizza-dough-yeast
-
-### Lucali (Mark Iacono)
-**File name:** `lucali-mark-iacono.jpg`
-
-**Image prompt:**
-> Professional food photograph of Lucali (Mark Iacono). Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**Lucali (Mark Iacono) (14") for 4 pizzas**
-- 794 g (6½ cups) — Bread flour (check label — verify unenriched)
-- 476 ml (2 cups) — Water
-- 4.3 g (1⅜ tsp) — Yeast (type unspecified in source)
-- 18 g (1 tbsp) — Fine sea salt
-- 14 ml (1 tbsp) — Olive oil
-
-**Method**
-1. Dissolve salt in a portion of the water; dissolve yeast in the rest with the olive oil.
-2. Mix in about a quarter of the flour until smooth, then the salted water, then the rest of the flour.
-3. Knead about 10 minutes until smooth.
-4. Rest 45 minutes, then divide into 4 balls.
-5. Refrigerate 6 hours to overnight before stretching and baking.
-
-Source: https://abcnews.com/GMA/Food/chef-mark-iacono-shares-homemade-pizza-salad-recipes/story?id=102487460
+## Copycat (1)
 
 ### Tony Gemignani-style (home oven) (adapted)
 **File name:** `tony-gemignani-style-home-oven-adapted.jpg`
@@ -1476,19 +1226,19 @@ Source: https://abcnews.com/GMA/Food/chef-mark-iacono-shares-homemade-pizza-sala
 **Image prompt:**
 > Professional food photograph of Tony Gemignani-style (home oven) (adapted). Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**Tony Gemignani-style (home oven) (14") for 4 pizzas**
-- 824 g (6¾ cups) — Unbleached bread flour
-- 519 ml (2¼ cups) — Water
-- 3.3 g (1 tsp) — Instant yeast
-- 21 g (1¼ tbsp) — Fine sea salt
-- 16 ml (1 tbsp) — Olive oil
-- 16 g (2¼ tbsp) — Diastatic malt powder
+**Tony Gemignani-style (home oven) (14") for 2 pizzas**
+- 412 g (3½ cups) — Unbleached bread flour
+- 260 ml (1 cup) — Water
+- 1.6 g (½ tsp) — Instant yeast
+- 10 g (1¾ tsp) — Fine sea salt
+- 8.2 ml (1⅝ tsp) — Olive oil
+- 8.2 g (1 tbsp) — Diastatic malt powder
 
 **Method**
 1. Whisk the flour and diastatic malt together.
 2. Add water and yeast, mix until shaggy, rest 20 minutes.
 3. Add salt and oil, knead until smooth.
-4. Rise, then divide into 4 balls of about 350g each.
+4. Rise, then divide into 2 balls of about 350g each.
 5. Refrigerate 24 to 72 hours, then bring to room temperature and stretch to shape.
 
 Source: https://tonygemignani.com/blog-post/making-pizza-at-home-the-tony-gemignani-way-part-1/
