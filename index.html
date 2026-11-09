@@ -516,20 +516,20 @@ var FL=.4,SG=.2381,SA=.1667,BP=.25,SO=.1818,BU=.2113,LQ=.2029;
 
 // ---- ingredient tables ----
 var BI=[['flour','Unbleached all-purpose flour',360,'g',FL],['bp','Baking powder',12,'g',BP],['soda','Baking soda',2,'g',SO],['salt','Fine salt',7,'g',SA],['sugar','Sugar',12,'g',SG],['butter','Cold butter',170,'g',BU],['milk','Cold buttermilk',295,'ml',LQ]];
-var PAULA=[['flour','Unbleached all-purpose flour',250,'g',FL],['bp','Baking powder',5,'g',BP],['salt','Fine salt',3,'g',SA],['butter','Cold unsalted butter',115,'g',BU],['milk','Cold buttermilk',240,'ml',LQ]];
+var PAULA=[['flour','Unbleached all-purpose flour',240,'g',FL],['bp','Baking powder',12,'g',BP],['salt','Fine salt',3,'g',SA],['butter','Cold unsalted butter',115,'g',BU],['milk','Cold buttermilk',177.44,'ml',LQ],['sugar','Sugar',4.2,'g',SG],['brush','Melted butter for brushing',14.2,'g',BU]];
 var BLUE=BI.map(function(x){return x[0]==='sugar'?['sugar','Sugar',40,'g',SG]:x}).concat([['blue','Frozen blueberries',240,'g',.324],['#','Glaze'],['psug','Powdered sugar',120,'g',.4],['gm','Milk',30,'ml',LQ],['van','Vanilla',2.5,'ml',LQ]]);
 
 var R=[
 {id:'bis-classic',group:'Biscuits',style:'Southern Buttermilk',name:'Classic',u:['biscuit','biscuits'],b:12,c:[1,4,6,12,24,36],d:12,min:1,max:120,k:'q',cut:['bp','soda'],lq:[1,2],li:'milk',ov:1,t:425,tm:['12 to 15','10 to 13'],v:1,tp:1,ing:BI,
  st:['Freeze the butter 15 minutes. Heat the oven to {T}°F with a rack in the middle. Line {P} with parchment.','Whisk flour, baking powder, baking soda, sugar, and salt.','Grate or cut in the butter until it looks like coarse crumbs with pea-size bits.','Stir in the cold buttermilk until shaggy. Do not overmix.','Pat out to 1/2 inch, fold in thirds 3 to 4 times, then pat to 1 inch.','Cut straight down with a 2.5 inch cutter. Do not twist. Set them touching.','Bake {M} minutes at {T}°F until deep golden.']},
-{id:'bis-paula',group:'Biscuits',style:'Southern Buttermilk',name:'Paula Deen-style',u:['biscuit','biscuits'],b:8,c:[1,4,8,16,24],d:8,min:1,max:120,k:'q',cut:['bp'],lq:[1,2],li:'milk',ov:1,t:450,tm:['12 to 15','10 to 13'],v:1,tp:1,
- ing:PAULA,nt:'No baking soda or sugar in this version — a simpler, richer style with more butter per cup of flour than the classic recipe.',
- st:['Heat the oven to {T}°F. Line {P} with parchment.','Whisk flour, baking powder, and salt.','Cut in the cold butter with a pastry blender or your fingers until it looks like coarse crumbs.','Whisk in the buttermilk just until the dough comes together. Do not overmix.','Pat to 1 inch thick. Cut with a biscuit cutter or sharp knife. Set on the sheet.','Bake {M} minutes at {T}°F until golden.']},
+{id:'bis-paula',group:'Biscuits',style:'Southern Buttermilk',name:'Paula Deen-style',u:['biscuit','biscuits'],b:8,c:[1,4,8,16,24],d:8,min:1,max:120,k:'q',cut:['bp'],lq:[1,2],li:'milk',ov:1,t:425,tm:['20 to 25','18 to 23'],v:1,tp:1,
+ ing:PAULA,nt:'Adapted to match the Paula Deen-style Recipe Bench card. One batch makes about 6 to 8 biscuits.',
+ st:['Heat the oven to {T}°F. Line {P} with parchment.','Whisk flour, baking powder, salt, and sugar.','Cut in the cold butter with a pastry blender or your fingers until it looks like coarse crumbs.','Stir in the buttermilk just until the dough comes together. Do not overmix.','Pat to 1 inch thick. Cut with a biscuit cutter or sharp knife. Set on the sheet.','Brush with melted butter. Bake {M} minutes at {T}°F until golden.']},
 {id:'blue',group:'Biscuits',style:'Blueberry',name:'With vanilla glaze',u:['biscuit','biscuits'],b:12,c:[1,4,6,12,24,36],d:12,min:1,max:120,k:'q',cut:['bp','soda'],lq:[1,2],li:'milk',ov:1,t:425,tm:['14 to 17','12 to 15'],v:1,tp:1,ing:BLUE,
  st:['Freeze the butter 15 minutes. Keep the blueberries frozen. Heat the oven to {T}°F with a rack in the middle. Line {P} with parchment.','Whisk flour, baking powder, baking soda, sugar, and salt. Grate or cut in the butter to coarse crumbs.','Stir in the buttermilk until shaggy, then fold in the frozen blueberries gently.','Pat to 1 inch and cut straight down. The dough is wetter than plain biscuits, so flour your hands. Set them touching.','Bake {M} minutes at {T}°F until golden. Cool 5 minutes.','Whisk the glaze until it drizzles, adding milk a few drops at a time. Drizzle on the warm biscuits.']},
-{id:'corn',group:'Quick breads',style:'Cornbread',name:'Southern skillet',u:['wedge','wedges'],b:8,c:[4,8,16],d:8,min:1,max:64,k:'q',cut:['bp','soda'],lq:[1,2],li:'milk',ov:1,t:425,tm:['20 to 25','18 to 22'],
- ing:[['corn','Cornmeal',210,'g',.343],['flour','Unbleached all-purpose flour',60,'g',FL],['bp','Baking powder',6,'g',BP],['soda','Baking soda',1.5,'g',SO],['salt','Fine salt',6,'g',SA],['egg','Egg',50,'g','egg'],['milk','Buttermilk',300,'ml',LQ],['fat','Bacon drippings or butter, melted',50,'g',.23]],
- st:['Put a 10 inch cast iron skillet in the oven while it heats to {T}°F.','Whisk cornmeal, flour, baking powder, baking soda, and salt.','Whisk the egg and buttermilk, then stir into the dry mix. Stir in about three quarters of the melted fat.','Pull the hot skillet out, swirl in the rest of the fat, and pour in the batter. It should sizzle.','Bake {M} minutes until golden and set in the middle.'],nt:'No sugar, Southern style. 8 wedges fills one 10 inch skillet.'},
+{id:'corn',pan:{label:'10-inch skillet',each:1},group:'Quick breads',style:'Cornbread',name:'Southern skillet',u:['wedge','wedges'],b:8,c:[4,8,16],d:8,min:1,max:64,k:'q',cut:['bp','soda'],lq:[1,2],li:'milk',ov:1,t:425,tm:['20 to 25','18 to 22'],
+ ing:[['corn','Cornmeal',210,'g',.343],['flour','Unbleached all-purpose flour',60,'g',FL],['bp','Baking powder',6,'g',BP],['soda','Baking soda',1.5,'g',SO],['salt','Fine salt',6,'g',SA],['egg','Egg',50,'g','egg'],['milk','Buttermilk',300,'ml',LQ],['butter','Melted unsalted butter for the batter',9,'tsp'],['fat','Bacon drippings or ghee for the skillet',3,'tsp']],
+ st:['For a full batch of 8 wedges, preheat one 10-inch cast-iron skillet as the oven heats to {T}°F. For larger batches, divide the batter as noted above. For a smaller batch, use a smaller oven-safe skillet to keep a similar batter depth.','Whisk cornmeal, flour, baking powder, baking soda, and salt.','Whisk the egg and buttermilk, then stir into the dry mix. Stir in the melted butter.','Pull the hot skillet out, swirl in the bacon drippings or ghee, and pour in the batter. It should sizzle.','Bake {M} minutes until golden and set in the middle.'],nt:'No sugar, Southern style. 8 wedges fills one 10 inch skillet.'},
 {id:'pan',group:'Quick breads',style:'Pancakes',name:'Buttermilk',u:['pancake','pancakes'],b:8,c:[4,8,12,24],d:8,min:1,max:96,k:'q',cut:['bp','soda'],lq:[1,2],li:'milk',ov:0,
  ing:[['flour','Unbleached all-purpose flour',190,'g',FL],['sugar','Sugar',12,'g',SG],['bp','Baking powder',4,'g',BP],['soda','Baking soda',2.5,'g',SO],['salt','Fine salt',3,'g',SA],['egg','Egg',50,'g','egg'],['milk','Buttermilk',295,'ml',LQ],['butter','Melted butter',42,'g',BU]],
  st:['Whisk flour, sugar, baking powder, baking soda, and salt.','Whisk the egg, buttermilk, and melted butter. Stir into the dry mix. Lumps are fine.','Rest 5 minutes. Heat a griddle to medium, about 375°F.','Pour 1/4 cup per pancake. Flip when bubbles pop and edges look set, about 2 minutes. Cook 1 to 2 minutes more.']},
@@ -537,10 +537,10 @@ var R=[
  ing:[['flour','Unbleached all-purpose flour',140,'g',FL],['sugar','Sugar',25,'g',SG],['bp','Baking powder',6,'g',BP],['salt','Salt',1.5,'g',SA],['egg','Egg',50,'g','egg'],['milk','Milk (regular, not buttermilk)',240,'g',LQ],['butter','Melted butter',30,'g',BU],['vanilla','Vanilla extract',5,'g',LQ]],
  st:['Whisk the flour, sugar, baking powder, and salt.','In a separate bowl, whisk the egg, milk, melted butter, and vanilla.','Pour the wet into the dry and stir just until combined. A few lumps are fine; don\u2019t overmix.','Heat a griddle to medium, about 375°F, and grease lightly.','Pour 1/4 cup per pancake. Flip when bubbles form on top and the bottom is golden, about 1 to 2 minutes. Cook 1 to 2 minutes more.'],
  nt:'This is the standard ratio for a milk-based (non-buttermilk) pancake \u2014 no baking soda needed, since there\u2019s no buttermilk acidity to react with. It\u2019s a widely converged-on classic rather than one I\u2019m crediting to a single named source. If you only have buttermilk on hand, use the Buttermilk Pancakes recipe instead rather than substituting here \u2014 the leavening is set up differently for each.'},
-{id:'muffin-blueberry-ka',group:'Quick breads',style:'Muffins',name:'King Arthur Blueberry',u:['muffin','muffins'],b:12,c:[6,12,24],d:12,min:1,max:48,k:'q',cut:['bp','soda'],lq:[1,2],li:'sourcream',ov:1,t:375,tm:['18 to 24','16 to 20'],v:1,
- ing:[['flour','All-purpose flour (check label \u2014 verify unenriched)',270,'g',FL],['bp','Baking powder',6,'g',BP],['soda','Baking soda',2.5,'g',SO],['salt','Salt',3,'g',SA],['butter','Unsalted butter, room temperature',57,'g',BU],['sugar','Sugar',150,'g',SG],['egg','Large eggs',100,'g','egg'],['vanilla','Vanilla extract',10,'g',LQ],['sourcream','Sour cream or plain yogurt',115,'g',LQ],['blue','Blueberries, fresh or frozen',225,'g',0]],
+{id:'muffin-blueberry-ka',group:'Quick breads',style:'Muffins',name:'King Arthur Blueberry',u:['muffin','muffins'],b:12,c:[6,12,24],d:12,min:1,max:48,k:'q',cut:['bp','soda'],lq:[1,2],li:'sourcream',ov:1,t:375,tm:['18 to 24','16 to 20'],v:1,url:'https://www.kingarthurbaking.com/recipes/blueberry-muffins-recipe',
+ ing:[['flour','All-purpose flour (check label \u2014 verify unenriched)',270,'g',FL],['bp','Baking powder',6,'g',BP],['soda','Baking soda',2.5,'g',SO],['salt','Salt',3,'g',SA],['butter','Unsalted butter, room temperature',57,'g',BU],['sugar','Sugar',150,'g',SG],['egg','Large eggs',100,'g','egg'],['vanilla','Vanilla extract',10,'g',LQ],['sourcream','Sour cream or plain yogurt',113,'g',24/113],['blue','Blueberries, fresh or frozen',213,'g',72/213]],
  st:['Heat the oven to {T}°F. Line a muffin tin with papers.','Whisk the flour, baking powder, baking soda, and salt; set aside.','Beat the butter and sugar until light, fluffy, and almost white.','Beat in the eggs one at a time, then the vanilla.','Mix in the sour cream or yogurt until just combined.','Fold in the dry ingredients until just combined, then fold in the blueberries by hand.','Divide among the muffin cups. Bake {M} minutes at {T}°F until a tester comes out clean.'],
- nt:'Published recipe \u2014 King Arthur Baking\u2019s classic Blueberry Muffins, from "The King Arthur Baker\u2019s Companion." No sour cream or yogurt on hand? Plain whole milk or buttermilk works as a straight swap \u2014 the crumb will be very slightly less rich, not a problem.'},
+ nt:'Adapted from King Arthur Baking’s current Blueberry Muffins recipe, butter version. No sour cream or yogurt on hand? Plain whole milk or buttermilk works as a straight swap \u2014 the crumb will be very slightly less rich, not a problem.'},
 {id:'waffle-buttermilk-ka',group:'Quick breads',style:'Waffles',name:'King Arthur Buttermilk',u:['waffle','waffles'],b:5,c:[4,5,10],d:5,min:1,max:40,k:'q',cut:['bp','soda'],lq:[1,2],li:'milk',ov:0,
  ing:[['flour','Unbleached all-purpose flour',206,'g',FL],['bp','Baking powder',8,'g',BP],['soda','Baking soda',5,'g',SO],['salt','Salt',6,'g',SA],['sugar','Sugar',25,'g',SG],['egg','Large eggs',100,'g','egg'],['milk','Buttermilk',397,'ml',LQ],['butter','Melted butter',113,'g',BU],['vanilla','Vanilla extract',10,'g',LQ]],
  st:['Beat the eggs, buttermilk, melted butter, and vanilla together.','In a separate bowl, whisk the flour, sugar, baking powder, baking soda, and salt.','Combine wet and dry, stirring just until nearly smooth. A few small lumps are fine.','Preheat and grease the waffle iron. Use about 1/3 cup batter per waffle on a standard iron.','Cook until the iron stops steaming, about 2 to 3 minutes.'],
@@ -819,9 +819,9 @@ var R=[
  st:['Melt the butter with the oil in a large skillet over medium-high heat. Brown the beef, breaking it into crumbles, about 5 minutes. Drain in a colander.','Add the onion and bell pepper to the same skillet; cook 2 to 3 minutes until soft. Add the garlic; cook 30 seconds.','Return the beef to the skillet with the tomato paste; stir well.','Add the ketchup, water, brown sugar, mustard, chili powder, Worcestershire, salt, red pepper flakes, and black pepper. Stir to combine.','Cook over medium heat 10 to 15 minutes, until thickened to your liking. Serve over toasted buns.'],
  nt:'Published recipe \u2014 The Chunky Chef\u2019s "The BEST Homemade Sloppy Joes."'},
 {id:'entree-chickenfriedsteak',group:'Entrees: American',style:'Beef',name:'Chicken-Fried Steak (also called Country-Fried Steak)',u:['serving','servings'],b:4,c:[2,4,6,8],d:4,min:1,max:16,k:'n',v:1,url:'https://www.momontimeout.com/chicken-fried-steak-recipe-with-gravy/',
- ing:[['#','Steak'],['steak','Cube steaks (about 1/3 lb each)',605,'g',0],['flour','Unbleached all-purpose flour',180,'g',FL],['pepper1','Black pepper (divided between seasoning the steaks and the breading)',4,'g',.5],['salt1','Kosher or sea salt (divided between seasoning the steaks and the breading)',6,'g',.1],['paprika','Smoked paprika',1,'g',1],['onionpow','Onion powder',1,'g',1],['garlicpow','Garlic powder',1,'g',1],['soda','Baking soda',1.2,'g',1],['bp','Baking powder',2,'g',1],['buttermilk','Buttermilk',355,'g',LQ],['tabasco','Tabasco sauce',10,'g',LQ],['egg','Large eggs',100,'g','egg'],['oil','Vegetable oil, for shallow-frying',218,'g',LQ],
-  ['#','Gravy'],['grease','Reserved pan grease',55,'g',BU],['flour2','Unbleached all-purpose flour',30,'g',FL],['milk','Whole milk',590,'g',LQ],['cream','Heavy whipping cream',120,'g',LQ]],
- st:['Whisk the flour, half the pepper, half the salt, paprika, onion powder, garlic powder, baking soda, and baking powder in a shallow bowl.','Whisk the buttermilk, Tabasco, and eggs in a separate shallow bowl.','Pat the cube steaks dry. Season with the remaining salt and pepper; let sit 5 minutes and pat dry again.','Dredge each steak in the flour mixture, then the buttermilk mixture, then the flour mixture again, pressing it in. Let sit 10 minutes.','Heat the oven to 225°F. Heat about 1/4" of oil in a heavy skillet over medium-high until it shimmers around 320–340°F.','Fry 2 steaks at a time, 3 to 4 minutes per side, until golden. Don\u2019t flip more than once. Drain and keep warm in the oven.','For the gravy: pour off the extra grease, leaving the browned bits in the skillet. Add back the reserved grease.','Whisk in the flour; cook 2 to 3 minutes until golden. Slowly whisk in the combined milk and cream.','Simmer, whisking, 5 to 7 minutes until smooth and thickened. Season with salt and plenty of black pepper.'],
+ ing:[['#','Steak'],['steak','Cube steaks (about 1/3 lb each)',605,'g',0],['flour','Unbleached all-purpose flour for breading',180,'g',FL],['pepper1','Black pepper (divided between seasoning the steaks and the breading)',4,'g',.5],['salt1','Kosher or sea salt (divided between seasoning the steaks and the breading)',6,'g',.1],['paprika','Smoked paprika',1,'g',1],['onionpow','Onion powder',1,'g',1],['garlicpow','Garlic powder',1,'g',1],['soda','Baking soda',1.2,'g',1],['bp','Baking powder',2,'g',1],['buttermilk','Buttermilk',355,'g',LQ],['tabasco','Tabasco sauce',10,'g',LQ],['egg','Large eggs',100,'g','egg'],['oil','Vegetable oil, for shallow-frying',218,'g',LQ],
+  ['#','Gravy'],['grease','Reserved pan grease',55,'g',BU],['flour2','Unbleached all-purpose flour for gravy',30,'g',FL],['milk','Whole milk',590,'g',LQ],['cream','Heavy whipping cream',120,'g',LQ]],
+ st:['Whisk the breading flour, half the pepper, half the salt, paprika, onion powder, garlic powder, baking soda, and baking powder in a shallow bowl.','Whisk the buttermilk, Tabasco, and eggs in a separate shallow bowl.','Pat the cube steaks dry. Season with the remaining salt and pepper; let sit 5 minutes and pat dry again.','Dredge each steak in the flour mixture, then the buttermilk mixture, then the flour mixture again, pressing it in. Let sit 10 minutes.','Heat the oven to 225°F. Heat about 1/4" of oil in a heavy skillet over medium-high until it shimmers around 320–340°F.','Fry 2 steaks at a time, 3 to 4 minutes per side, until golden. Don\u2019t flip more than once. Drain and keep warm in the oven.','For the gravy: pour off the extra grease, leaving the browned bits in the skillet. Add back the reserved grease.','Whisk in the gravy flour; cook 2 to 3 minutes until golden. Slowly whisk in the combined milk and cream.','Simmer, whisking, 5 to 7 minutes until smooth and thickened. Season with salt and plenty of black pepper.'],
  nt:'Published recipe \u2014 Mom On Timeout\u2019s "The Ultimate Chicken Fried Steak Recipe with Gravy." The site itself uses "chicken fried steak" and "country fried steak" as the same dish \u2014 regional naming for the same recipe, not two different ones.'},
 {id:'entree-ribeye-country-fried',group:'Entrees: American',style:'Beef',name:'Country Fried Ribeye with Pepper Gravy',u:['steak','steaks'],b:4,c:[1,2,4,6,8],d:4,min:1,max:16,k:'n',
  ing:[['#','Steak'],['steak','Boneless ribeye steaks, pounded to 1/4" thick (about 6oz each)',680,'g',0],['flour','Unbleached all-purpose flour',180,'g',FL],['pepper1','Black pepper, divided',4,'g',.5],['salt1','Kosher salt, divided',6,'g',.1],['paprika','Smoked paprika',1,'g',1],['garlicpow','Garlic powder',1,'g',1],['onionpow','Onion powder',1,'g',1],['bp','Baking powder',1,'g',1],['egg','Large eggs',100,'g','egg'],['buttermilk','Buttermilk',355,'g',LQ],['hotsauce','Hot sauce',10,'g',LQ],['oil','Avocado oil, for shallow-frying',218,'g',LQ],
@@ -831,11 +831,11 @@ var R=[
 {id:'entree-salisburysteak',group:'Entrees: American',style:'Beef',name:'Salisbury Steak with Mushroom Gravy',u:['serving','servings'],b:5,c:[4,5,6,8],d:5,min:1,max:20,k:'n',v:1,url:'https://www.recipetineats.com/salisbury-steak-with-mushroom-gravy/',
  ing:[['#','Salisbury steak'],['onion1','Onion, grated',75,'g',0],['panko','Panko breadcrumbs (or 1/3 cup ordinary breadcrumbs)',30,'g',0],['beef','Ground beef',500,'g',0],['garlic1','Garlic, minced',3,'g',.33],['egg','Large egg',50,'g','egg'],['ketchup','Ketchup',34,'g',LQ],['bouillon','Beef bouillon cube, crumbled',4,'g',0],['worc1','Worcestershire sauce',2.5,'g',LQ],['mustard1','Dijon mustard (or 2 tsp dry mustard powder)',15,'g',LQ],
   ['#','Mushroom gravy'],['oil','Olive oil',14,'g',LQ],['garlic2','Garlic, minced',6,'g',.33],['onion2','Onion, finely chopped',75,'g',0],['mushroom','Mushrooms, sliced',150,'g',0],['butter','Unsalted butter',30,'g',BU],['flour','Unbleached all-purpose flour',24,'g',FL],['stock','Beef broth, low sodium',475,'g',LQ],['water','Water',120,'g',LQ],['mustard2','Dijon mustard',10,'g',LQ],['worc2','Worcestershire sauce',10,'g',LQ]],
- st:['Grate the onion over the breadcrumbs in a bowl; let soak a few minutes.','Add the remaining steak ingredients and mix with your hands 1 to 2 minutes, until a bit pasty \u2014 this helps the patties hold together.','Divide into 5 and firmly pat into oval patties about 3/4" thick.','Heat oil in a skillet over high heat. Sear the patties 1 minute per side until browned but still raw inside. Remove to a plate.','Add a touch more oil if needed; cook the onion and garlic 2 minutes. Add the mushrooms; cook 2 to 3 minutes until golden.','Turn heat to medium. Add the butter, then the flour; cook 30 seconds, stirring.','Gradually whisk in the beef broth, then the remaining gravy ingredients.','Return the steaks and their juices to the pan. Cook 5 to 7 minutes until the gravy thickens, adding water if it reduces too fast.','Season the gravy with salt and pepper. Serve over mashed potatoes.'],
+ st:['Grate the onion over the breadcrumbs in a bowl; let soak a few minutes.','Add the remaining steak ingredients and mix with your hands 1 to 2 minutes, until a bit pasty \u2014 this helps the patties hold together.','Divide into {N} equal portion{S} and firmly pat into oval patties about 3/4" thick.','Heat oil in a skillet over high heat. Sear the patties 1 minute per side until browned but still raw inside. Remove to a plate.','Add a touch more oil if needed; cook the onion and garlic 2 minutes. Add the mushrooms; cook 2 to 3 minutes until golden.','Turn heat to medium. Add the butter, then the flour; cook 30 seconds, stirring.','Gradually whisk in the beef broth, then the remaining gravy ingredients.','Return the steaks and their juices to the pan. Cook 5 to 7 minutes until the gravy thickens, adding water if it reduces too fast.','Season the gravy with salt and pepper. Serve over mashed potatoes.'],
  nt:'Published recipe \u2014 RecipeTin Eats\u2019 Salisbury Steak with Mushroom Gravy.'},
 {id:'entree-smashburgers',group:'Entrees: American',style:'Sandwiches',name:'Smash Burgers',u:['serving','servings'],b:4,c:[2,4,6,8],d:4,min:1,max:16,k:'n',v:1,url:'https://natashaskitchen.com/smash-burger-recipe/',
- ing:[['beef','Ground beef, 80/20, divided into 8 portions (3oz each)',680,'g',0],['cheese','Medium cheddar cheese, sliced',115,'g',0],['mayo','Mayonnaise',75,'g',LQ],['mustard','Yellow mustard',5,'g',LQ],['buns','Burger buns (brioche is great)',240,'g',0],['lettuce','Iceberg lettuce, shredded',100,'g',0],['tomato','Tomato, sliced',150,'g',0],['onion','Red onion, thinly sliced',75,'g',0],['pickles','Dill pickles, sliced',60,'g',0]],
- st:['Divide the beef into 8 portions (3oz each); roll into balls, cover, and refrigerate until ready to cook. The meat must be cold when it hits the grill.','Stir together the mayo and mustard for the sauce.','Prep the toppings. Butter and toast the cut side of the buns until golden.','Heat a griddle or cast-iron skillet to medium-high. Add 2 to 4 beef balls, leaving room between each. Immediately place parchment over each and smash firmly into a thin patty.','Remove the parchment, season with salt and pepper, add a small dab of sauce. Cook 2 minutes on the first side.','Scrape under the patty at a 45° angle and flip. Cook 1 more minute. Add cheese to half the patties, then top with a second patty.','Build each burger: sauce on the bottom bun, pickles, lettuce, tomato, onion, the double patty, then the top bun.'],
+ ing:[['beef','Ground beef, 80/20',680,'g',0],['cheese','Medium cheddar cheese, sliced',115,'g',0],['mayo','Mayonnaise',75,'g',LQ],['mustard','Yellow mustard',5,'g',LQ],['buns','Burger buns (brioche is great)',240,'g',0],['lettuce','Iceberg lettuce, shredded',100,'g',0],['tomato','Tomato, sliced',150,'g',0],['onion','Red onion, thinly sliced',75,'g',0],['pickles','Dill pickles, sliced',60,'g',0]],
+ st:['Divide the beef into {N2} portions (about 3 oz each); roll into balls, cover, and refrigerate until ready to cook. The meat must be cold when it hits the grill.','Stir together the mayo and mustard for the sauce.','Prep the toppings. Butter and toast the cut side of the buns until golden.','Heat a griddle or cast-iron skillet to medium-high. Add 2 to 4 beef balls, leaving room between each. Immediately place parchment over each and smash firmly into a thin patty.','Remove the parchment, season with salt and pepper, add a small dab of sauce. Cook 2 minutes on the first side.','Scrape under the patty at a 45° angle and flip. Cook 1 more minute. Add cheese to half the patties, then top with a second patty.','Build each burger: sauce on the bottom bun, pickles, lettuce, tomato, onion, the double patty, then the top bun.'],
  nt:'Published recipe \u2014 Natasha\u2019s Kitchen\u2019s Smash Burger Recipe.'},
 {id:'entree-chickenpotpie',group:'Entrees: American',style:'Chicken',name:'Homemade Chicken Pot Pie',u:['serving','servings'],b:8,c:[6,8,10],d:8,min:1,max:16,k:'n',
  ing:[['butter','Unsalted butter',113,'g',BU],['onion','Onion, diced',110,'g',0],['flour','Unbleached all-purpose flour',90,'g',FL],['stock','Chicken broth',710,'g',LQ],['cream','Heavy cream or whole milk',120,'g',LQ],['chicken','Cooked, shredded chicken',425,'g',0],['veg','Frozen peas, carrots, and corn, thawed',340,'g',0],['salt','Salt',6,'g',SA],['pepper','Black pepper',2,'g',.5],['thyme','Dried thyme',1,'g',1],['crust','Pie crust, top and bottom (use the Pie Crust recipe above, or store-bought)',300,'g',0]],
@@ -926,12 +926,12 @@ var R=[
  st:['Heat the oven to 375°F. Brown the beef with the onion and garlic; drain excess fat. Season with cumin, chili powder, and salt. Stir in about {ing:sauce:0.125} of the enchilada sauce.','Briefly warm each tortilla in a little oil in a skillet, just until pliable, a few seconds per side.','Dip each tortilla in the enchilada sauce, fill with the beef mixture and a little cheese, roll, and place seam-side down in a baking dish.','Pour the remaining sauce over the top and sprinkle with the remaining cheese.','Bake 20 minutes, until bubbling and the cheese is melted.'],
  nt:'Adapted \u2014 standard beef enchilada technique, not tied to one named source.'},
 {id:'entree-lobsterrolls',group:'Entrees: American',style:'Seafood',name:'Lobster Rolls',u:['serving','servings'],b:4,c:[2,4,6,8],d:4,min:1,max:16,k:'n',v:1,url:'https://www.foodiecrush.com/lobster-rolls/',
- ing:[['lobster','Lobster meat, thawed or cooked',454,'g',0],['celery','Celery, minced',30,'g',0],['mayo','Mayonnaise',56,'g',LQ],['chives','Fresh chives, minced',3,'g',1],['lemonjuice','Lemon juice',15,'g',LQ],['lemonzest','Lemon zest',2,'g',0],['salt','Kosher salt',1.5,'g',SA],['pepper','Black pepper',0.5,'g',.5],['buns','Split-top brioche hot dog buns, about 4',160,'g',0],['butter','Butter, divided',57,'g',BU]],
+ ing:[['lobster','Lobster meat, thawed or cooked',454,'g',0],['celery','Celery, minced',30,'g',0],['mayo','Mayonnaise',56,'g',LQ],['chives','Fresh chives, minced',3,'g',1],['lemonjuice','Lemon juice',15,'g',LQ],['lemonzest','Lemon zest',2,'g',0],['salt','Kosher salt',1.5,'g',SA],['pepper','Black pepper',0.5,'g',.5],['buns','Split-top brioche hot dog buns',160,'g',0],['butter','Butter, divided',57,'g',BU]],
  st:['Rinse the lobster meat, pick through for shells, and drain thoroughly. Chop or tear into large chunks.','In a large bowl, mix the celery, mayonnaise, chives, lemon juice, lemon zest, salt, and pepper.','Melt half the butter in a large skillet over medium heat. Add the lobster meat and cook, stirring, 2 minutes until warmed through. Use a slotted spoon to transfer it to the mayonnaise mixture and toss to coat.','Wipe out the skillet and melt the remaining butter. Toast the buns on the cut sides, about 2 minutes per side, until golden.','Load each bun with the lobster mixture and garnish with more chives. Serve with potato chips.'],
  nt:'Published recipe \u2014 FoodieCrush\u2019s Lobster Rolls.'},
 {id:'entree-phillycheesesteak',group:'Entrees: American',style:'Sandwiches',name:'Philly Cheesesteak',u:['serving','servings'],b:4,c:[2,4,6,8],d:4,min:1,max:16,k:'n',v:1,url:'https://natashaskitchen.com/philly-cheesesteak/',
- ing:[['steak','Ribeye steak, trimmed and thinly sliced',454,'g',0],['salt1','Sea salt',3,'g',SA],['pepper','Black pepper',1,'g',.5],['onion','Sweet onion, large, diced',150,'g',0],['cheese','Provolone cheese slices, mild',180,'g',0],['rolls','Hoagie rolls, sliced 3/4 through, about 4',340,'g',0],['butter','Unsalted butter, softened',28,'g',BU],['garlic','Garlic clove, pressed',3,'g',.33],['mayo','Mayonnaise',45,'g',LQ],['oil','Oil, for the pan',30,'g',LQ]],
- st:['Slice the hoagie rolls 3/4 of the way through. Dice the onion and thinly slice the beef (freeze 20 to 30 minutes first for easier slicing).','Stir the softened butter with the pressed garlic. Spread onto the cut sides of the rolls and toast on a hot skillet or griddle until golden; set aside.','Add 1 tbsp oil to the pan and sauté the onion until softened; sprinkle lightly with salt, cook until caramelized, then transfer to a bowl.','Increase to high heat, add the remaining oil, and spread the beef in an even layer. Brown a couple minutes undisturbed, then flip and season with the salt and pepper. Cook until fully cooked through, then stir in the caramelized onions.','Divide into 4 portions, top each with 2 slices of cheese, and turn off the heat so the cheese melts without overcooking the meat.','Spread a thin layer of mayo on the toasted rolls. Use a spatula to scrape each cheesy beef portion into a roll. Serve warm.'],
+ ing:[['steak','Ribeye steak, trimmed and thinly sliced',454,'g',0],['salt1','Sea salt',3,'g',SA],['pepper','Black pepper',1,'g',.5],['onion','Sweet onion, large, diced',150,'g',0],['cheese','Provolone cheese slices, mild',180,'g',0],['rolls','Hoagie rolls, sliced 3/4 through',340,'g',0],['butter','Unsalted butter, softened',28,'g',BU],['garlic','Garlic clove, pressed',3,'g',.33],['mayo','Mayonnaise',45,'g',LQ],['oil','Oil, for the pan',30,'g',LQ]],
+ st:['Slice the hoagie rolls 3/4 of the way through. Dice the onion and thinly slice the beef (freeze 20 to 30 minutes first for easier slicing).','Stir the softened butter with the pressed garlic. Spread onto the cut sides of the rolls and toast on a hot skillet or griddle until golden; set aside.','Add 1 tbsp oil to the pan and sauté the onion until softened; sprinkle lightly with salt, cook until caramelized, then transfer to a bowl.','Increase to high heat, add the remaining oil, and spread the beef in an even layer. Brown a couple minutes undisturbed, then flip and season with the salt and pepper. Cook until fully cooked through, then stir in the caramelized onions.','Divide into {N} portion{S}, top each with 2 slices of cheese, and turn off the heat so the cheese melts without overcooking the meat.','Spread a thin layer of mayo on the toasted rolls. Use a spatula to scrape each cheesy beef portion into a roll. Serve warm.'],
  nt:'Published recipe \u2014 Natasha\u2019s Kitchen\u2019s Philly Cheesesteak.'},
 {id:'copycat-steakgorgonzola',group:'Entrees: Copycat',style:'Olive Garden',name:'Steak Gorgonzola Alfredo',u:['serving','servings'],b:4,c:[2,4,6,8],d:4,min:1,max:16,k:'n',
  ing:[['steak','Sirloin steak, sliced',454,'g',0],['pasta','Fettuccine',340,'g',0],['butter','Butter',85,'g',BU],['cream','Heavy cream',300,'g',LQ],['parm','Parmesan, grated',60,'g',.48],['gorgonzola','Gorgonzola, crumbled',115,'g',0],['garlic','Garlic, minced',9,'g',.33],['balsamic','Balsamic glaze, to finish (optional)',30,'g',LQ],['salt','Salt and pepper',3,'g',SA]],
@@ -979,6 +979,24 @@ var R=[
  st:['Blend the chipotle peppers, garlic, cumin, oregano, lime juice, oil, salt, and pepper into a marinade.','Coat the steak in the marinade. Marinate at least 30 minutes, or up to overnight.','Grill or sear the steak over high heat to your preferred doneness.','Rest 5 minutes, then dice into bite-sized pieces.'],
  nt:'Adapted \u2014 a standard Chipotle-style Steak copycat. I wasn\u2019t able to confirm Culinary Hill\u2019s exact published numbers, so this is a sound representative version rather than a copy of their specific recipe.'}
 ];
+
+// Give wide, flattened steaks enough dredge while preserving the cube-steak recipe.
+var cubeSteak=R.find(function(r){return r.id==='entree-chickenfriedsteak'});
+var ribeyeSteak=Object.assign({},cubeSteak,{
+  id:'entree-countryfriedribeye',name:'Country-Fried Ribeye (Pounded Thin)',b:4,d:2,c:[1,2,4,8],
+  nt:'Adapted for boneless ribeye pounded thin. Measure ¾ cup dredging flour for one steak or 1½ cups for two. For an especially wide single steak, keep up to ¼ cup extra flour handy. The gravy flour is measured separately.',
+  ing:cubeSteak.ing.map(function(i){
+    if(i[0]==='steak') return ['steak','Boneless ribeyes, one per serving',4,'ea'];
+    if(i[0]==='flour') return ['flour','Unbleached all-purpose flour for double-dredging',144,'tsp'];
+    return i;
+  }),
+  st:cubeSteak.st.map(function(step,index){
+    if(index===0) return 'Use a shallow dish a little wider than the flattened steaks. '+step;
+    if(index===2) return 'Pound the boneless ribeyes evenly thin between sheets of parchment. '+step;
+    return step;
+  })
+});
+R.splice(R.indexOf(cubeSteak)+1,0,ribeyeSteak);
 
 // pizza is handled specially (kind 'p'), not in the generic ingredient table
 // ==== Recipes typed in from Chris's recipe-card images ====
@@ -1650,14 +1668,14 @@ MP({id:'mp-koreanbeefrice',lbl:'Korean Beef and Rice',mt:'beef',prot:['beef'],b:
  url:'https://www.tasteofhome.com/recipes/korean-beef-and-rice/',src:'Taste of Home',
  nt:'Published recipe — Taste of Home, “Korean Beef and Rice.”',
  ing:[IW('beef','Lean ground beef (90% lean)',LB),IE('garlic','Garlic cloves, minced',3),IV('bs','Packed brown sugar',12),IV('soy','Reduced-sodium soy sauce',12),IV('so','Avocado oil (card: replaces sesame oil)',2),IV('ging','Ground ginger',.25),IV('rpf','Crushed red pepper flakes',.25),IV('pep','Pepper',.25),IV('rice','Hot cooked brown rice',128),IE('go','Green onions, thinly sliced',3)],
- st:['In a large skillet, cook the beef and garlic over medium heat 6–8 minutes, breaking the beef into crumbles, until no longer pink. Drain.','In a small bowl, mix the brown sugar, soy sauce, avocado oil, ginger, red pepper and black pepper.','Stir the sauce into the beef; heat through.','Divide the rice among 4 containers (⅔ cup each), add a quarter of the beef and the green onions to each. Cool and refrigerate promptly; reheat until steaming hot.'],
+ st:['In a large skillet, cook the beef and garlic over medium heat 6–8 minutes, breaking the beef into crumbles, until no longer pink. Drain.','In a small bowl, mix the brown sugar, soy sauce, avocado oil, ginger, red pepper and black pepper.','Stir the sauce into the beef; heat through.','Divide the rice, beef and green onions evenly among {N} container{S}. Cool and refrigerate promptly; reheat until steaming hot.'],
  nu:NU(413,13,4,71,647,46,3,14,27,{basis:'⅔ cup beef mixture with ⅔ cup rice'}),
  mp:{fridge:'3–4 days',freezer:'Beef mixture up to 3 months (rice freezes fine too)',reheat:'Microwave covered with a splash of water, stirring halfway, until steaming hot (165°F).',tips:['Pack rice and beef in the same container; add the green onions the day you eat it.']}}),
 MP({id:'mp-skinnykoreanbeef',lbl:'Korean Beef Rice Bowls (Skinnytaste)',mt:'beef',prot:['beef'],b:4,
  url:'https://www.skinnytaste.com/korean-beef-rice-bowls/',src:'Skinnytaste',
  nt:'Published recipe — Skinnytaste, “Korean Beef Rice Bowls.” Sesame oil left out and avocado oil replaces cooking spray, per your card.',
  ing:[IV('soy','Low-sodium soy sauce',12),IV('water','Water',6),IV('bs','Light brown sugar',2),IV('rpf','Crushed red pepper flakes',.5),IV('oil','Avocado oil (instead of cooking spray)',1),IW('beef','93% lean ground beef',LB),IV('onion','Minced onion',12),IE('garlic','Garlic cloves, minced',2),IV('ging','Fresh grated ginger',1),IV('rice','Cooked brown rice',144),IE('cuc','Small cucumber, sliced',1),IV('gochu','Gochujang (Korean chili paste)',6),IV('ses','Sesame seeds',1.5),IE('scal','Scallions, sliced',2)],
- st:['Mix the soy sauce, water, brown sugar and red pepper flakes.','Heat the avocado oil in a skillet. Brown the beef about 5 minutes, breaking it up. Add the onion, garlic and ginger; cook 1 minute.','Pour in the sauce; cover and simmer on low 10 minutes.','Divide into 4 containers: ¾ cup rice and a scant ⅔ cup beef each. Top with cucumber, gochujang, sesame seeds and scallions.'],
+ st:['Mix the soy sauce, water, brown sugar and red pepper flakes.','Heat the avocado oil in a skillet. Brown the beef about 5 minutes, breaking it up. Add the onion, garlic and ginger; cook 1 minute.','Pour in the sauce; cover and simmer on low 10 minutes.','Divide the rice and beef evenly among {N} container{S}. Top with cucumber, gochujang, sesame seeds and scallions.'],
  nu:NU(394,9,3,70,807,47,4,7,30,{basis:'1 bowl (¾ cup rice + ⅔ cup beef)'}),
  mp:{fridge:'4 days',freezer:'Beef only, up to 3 months',reheat:'Reheat beef and rice to steaming (165°F).',tips:['Keep the cucumber in a separate small cup so it stays crisp — add after reheating.']}}),
 MP({id:'mp-beefspinachlomein',lbl:'Beef Spinach Lo Mein',mt:'beef',prot:['beef'],b:5,
@@ -1671,7 +1689,7 @@ MP({id:'mp-burritobowl',lbl:'Beef Burrito Bowls',mt:'beef',prot:['beef'],cu:'Mex
  url:'https://feelgoodfoodie.net/recipe/beef-burrito-bowl/',src:'Feel Good Foodie',
  nt:'Published recipe — Feel Good Foodie, “Beef Burrito Bowl.” Store-bought taco seasoning often has anti-caking oils — the app’s Taco Seasoning in Rubs is a clean swap (about 2 tbsp per lb).',
  ing:[IV('rice','Uncooked white or brown rice',48),IV('salt','Salt (for rice)',.25),IV('rwater','Water (for rice)',72),IE('lime','Lime, juiced',1),IV('cil','Chopped cilantro',12),IV('oil','Olive oil',3),IE('onion','Small onion, diced',1),IE('garlic','Garlic cloves, minced',2),IW('beef','Lean ground beef',LB),IV('tp','Tomato paste',6),IV('taco','Taco seasoning',6),IV('water','Water',12),IW('beans','Can black beans, drained and rinsed',15*OZ),IV('corn','Corn',48),IV('tom','Diced tomatoes',48),IV('let','Shredded lettuce',48),ITT('guac','Guacamole, for serving'),ITT('limew','Lime wedges, for serving')],
- st:['Cook the rice with the salt and water. Stir in the lime juice and cilantro.','Heat the olive oil in a skillet over medium heat. Cook the onion until soft, add the garlic for 30 seconds.','Add the beef and cook, breaking it up, until browned. Drain if needed.','Stir in the tomato paste, taco seasoning and water; simmer until thick, 3–5 minutes.','Divide the rice, beef, beans and corn among 4 containers. Pack tomatoes, lettuce and guacamole separately.'],
+ st:['Cook the rice with the salt and water. Stir in the lime juice and cilantro.','Heat the olive oil in a skillet over medium heat. Cook the onion until soft, add the garlic for 30 seconds.','Add the beef and cook, breaking it up, until browned. Drain if needed.','Stir in the tomato paste, taco seasoning and water; simmer until thick, 3–5 minutes.','Divide the rice, beef, beans and corn among {N} container{S}. Pack tomatoes, lettuce and guacamole separately.'],
  nu:NU(569,16,5,74,549,72,11,4,35,{basis:'1 bowl'}),
  mp:{fridge:'4 days',freezer:'Beef and rice up to 3 months (no lettuce, tomato or guac)',reheat:'Reheat rice, beef, beans and corn to 165°F; add the cold toppings after.',tips:['Lettuce, tomato and guacamole go in a separate container — never reheat them.']}}),
 MP({id:'mp-eggrollbowl',lbl:'Egg Roll in a Bowl',mt:'beef',prot:['beef'],cu:'Chinese',b:4,
@@ -1717,7 +1735,7 @@ MP({id:'mp-steakhummus',lbl:'Steak & Hummus Lunch Boxes',mt:'beef',prot:['beef']
  nt:'Adapted: the published recipe is “Chicken & Hummus” with 4 chicken breasts. Per your note it uses steak here — I picked sirloin (about 1½ lb), same marinade. Check the naan label for soybean or canola oil.',
  swaps:['Dijon in the marinade: leave it out, or use ¼ tsp dry mustard; the oil, garlic and oregano carry it.','Any tender grilling steak works: sirloin, flat iron or flank.'],
  ing:[IW('steak','Sirloin steak (replaces 4 chicken breasts)',1.5*LB),IV('oil','Olive oil',12),IV('dijon','Dijon mustard (optional)',3),IV('salt','Salt',.5),IV('pep','Pepper',.5),IV('gp','Garlic powder',.5),IV('oreg','Dried oregano',.5),IV('hum','Roasted red pepper hummus',24),IE('naan','Mini naan',12,1),IE('cuc','English cucumber, sliced',1),IV('tom','Cherry tomatoes',48)],
- st:['Whisk the oil, Dijon (or swap), salt, pepper, garlic powder and oregano. Coat the steak and refrigerate 2 hours.','Heat a grill or cast-iron pan to medium-high. Cook the steak to 145°F for medium-rare (plus a 3-minute rest) — about 4–6 minutes per side for a 1-inch sirloin.','Rest 5 minutes, then slice thin against the grain.','Divide the steak, hummus, naan, cucumber and tomatoes among 4 containers.'],
+ st:['Whisk the oil, Dijon (or swap), salt, pepper, garlic powder and oregano. Coat the steak and refrigerate 2 hours.','Heat a grill or cast-iron pan to medium-high. Cook the steak to 145°F for medium-rare (plus a 3-minute rest) — about 4–6 minutes per side for a 1-inch sirloin.','Rest 5 minutes, then slice thin against the grain.','Divide the steak, hummus, naan, cucumber and tomatoes among {N} container{S}.'],
  nu:NU(369,21,3,74,693,17,3,3,29,{note:'The published numbers are for the chicken version. Sirloin runs a little higher in fat and calories.'}),
  mp:{fridge:'3–4 days',freezer:'Not recommended (hummus and cucumbers)',reheat:'Eat cold or warm just the steak; hummus stays cold.',tips:['Keep it cold — this is a no-reheat lunch, so it needs an ice pack in a cooler.']}}),
 // ---------- SHEET PAN ----------
@@ -1745,8 +1763,8 @@ MP({id:'mp-salmonsheet',lbl:'Sheet Pan Lemon Garlic Parmesan Salmon',mt:'sheet',
 MP({id:'mp-teriyakichicken',lbl:'Teriyaki Chicken Meal Prep',mt:'sheet',prot:['chicken'],cu:'Japanese',b:4,
  url:'https://feelgoodfoodie.net/recipe/teriyaki-chicken-meal-prep/',src:'Feel Good Foodie',
  nt:'Published recipe — Feel Good Foodie. Sesame oil left out per your card. Easily made with flank steak instead — marinate the same and sear to 145°F.',
- ing:[IV('soy','Reduced-sodium soy sauce',12),IV('rwv','Rice wine vinegar',6),IV('honey','Honey',6),IV('cs','Cornstarch',3),IV('oil','Avocado oil',3),ITT('ging','Fresh ginger, thumb-size piece, grated'),IE('garlic','Garlic clove, minced',1),IW('chick','Boneless chicken breasts (4 × 6 oz)',24*OZ),IV('rice','Uncooked rice',48),IV('salt','Salt',.5),ITT('pep','Pepper'),IV('water','Water (1½ cups + 3 tbsp)',81),IE('broc','Head of broccoli, cut in florets',1)],
- st:['Whisk the soy sauce, vinegar, honey, cornstarch, ginger and garlic. Set half aside in a clean bowl BEFORE adding the chicken. Marinate the chicken in the other half 20 minutes in the fridge.','Cook the rice in 1½ cups water with the salt.','Heat the avocado oil in a skillet over medium. Cook the chicken until it reaches 165°F; rest and slice. Throw away the used marinade.','Simmer the reserved sauce with 3 tbsp water until thick; toss with the chicken.','Steam the broccoli. Divide the rice, chicken and broccoli among 4 containers.'],
+ ing:[IV('soy','Reduced-sodium soy sauce',12),IV('rwv','Rice wine vinegar',6),IV('honey','Honey',6),IV('cs','Cornstarch',3),IV('oil','Avocado oil',3),ITT('ging','Fresh ginger, thumb-size piece, grated'),IE('garlic','Garlic clove, minced',1),IW('chick','Boneless chicken breasts',24*OZ),IV('rice','Uncooked rice',48),IV('salt','Salt',.5),ITT('pep','Pepper'),IV('water','Water, divided',81),IE('broc','Head of broccoli, cut in florets',1)],
+ st:['Whisk the soy sauce, vinegar, honey, cornstarch, ginger and garlic. Set half aside in a clean bowl BEFORE adding the chicken. Marinate the chicken in the other half 20 minutes in the fridge.','Cook the rice in {ing:water:0.8888888888888888} water with the salt.','Heat the avocado oil in a skillet over medium. Cook the chicken until it reaches 165°F; rest and slice. Throw away the used marinade.','Simmer the reserved sauce with {ing:water:0.1111111111111111} water until thick; toss with the chicken.','Steam the broccoli. Divide the rice, chicken and broccoli among {N} container{S}.'],
  nu:NU(454,9,2,109,1306,49,1,9,41),
  mp:{fridge:'4 days',freezer:'Up to 3 months',reheat:'Covered with a splash of water until 165°F.',tips:['Marinade that touched raw chicken never goes on cooked food unless you boil it first — that’s why half is held back.']}}),
 // ---------- NICOLE'S BOWLS & SALADS ----------
@@ -1754,7 +1772,7 @@ MP({id:'mp-chickenquinoa',lbl:'Chicken & Quinoa Bowls',mt:'bowl',forN:1,prot:['c
  url:'https://feelgoodfoodie.net/recipe/chicken-quinoa-bowl/',src:'Feel Good Foodie',
  nt:'Published recipe — Feel Good Foodie. For Nicole.',
  ing:[IV('quinoa','Quinoa, rinsed',48),IV('qwater','Water',72),IW('chick','Chicken tenders',1.5*LB),IV('pap','Paprika',2),IV('cor','Ground coriander',1.5),IV('op','Onion powder',1),IV('turm','Turmeric',.5),IV('salt','Salt',.75),IV('pep','Pepper',.5),IV('oil','Olive oil',6),IV('kale','Chopped kale',288),IW('tom','Cherry tomatoes (1 pint)',10*OZ),IV('alm','Toasted slivered almonds',24),ITT('pars','Chopped parsley, for garnish')],
- st:['Simmer the quinoa in the water, covered, until absorbed, about 15 minutes. Fluff.','Mix the spices and rub over the chicken.','Heat the oil in a large skillet over medium-high heat. Cook the chicken until it reaches 165°F, 3–4 minutes per side.','In the same skillet, cook the kale 3–5 minutes until softened, then the tomatoes 3–5 minutes until blistered.','Divide the quinoa, sliced chicken, kale and tomatoes among 4 containers. Put 2 tbsp almonds in a small dry section of each; add parsley. Cool promptly and refrigerate 3–4 days.'],
+ st:['Simmer the quinoa in the water, covered, until absorbed, about 15 minutes. Fluff.','Mix the spices and rub over the chicken.','Heat the oil in a large skillet over medium-high heat. Cook the chicken until it reaches 165°F, 3–4 minutes per side.','In the same skillet, cook the kale 3–5 minutes until softened, then the tomatoes 3–5 minutes until blistered.','Divide the quinoa, sliced chicken, kale and tomatoes among {N} container{S}. Put 2 tbsp almonds in a small dry section of each; add parsley. Cool promptly and refrigerate 3–4 days.'],
  nu:NU(531,22,3,109,671,38,8,4,47),
  mp:{fridge:'4 days',freezer:'Quinoa and chicken only',reheat:'Eat cold or warm the chicken and quinoa to 165°F.',tips:['Kale holds up for days without wilting — a good base for prep bowls.']}}),
 MP({id:'mp-grainbowls',lbl:'Grain Bowls 3 Ways',mt:'bowl',forN:1,prot:[],b:6,u:['bowl','bowls'],c:[2,4,6],
@@ -1768,7 +1786,7 @@ MP({id:'mp-chipotlebowl',lbl:'Chipotle Chicken Brown Rice Bowls',mt:'bowl',prot:
  url:'https://mealpreponfleek.com/?p=22409',src:'Meal Prep on Fleek',
  nt:'Published recipe — Meal Prep on Fleek, with a cilantro-basil-lime dressing. Not marked for Nicole in your list, but it’s chicken — make it with flank steak for yourself (sear to 145°F).',
  ing:[IV('doil','Olive oil (dressing)',12),IV('dlime','Lime juice (dressing)',12),IV('agave','Honey (dressing)',3),IV('dcil','Cilantro (dressing)',12),IV('basil','Basil (dressing)',12),IE('dgarlic','Garlic clove (dressing)',1),IV('dsalt','Salt (dressing)',.5),IW('chick','Boneless chicken breast',LB),IV('oil','Olive oil',6),IV('chip','Chipotle chili powder',1),IV('cumin','Cumin',1),IV('gp','Garlic powder',.25),IV('salt','Salt',1),IV('rice','Cooked brown rice',96),IV('kale','Chopped kale',192),IV('bb','Black beans',48),IV('tom','Cherry tomatoes',48),IV('cil','Cilantro',48),IV('ro','Diced red onion',24)],
- st:['Blend the dressing ingredients until smooth.','Toss the chicken with the oil and spices. Sear in cast iron over medium-high, about 8 minutes per side, until 165°F. Rest 5 minutes; slice.','Divide the rice, kale, black beans, tomatoes, cilantro, onion and chicken among 4 containers. Pack 2 tbsp dressing in a closed cup inside each container; dress just before eating.'],
+ st:['Blend the dressing ingredients until smooth.','Toss the chicken with the oil and spices. Sear in cast iron over medium-high, about 8 minutes per side, until 165°F. Rest 5 minutes; slice.','Divide the rice, kale, black beans, tomatoes, cilantro, onion and chicken among {N} container{S}. Pack 2 tbsp dressing in a closed cup inside each container; dress just before eating.'],
  nu:NU(506,24,null,null,1263,45,9,null,33,{note:'The source listed only some values.'}),
  mp:{fridge:'4 days',freezer:'Chicken and rice only',reheat:'Eat cold, or warm the chicken and rice to 165°F.',tips:['Dressing in a separate cup.']}}),
 MP({id:'mp-sesamenoodle',lbl:'Sesame Noodle Bowls',mt:'bowl',prot:['chicken'],cu:'Chinese',b:4,
@@ -1790,14 +1808,14 @@ MP({id:'mp-avocadoegg',lbl:'Avocado Egg Meal Prep',mt:'box',bt:'handheld',prot:[
  url:'https://feelgoodfoodie.net/recipe/avocado-egg-meal-prep',src:'Feel Good Foodie',
  nt:'Published recipe — Feel Good Foodie. Breakfast or lunch. Check the bread label for soybean or canola oil.',
  ing:[IE('egg','Large eggs',6,1),IE('avo','Avocado',1),IV('tom','Grape tomatoes',96),IE('bread','Slices whole wheat bread (seed-oil-free)',6,1),ITT('lemon','Lemon juice, optional (keeps avocado green)')],
- st:['Place the eggs in a pot, cover with water and bring to a boil. Cover, remove from heat and let stand 12 minutes. Cool in ice water and peel.','Divide the eggs, tomatoes and bread among 4 containers.','Halve and slice the avocado the morning you eat it (or squeeze lemon on it if packed ahead).'],
+ st:['Place the eggs in a pot, cover with water and bring to a boil. Cover, remove from heat and let stand 12 minutes. Cool in ice water and peel.','Divide the eggs, tomatoes and bread among {N} container{S}.','Halve and slice the avocado the morning you eat it (or squeeze lemon on it if packed ahead).'],
  nu:NU(292,15,3,246,269,25,7,5,15),
  mp:{fridge:'Hard-boiled eggs: 1 week peeled or unpeeled',freezer:'No',reheat:'Eat cold.',tips:['Peeled eggs keep best in a sealed container with a damp paper towel.']}}),
 MP({id:'mp-pbj',lbl:'PB&J Lunch Box',mt:'box',prot:[],b:4,
  url:'https://feelgoodfoodie.net/recipe/pbj-meal-prep/',src:'Feel Good Foodie',
  nt:'Published recipe — Feel Good Foodie. Check the peanut butter (some add palm or hydrogenated oils) and the bread label. Ranch is mayo-based — Greek yogurt ranch is the swap.',
  ing:[IE('bread','Slices sturdy whole wheat bread',8,1),IV('pb','No-added-oil peanut butter',24),IV('jam','Jam',24),IE('cheese','Cheese sticks',4,1),IV('car','Baby carrots',24),IV('cel','Celery sticks',24),IV('ranch','Plain Greek yogurt ranch dip',24)],
- st:['Make 4 sandwiches with the peanut butter and jam.','Pack each with a cheese stick, carrots, celery and a small cup of ranch.'],
+ st:['Make {N} sandwich{ES} with the peanut butter and jam.','Pack each with a cheese stick, carrots, celery and a small cup of ranch.'],
  nu:NU(424,20,7,20,695,46,6,17,19),
  mp:{fridge:'3 days (bread gets soggy after that)',freezer:'PB&J sandwiches freeze well up to 1 month — thaw in the lunch box',reheat:'Eat cold.',tips:['Cheese and ranch need to stay cold — ice pack.']}}),
 MP({id:'mp-pizzalunchable',lbl:'DIY Pizza Lunchable',mt:'box',prot:[],cu:'Italian',b:4,
@@ -1976,43 +1994,9 @@ function parseLine(line){
   return {raw:raw,ok:true,a:a,b:b,unit:unit,item:rest.trim(),temp:deg?rest.trim().replace(/^°\s*/,'').charAt(0).toUpperCase():null};
 }
 // --- formatting ---
-var CUPF=[[0,''],[.25,'¼'],[1/3,'⅓'],[.5,'½'],[2/3,'⅔'],[.75,'¾']];
 function friendlyVol(tsp){
-  if(tsp<=0) return '0';
-  if(tsp<1/16+1e-9) return 'a pinch';
-  if(tsp>=192*4){var q=Math.round(tsp/192*4)/4;return fr(q)+' quarts'}
-  if(tsp<3-1e-9){var e=Math.round(tsp*8)/8;if(Math.abs(e-3)<1e-9)return '1 tbsp';return fr(e)+' tsp'}
-  var cands=[];
-  // tbsp (+ tsp) form, only under 1/2 cup
-  if(tsp<24-1e-9){
-    var tb=Math.floor(tsp/3+1e-9),r=Math.round((tsp-tb*3)*8)/8;if(r>=3){tb++;r=0}
-    var half=Math.abs(tsp/3-Math.round(tsp/3*2)/2)<1e-6;
-    if(half) cands.push({t:fr(Math.round(tsp/3*2)/2)+' tbsp',p:1.1});
-    else cands.push({t:tb+' tbsp'+(r?' + '+fr(r)+' tsp':''),p:r?2.1:1.1});
-  }
-  // cups form
-  var big=tsp>=96;
-  var cups=tsp/48,w=Math.floor(cups+1e-9),left=tsp-w*48,best=CUPF[0];
-  if(big){
-    // 2+ cups: nearest common cup fraction is precise enough
-    var bestErr=1e9;[[0,''],[.25,'¼'],[1/3,'⅓'],[.5,'½'],[2/3,'⅔'],[.75,'¾'],[1,'']].forEach(function(f){var er=Math.abs(left-f[0]*48);if(er<bestErr){bestErr=er;best=f}});
-    if(best[0]===1){w++;best=CUPF[0]}
-    cands.push({t:(w||'')+best[1]+' cups',p:0});
-  }else{
-    for(var i=CUPF.length-1;i>=0;i--){if(CUPF[i][0]*48<=left+0.2){best=CUPF[i];break}}
-    left=Math.max(0,left-best[0]*48);
-    var tb2=Math.floor(left/3+1e-9),r2=Math.round((left-tb2*3)*4)/4;if(r2>=3){tb2++;r2=0}
-    if(tsp>=24&&r2&&tb2===0&&r2<1){r2=0} // drop a stray fraction of a tsp on cup amounts
-    var base=((w||'')+best[1])||'0';
-    if(base!=='0'){
-      var out=base+' cup'+(cups>1.01?'s':''),parts=1;
-      if(tb2){out+=' + '+tb2+' tbsp';parts++}
-      if(r2){out+=' + '+fr(r2)+' tsp';parts++}
-      cands.push({t:out,p:parts});
-    }
-  }
-  cands.sort(function(a,b){return a.p-b.p});
-  return cands[0].t;
+  var measure=vol(tsp);
+  return (measure.approx?'≈ ':'')+measure.txt;
 }
 function friendlyWt(g){
   var oz=g/28.3495;
@@ -3003,18 +2987,35 @@ function fr(x){
   return s||'0';
 }
 
-function vol(t,unitless){
-  if(t<0.0625) return {txt:'tiny pinch',approx:true};
-  // Cups and tablespoons round to the nearest quarter — that's how people
-  // actually measure oil, broth, sauce, etc., and it's a single clean
-  // fraction every time (fr() has a glyph for every eighth, so this never
-  // needs to fall back to a multi-spoon combo like "½ + ¼ + ⅛").
-  if(t>=36){var c=t/48,ce=Math.round(c*4)*2;return {txt:fr(ce/8)+(ce/8>1?' cups':' cup'),approx:Math.abs(ce/8-c)>0.01}}
-  if(t>=2.5){var tb=t/3,te=Math.round(tb*4)*2;return {txt:fr(te/8)+' tbsp',approx:Math.abs(te/8-tb)>0.01}}
-  // Small tsp amounts (leavening, salt, spices) keep full eighth precision,
-  // since that's where the difference actually matters.
-  var e=Math.max(1,Math.round(t*8));
-  return {txt:fr(e/8)+' tsp',approx:false};
+function vol(tsp){
+  if(tsp<=0) return {txt:'0 tsp',approx:false};
+  var eighths=Math.round(tsp*8);
+  // Keep quantities that are poorly represented by an eighth-teaspoon
+  // increment in decimal teaspoons. The metric column remains available.
+  if(tsp<.125||Math.abs(eighths/8-tsp)>Math.min(.025,tsp*.05)){
+    var wholeCups=Math.floor(tsp/48), rest=tsp-wholeCups*48;
+    var wholeTablespoons=Math.floor(rest/3);
+    var spoonRemainder=rest-wholeTablespoons*3;
+    var precise=Number(spoonRemainder.toPrecision(5));
+    var mixed=[];
+    if(wholeCups) mixed.push(wholeCups+' cup'+(wholeCups===1?'':'s'));
+    if(wholeTablespoons) mixed.push(wholeTablespoons+' tbsp');
+    if(precise) mixed.push(precise+' tsp');
+    return {txt:mixed.join(' + '),approx:Math.abs(precise-spoonRemainder)>1e-9};
+  }
+  var cups=Math.floor(eighths/384);
+  var remaining=eighths%384;
+  // Prefer an exact familiar cup fraction before breaking it into spoons.
+  var fractions={48:'⅛',96:'¼',128:'⅓',144:'⅜',192:'½',240:'⅝',256:'⅔',288:'¾',336:'⅞'};
+  var cupFraction=fractions[remaining];
+  if(cupFraction) remaining=0;
+  var tablespoons=Math.floor(remaining/24);
+  var teaspoons=(remaining%24)/8;
+  var parts=[];
+  if(cups||cupFraction) parts.push((cups||'')+(cupFraction||'')+' cup'+(cups>1||cups&&cupFraction?'s':''));
+  if(tablespoons) parts.push(tablespoons+' tbsp');
+  if(teaspoons) parts.push(fr(teaspoons)+' tsp');
+  return {txt:parts.join(' + '),approx:Math.abs(eighths/8-tsp)>1e-9};
 }
 function gm(x,u){return (x<1?x.toFixed(2):x<10?x.toFixed(1):Math.round(x))+' '+u}
 
@@ -3023,8 +3024,8 @@ var BREADS=[
 {id:'ka-ww-sandwich',name:'Whole Wheat Sandwich Bread',source:'King Arthur ("Classic 100% Whole Wheat Bread")',url:'https://www.kingarthurbaking.com/recipes/classic-100-whole-wheat-bread-recipe',adapted:false,
  baseLoaves:1,unit:'loaf',pan:'9"×5" loaf pan',
  flours:[{name:'King Arthur Premium 100% Whole Wheat Flour',g:397,wg:1,v:FL}],
- water:241,starter:null,salt:7.5,
- other:[{name:'Vegetable oil (this is a seed oil, typically soy or canola, and highly refined \u2014 melted butter, olive oil, or avocado oil all work as a 1:1 swap if you\u2019d rather avoid it)',g:50,v:LQ},{name:'Honey (or molasses/maple syrup)',g:85,v:LQ},{name:'Instant yeast',g:7.5,v:.32},{name:'Nonfat dry milk',g:30,v:.4}],
+ water:241,starter:null,salt:8,
+ other:[{name:'Vegetable oil (this is a seed oil, typically soy or canola, and highly refined \u2014 melted butter, olive oil, or avocado oil all work as a 1:1 swap if you\u2019d rather avoid it)',g:50,v:LQ},{name:'Honey (or molasses/maple syrup)',g:85,v:LQ},{name:'Instant yeast',g:7.5,v:.32},{name:'Nonfat dry milk',g:28,v:.4}],
  bulkHrs:[1,2],proofHrs:[1,2],bakeNote:'Bake 35 to 40 minutes at 350°F, tenting with foil if the top browns too fast.',
  method:['Combine everything in a bowl and stir until the dough starts to leave the sides of the bowl. Rest 20 to 30 minutes.','Knead 6 to 8 minutes by hand or mixer until smooth and supple.','Bulk rise, covered, {BULK} — until puffy, not necessarily doubled.','Shape into an 8" log and place in the pan. Rise again, covered, {PROOF}, until crowned about 1" over the rim.','Bake 35 to 40 minutes at 350°F.']},
 {id:'tpl-ww-sourdough-sandwich',name:'Whole Wheat Sourdough Sandwich Bread',source:'The Perfect Loaf (Maurizio Leo)',url:'https://www.theperfectloaf.com/whole-wheat-sourdough-sandwich-bread/',adapted:false,
@@ -3120,7 +3121,7 @@ var CHEFPIZZA=[
 {id:'robertas',chef:"Roberta's (Brooklyn)",source:'NYT Cooking / Epicurious',url:'https://www.epicurious.com/recipes/food/views/robertas-pizza-dough-yeast',adapted:false,
  baseCount:2,size:'12"',
  flours:[{name:'00 flour',g:153,v:FL},{name:'All-purpose flour (check label — verify unenriched)',g:153,v:FL}],
- water:200,yeast:{name:'Active dry yeast',g:2,v:.32},salt:8,oil:4,
+ water:202,waterUnit:'g',oilUnit:'g',yeast:{name:'Active dry yeast',g:2,v:.32},salt:8,oil:4,
  discrepancy:null,
  ferment:'Rest 15 minutes, knead 3 minutes more, then rise 3 to 4 hours at room temperature — or refrigerate up to 3 days for more flavor.',
  bake:'Bake as hot as your oven goes, ideally 500°F+ with a stone.',
@@ -3212,7 +3213,7 @@ function renderBread(){
   rows+='<tr><td>Fine sea salt</td><td class="g">'+gm(c.saltG,'g')+'</td><td class="v">'+vol(c.saltG*SA).txt+'</td></tr>';
   c.other.forEach(function(o){
     var vt;
-    if(o.unit==='egg'){var e=o.g/50,rr=Math.round(e*2)/2;vt=rr>=.5?fr(rr)+(rr>1?' eggs':' egg'):'beat & weigh'}
+    if(o.unit==='egg'){var e=o.g/50,rr=Math.round(e*2)/2;vt=Math.abs(e-rr)<1e-9&&rr>=.5?fr(rr)+(rr>1?' eggs':' egg'):'beat & weigh'}
     else vt=vol(o.g*o.v).txt;
     CURRENT_ING.push({name:o.name,amount:o.g,unit:'g'});
     rows+='<tr><td>'+o.name+'</td><td class="g">'+gm(o.g,'g')+'</td><td class="v">'+vt+'</td></tr>';
@@ -3260,13 +3261,14 @@ function renderChefPizza(){
   var c=computeChefPizza(r,mult,n);
   CURRENT_ING=[];CURRENT_LABEL=r.chef;CURRENT_QTY=n+' '+(n>1?'pizzas':'pizza');
   var rows=c.flours.map(function(f){CURRENT_ING.push({name:f.name,amount:f.g,unit:'g'});return '<tr><td>'+f.name+'</td><td class="g">'+gm(f.g,'g')+'</td><td class="v">'+vol(f.g*f.v).txt+'</td></tr>'}).join('');
-  CURRENT_ING.push({name:'Water',amount:c.water,unit:'ml'});
-  rows+='<tr><td>Water</td><td class="g">'+gm(c.water,'ml')+'</td><td class="v">'+vol(c.water*LQ).txt+'</td></tr>';
+  var waterUnit=r.waterUnit||'ml';
+  CURRENT_ING.push({name:'Water',amount:c.water,unit:waterUnit});
+  rows+='<tr><td>Water</td><td class="g">'+gm(c.water,waterUnit)+'</td><td class="v">'+vol(c.water*LQ).txt+'</td></tr>';
   CURRENT_ING.push({name:r.yeast?r.yeast.name:'Instant yeast',amount:c.yeast,unit:'g'});
   rows+='<tr><td>'+(r.yeast?r.yeast.name:'Instant yeast')+'</td><td class="g">'+gm(c.yeast,'g')+'</td><td class="v">'+vol(c.yeast*(r.yeast?r.yeast.v:.32)).txt+'</td></tr>';
   CURRENT_ING.push({name:'Fine sea salt',amount:c.salt,unit:'g'});
   rows+='<tr><td>Fine sea salt</td><td class="g">'+gm(c.salt,'g')+'</td><td class="v">'+vol(c.salt*SA).txt+'</td></tr>';
-  if(c.oil>0){CURRENT_ING.push({name:'Olive oil',amount:c.oil,unit:'ml'});rows+='<tr><td>Olive oil</td><td class="g">'+gm(c.oil,'ml')+'</td><td class="v">'+vol(c.oil*LQ).txt+'</td></tr>'}
+  if(c.oil>0){var oilUnit=r.oilUnit||'ml';CURRENT_ING.push({name:'Olive oil',amount:c.oil,unit:oilUnit});rows+='<tr><td>Olive oil</td><td class="g">'+gm(c.oil,oilUnit)+'</td><td class="v">'+vol(c.oil*LQ/(oilUnit==='g'?.91:1)).txt+'</td></tr>'}
   if(r.pct&&r.pct.malt){CURRENT_ING.push({name:'Diastatic malt powder',amount:c.malt,unit:'g'});rows+='<tr><td>Diastatic malt powder</td><td class="g">'+gm(c.malt,'g')+'</td><td class="v">'+vol(c.malt*.4).txt+'</td></tr>'}
   var perBall=c.totalDough/n;
   var steps=r.method.map(function(s){return '<li>'+s.replace('{N}',n).replace('{BALL}',Math.round(r.ballWeight||perBall))+'</li>'}).join('').replace(/\b1 balls\b/g,'1 ball');
@@ -3311,7 +3313,7 @@ function ingRow(i,mult,a,r){
   var amt=i[2]*mult,ch='',v=i[4],vt,approx=false;
   if(r.cut&&r.cut.indexOf(i[0])>-1&&a.l){amt*=1-a.l;ch=' <span class="chg">reduced</span>'}
   if(i[0]===r.li&&a.q){amt+=a.q*14.79*mult;ch=' <span class="chg">increased</span>'}
-  if(v==='egg'){var e=amt/50,rr=Math.round(e*2)/2;if(Math.abs(e-rr)>.15||rr<.5)approx=true;vt=rr>=.5?fr(rr)+(rr>1?' eggs':' egg'):'beat & weigh'}
+  if(v==='egg'){var e=amt/50,rr=Math.round(e*2)/2;if(Math.abs(e-rr)>.15||rr<.5)approx=true;vt=Math.abs(e-rr)<1e-9&&rr>=.5?fr(rr)+(rr>1?' eggs':' egg'):'beat & weigh'}
   else if(v===0){var oz=amt/28.35;vt=oz>=16?fr(Math.round(oz/4)/4)+' lb':fr(Math.round(oz*2)/2)+' oz'}
   else{var vv=vol(amt*v);vt=vv.txt;approx=vv.approx}
   CURRENT_ING.push({name:i[1],amount:amt,unit:i[3]});
@@ -3327,13 +3329,13 @@ function ingText(key,mult,a,r,frac){
   var i=r.ing.filter(function(x){return x[0]===key})[0];
   if(!i) return '['+key+'?]';
   if(i[3]==='tsp') return friendlyVol(i[2]*mult*(frac||1));
-  if(i[3]==='ea') return fmtCount(i[2]*mult*(frac||1));
+  if(i[3]==='ea'){var count=i[2]*mult;if(i[4])count=Math.max(1,Math.ceil(count-1e-6));return fmtCount(count*(frac||1));}
   if(i[3]==='tt') return 'to taste';
   var amt=i[2]*mult,v=i[4];
   if(r.cut&&r.cut.indexOf(i[0])>-1&&a.l) amt*=1-a.l;
   if(i[0]===r.li&&a.q) amt+=a.q*14.79*mult;
   if(frac) amt*=frac;
-  if(v==='egg'){var e=amt/50,rr=Math.round(e*2)/2;return rr>=.5?fr(rr)+(rr>1?' eggs':' egg'):'a beaten, weighed portion of egg'}
+  if(v==='egg'){var e=amt/50,rr=Math.round(e*2)/2;return Math.abs(e-rr)<1e-9&&rr>=.5?fr(rr)+(rr>1?' eggs':' egg'):gm(amt,'g')+' beaten egg'}
   if(v===0){var oz=amt/28.35;return oz>=16?fr(Math.round(oz/4)/4)+' lb':fr(Math.round(oz*2)/2)+' oz'}
   return vol(amt*v).txt
 }
@@ -3454,7 +3456,7 @@ function renderGeneric(){
     var totalDough=r.ing.reduce(function(s,i){return s+(i[3]==='g'||i[3]==='ml'?i[2]*mult:0)},0);
     ballWt=Math.round(totalDough/n);
   }
-  var steps=r.st.map(function(s){return '<li>'+fillIngPlaceholders(s.replace(/\{T\}/g,temp).replace(/\{M\}/g,time).replace(/\{P\}/g,pans).replace(/\{N\}/g,n).replace(/\{S\}/g,n>1?'s':'').replace(/\{BALL\}/g,ballWt),mult,a,r)+'</li>'}).join('');
+  var steps=r.st.map(function(s){return '<li>'+fillIngPlaceholders(s.replace(/\{T\}/g,temp).replace(/\{M\}/g,time).replace(/\{P\}/g,pans).replace(/\{N\}/g,n).replace(/\{N2\}/g,n*2).replace(/\{ES\}/g,n>1?'es':'').replace(/\{S\}/g,n>1?'s':'').replace(/\{BALL\}/g,ballWt),mult,a,r)+'</li>'}).join('');
   var equip=equipList(r);
   var equipHtml=equip.length?'<section class="card"><h2>Equipment</h2><p class="note" style="margin:0">'+equip.join(' · ')+'</p></section>':'';
   var tt=parseTotalTime(r);
