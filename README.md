@@ -1,6 +1,6 @@
 # The Recipe Bench
 
-Recipe app with 368 recipes, sauces and rubs. Scale any recipe up or down, adjust for high elevation, build a shopping list, convert units and keep a spice rack. Replaced the old BakingPro app.
+Recipe app with 418 recipes, sauces and rubs. Scale any recipe up or down, adjust for high elevation, build a shopping list, convert units and keep a spice rack. Replaced the old BakingPro app.
 
 **Open it:** https://thefanguys.github.io/Recipe-Bench/
 
