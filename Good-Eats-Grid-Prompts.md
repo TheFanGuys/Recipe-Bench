@@ -6,7 +6,7 @@ Updated 2026-11-24 — **399 Good Eats dishes in 105 images**, 4 dishes per imag
 
 **Check before sending:** make sure each square shows the dish listed for that spot (top left, top right, bottom left, bottom right). Generators sometimes swap two dishes or blend them. If one square is wrong, still send the grid and say which square. Claude will skip that one and it will stay on the list.
 
-Holiday dishes come first. **Grids 1–104 are done** (396 photos added Nov 24). Only Grid 105 left.
+Holiday dishes come first. **All 105 grids are done** — all 399 Good Eats recipes have photos (added Nov 24).
 
 ### Good Eats · Holiday Favorites (27 dishes, 7 images)
 
@@ -746,10 +746,8 @@ Holiday dishes come first. **Grids 1–104 are done** (396 photos added Nov 24).
 - Bottom left: **Mint Julep**
 - Bottom right: **Barley Water**
 
-**Grid 105** — save as `goodeats-grid-105.jpg`
+**Grid 105** — ✅ DONE (added Nov 24)
 
 - Top left: **Pepper Vodka**
 - Top right: **Hot Cocoa**
 - Bottom left: **Perfect Cup of Tea**
-
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Pepper Vodka (made with bottle of vodka), in a glass. Top right: Hot Cocoa (made with powdered sugar, cocoa, powdered milk), in a glass. Bottom left: Perfect Cup of Tea (made with heaping teaspoons loose tea), in a glass. The bottom right square is plain solid black. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.

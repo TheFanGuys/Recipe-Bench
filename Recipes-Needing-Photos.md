@@ -1,17 +1,16 @@
 # Recipes Still Needing Images
 
-Updated 2026-11-24 — **99 recipes**: 96 need a recipe card, 3 (Good Eats) need a plain dish photo.
+Updated 2026-11-24 — **96 recipes**: 96 need a recipe card, 0 (Good Eats) need a plain dish photo.
 
 **How to use:** paste a prompt into your image generator, save the image with the exact file name shown, and send it to Claude to add.
 
 - **Part 1 — Recipe cards (96).** Same black-and-gold card as your current ones. Holiday recipes first; this week's 7 new ones are marked (new). Check the text on each card before sending — image generators sometimes misspell words or change numbers. The app always uses its own measurements, not the card's. Long steps were cut to their first sentence so the card stays readable.
-- **Part 2 — Good Eats dish photos (3).** Square photo of the dish only, no card or text. Holiday dishes first, then grouped like the Good Eats tabs.
+- **Part 2 — Good Eats dish photos (0).** Square photo of the dish only, no card or text. Holiday dishes first, then grouped like the Good Eats tabs.
 
 ## Contents
 
 - Part 1 — Recipe cards: 96 (19 holiday)
-- Part 2 — Good Eats dish photos: 3
-  - Drinks — 3
+- Part 2 — Good Eats dish photos: 0
 
 ## Part 1 — Recipe cards (96)
 
@@ -591,21 +590,5 @@ Portrait recipe card, 2:3 ratio (1024×1536). Solid black background with a thin
 
 Portrait recipe card, 2:3 ratio (1024×1536). Solid black background with a thin gold border around the whole card. At the top, the dish name in large bold gold serif capital letters, then a white italic line. A thin gold divider line. Left column: a gold serif heading "INGREDIENTS" with the ingredient list in white serif text. Right side: a professional food photo of breakfast chorizo tacos, made with chorizo, eggs, milk, butter, shredded monterey jack, plated on a dark rustic stoneware plate on a dark wood table, warm side lighting, moody dark background, shallow depth of field, the photo fading softly into the black card. Another thin gold divider, then a gold serif heading "METHOD" with numbered steps in white serif text. Thin gold divider, then a white italic footer line centered at the bottom. All text must be spelled exactly as given. Title: "BREAKFAST CHORIZO TACOS". Italic line: "Makes 4 servings". Ingredients: "8 oz chorizo, casing removed"; "6 eggs"; "¼ cup milk"; "Salt and pepper, to taste"; "1 tbsp butter"; "1 cup shredded Monterey Jack"; "8 small flour tortillas"; "Salsa or hot sauce, as needed"; "Chopped cilantro, as needed". Method steps: 1. "Brown the chorizo over medium and set aside." 2. "Whisk the eggs with milk, salt and pepper." 3. "Scramble in the butter until just set." 4. "Fill warm tortillas with chorizo, eggs, cheese and cilantro." Footer: "Organic ingredients if preferred. No seed oils."
 
-## Part 2 — Good Eats dish photos (3)
+## Part 2 — Good Eats dish photos (0)
 
-### Good Eats · Drinks (3)
-
-**97. Pepper Vodka**  
-File name: `pepper-vodka.jpg`
-
-> Professional food photograph of Pepper Vodka, made with peppercorns, bottle of vodka. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**98. Hot Cocoa**  
-File name: `hot-cocoa.jpg`
-
-> Professional food photograph of Hot Cocoa, made with powdered sugar, cocoa, powdered milk, cayenne pepper, hot water or warm milk. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**99. Perfect Cup of Tea**  
-File name: `perfect-cup-of-tea.jpg`
-
-> Professional food photograph of Perfect Cup of Tea, made with heaping teaspoons loose tea. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
