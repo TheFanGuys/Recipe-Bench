@@ -6,100 +6,80 @@ Updated 2026-11-24 — **399 Good Eats dishes in 105 images**, 4 dishes per imag
 
 **Check before sending:** make sure each square shows the dish listed for that spot (top left, top right, bottom left, bottom right). Generators sometimes swap two dishes or blend them. If one square is wrong, still send the grid and say which square. Claude will skip that one and it will stay on the list.
 
-Holiday dishes come first.
+Holiday dishes come first. **Grids 1–10 are done** (39 photos added Nov 24). Next up: Grid 11.
 
 ### Good Eats · Holiday Favorites (27 dishes, 7 images)
 
-**Grid 1** — save as `goodeats-grid-001.jpg`
+**Grid 1** — ✅ DONE (added Nov 24)
 
 - Top left: **Good Eats Roast Turkey** (holiday)
 - Top right: **Turkey with Stuffing** (holiday)
 - Bottom left: **Deep-fried Turkey** (holiday)
 - Bottom right: **City Ham** (holiday)
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Good Eats Roast Turkey (made with light brown sugar, vegetable stock, allspice berries), on a dark stoneware plate. Top right: Turkey with Stuffing (made with chicken broth, dried mushrooms, onion), on a dark stoneware plate. Bottom left: Deep-fried Turkey (made with dark brown sugar), on a dark stoneware plate. Bottom right: City Ham (made with brown mustard, dark brown sugar, bourbon), on a dark stoneware plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 2** — save as `goodeats-grid-002.jpg`
+**Grid 2** — ✅ DONE (added Nov 24)
 
 - Top left: **Country Ham** (holiday)
 - Top right: **Gravy From Roast Drippings** (holiday)
 - Bottom left: **Tart Cranberry Dipping Sauce** (holiday)
 - Bottom right: **In a Cranberry Jam** (holiday)
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Country Ham (made with sweet pickle juice), on a dark stoneware plate. Top right: Gravy From Roast Drippings (made with red wine, beef, bay leaf), in a small bowl or gravy boat. Bottom left: Tart Cranberry Dipping Sauce (made with frozen cranberries, orange juice, ginger ale), in a small bowl or gravy boat. Bottom right: In a Cranberry Jam (made with ginger ale, sugar), in a small bowl or gravy boat. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 3** — save as `goodeats-grid-003.jpg`
+**Grid 3** — ✅ DONE (added Nov 24)
 
 - Top left: **Mashers: Mashed Potatoes** (holiday)
 - Top right: **Chipotle Smashed Sweet Potatoes** (holiday)
 - Bottom left: **Broccoli Casserole** (holiday)
 - Bottom right: **Glazed Carrots** (holiday)
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Mashers: Mashed Potatoes (made with russet potatoes, red potatoes, low-fat buttermilk), on a dark stoneware plate. Top right: Chipotle Smashed Sweet Potatoes (made with sweet potatoes), on a dark stoneware plate. Bottom left: Broccoli Casserole (made with mayonnaise, plain yogurt, blue cheese dressing), on a dark stoneware plate. Bottom right: Glazed Carrots (made with carrots, good-quality ginger ale, chili powder), on a dark stoneware plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 4** — save as `goodeats-grid-004.jpg`
+**Grid 4** — ✅ DONE (added Nov 24)
 
 - Top left: **Baked Macaroni and Cheese** (holiday)
 - Top right: **Stuffed Squash** (holiday)
 - Bottom left: **Squash Soup** (holiday)
 - Bottom right: **Creamed Corn Cornbread** (holiday)
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Baked Macaroni and Cheese (made with elbow macaroni, butter, flour), on a dark stoneware plate. Top right: Stuffed Squash (made with acorn squash, ground pork, onion), on a dark stoneware plate. Bottom left: Squash Soup (made with melted butter, chicken or vegetable stock, honey), on a dark stoneware plate. Bottom right: Creamed Corn Cornbread (made with yellow cornmeal, sugar, baking powder), on a dark stoneware plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 5** — save as `goodeats-grid-005.jpg`
+**Grid 5** — ✅ DONE (added Nov 24)
 
 - Top left: **Southern Biscuits** (holiday)
 - Top right: **Pumpkin Bread** (holiday)
 - Bottom left: **Overnight Cinnamon Rolls** (holiday)
 - Bottom right: **Sweet Potato Pie** (holiday)
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Southern Biscuits (made with flour, baking powder, baking soda), on a breakfast plate. Top right: Pumpkin Bread (made with unbleached all-purpose flour, cinnamon, baking soda), on a dark stoneware plate. Bottom left: Overnight Cinnamon Rolls (made with egg yolks, egg, sugar), on a breakfast plate. Bottom right: Sweet Potato Pie (made with sweet potatoes, plain yogurt, packed), on a dark stoneware plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 6** — save as `goodeats-grid-006.jpg`
+**Grid 6** — ✅ DONE (added Nov 24)
 
 - Top left: **Lemon Meringue Pie** (holiday)
 - Top right: **No Pan Pear Pie** (holiday)
 - Bottom left: **Carrot Cake** (holiday)
 - Bottom right: **Eggnog** (holiday)
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Lemon Meringue Pie (made with egg yolks, cornstarch, sugar), on a dessert plate. Top right: No Pan Pear Pie (made with flour, stone ground cornmeal, sugar), on a dessert plate. Bottom left: Carrot Cake (made with all- purpose flour, grated carrots, baking powder), on a dessert plate. Bottom right: Eggnog (made with egg yolks, sugar, milk), in a glass. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 7** — save as `goodeats-grid-007.jpg`
+**Grid 7** — ✅ DONE (added Nov 24)
 
 - Top left: **Eggnog Ice Cream** (holiday)
 - Top right: **Turkey Re-hash** (holiday)
 - Bottom left: **Turkey Piccata** (holiday)
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Eggnog Ice Cream (made with egg yolks, sugar, milk), on a dessert plate. Top right: Turkey Re-hash (made with breakfast sausage, onion, jalapeño), on a breakfast plate. Bottom left: Turkey Piccata (made with turkey breast, unbleached all-purpose flour, finely  shallots), on a dark stoneware plate. The bottom right square is plain solid black. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
 ### Good Eats · Beef (25 dishes, 7 images)
 
-**Grid 8** — save as `goodeats-grid-008.jpg`
+**Grid 8** — ✅ DONE (added Nov 24)
 
 - Top left: **Burger of the Gods**
 - Top right: **Mini Man Burgers**
 - Bottom left: **Corn Dogs**
 - Bottom right: **Good Eats Meat Loaf**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Burger of the Gods (made with chuck, sirloin), on a dark stoneware plate. Top right: Mini Man Burgers (made with onion powder, garlic powder, ground chuck), on a dark stoneware plate. Bottom left: Corn Dogs (made with sets chopsticks, yellow cornmeal, unbleached all-purpose flour), on a dark stoneware plate. Bottom right: Good Eats Meat Loaf (made with garlic-flavored croutons, chili powder, dried thyme), on a dark stoneware plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 9** — save as `goodeats-grid-009.jpg`
+**Grid 9** — ✅ DONE (added Nov 24)
 
 - Top left: **Baked Meatballs**
 - Top right: **Swedish Meatballs**
 - Bottom left: **Pan Seared Rib Eye**
 - Bottom right: **Pot Roast**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Baked Meatballs (made with ground pork, ground lamb, ground round), on a dark stoneware plate. Top right: Swedish Meatballs (made with slices  white bread, milk, clarified butter), on a dark stoneware plate. Bottom left: Pan Seared Rib Eye (made with boneless rib eye steak), on a dark stoneware plate. Bottom right: Pot Roast (made with package, cumin, onion), on a dark stoneware plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 10** — save as `goodeats-grid-010.jpg`
+**Grid 10** — ✅ DONE (added Nov 24)
 
 - Top left: **Braciole: Tied Flank Steak**
 - Top right: **Sirloin Steak**
 - Bottom left: **Skirt Steak**
 - Bottom right: **Strip Steak with Pepper Cream Sauce**
-
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Braciole: Tied Flank Steak (made with tomato sauce, flavored croutons, grated parmesan), on a dark stoneware plate. Top right: Sirloin Steak (made with sirloin steak), on a dark stoneware plate. Bottom left: Skirt Steak (made with blow dryer, soy sauce, scallions), on a dark stoneware plate. Bottom right: Strip Steak with Pepper Cream Sauce (made with strip steaks, clarified, beef stock or broth), on a dark stoneware plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
 
 **Grid 11** — save as `goodeats-grid-011.jpg`
 
