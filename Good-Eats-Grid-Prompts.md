@@ -6,7 +6,7 @@ Updated 2026-11-24 — **399 Good Eats dishes in 105 images**, 4 dishes per imag
 
 **Check before sending:** make sure each square shows the dish listed for that spot (top left, top right, bottom left, bottom right). Generators sometimes swap two dishes or blend them. If one square is wrong, still send the grid and say which square. Claude will skip that one and it will stay on the list.
 
-Holiday dishes come first. **Grids 1–30 are done** (112 photos added Nov 24). Next up: Grid 31.
+Holiday dishes come first. **Grids 1–50 are done** (188 photos added Nov 24). Next up: Grid 51.
 
 ### Good Eats · Holiday Favorites (27 dishes, 7 images)
 
@@ -222,187 +222,147 @@ Holiday dishes come first. **Grids 1–30 are done** (112 photos added Nov 24). 
 - Bottom left: **French Onion Soup**
 - Bottom right: **Leftover Baked Potato Soup**
 
-**Grid 31** — save as `goodeats-grid-031.jpg`
+**Grid 31** — ✅ DONE (added Nov 24)
 
 - Top left: **Papaya Soup**
 - Top right: **Garden Vegetable Soup**
 - Bottom left: **Bulgur Gazpacho**
 - Bottom right: **Grape Gazpacho**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Papaya Soup (made with sugar, lemons, limes), on a dark stoneware plate. Top right: Garden Vegetable Soup (made with leeks, finely  garlic, carrots), on a dark stoneware plate. Bottom left: Bulgur Gazpacho (made with tomato puree, bulgur, balsamic vinegar), on a dark stoneware plate. Bottom right: Grape Gazpacho (made with cucumber, granny smith apple, tomatillos), on a dark stoneware plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 32** — save as `goodeats-grid-032.jpg`
+**Grid 32** — ✅ DONE (added Nov 24)
 
 - Top left: **Fresh Pasta**
 - Top right: **Pasta: Spaghetti**
 - Bottom left: **Ravioli**
 - Bottom right: **Tortellini**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Fresh Pasta (made with unbleached all-purpose flour, eggs), on a dark stoneware plate. Top right: Pasta: Spaghetti (made with dried spaghetti, cloves garlic), on a dark stoneware plate. Bottom left: Ravioli (made with balsamic vinegar, grated parmesan, dry oregano), on a dark stoneware plate. Bottom right: Tortellini (made with ricotta cheese, grated parmesan, spinach), on a dark stoneware plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 33** — save as `goodeats-grid-033.jpg`
+**Grid 33** — ✅ DONE (added Nov 24)
 
 - Top left: **Stove Top Mac-n-cheese**
 - Top right: **Next Day Mac and Cheese Toast**
 - Bottom left: **Steamed Couscous**
 - Bottom right: **Pizza Pizzas**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Stove Top Mac-n-cheese (made with elbow macaroni, butter, eggs), on a dark stoneware plate. Top right: Next Day Mac and Cheese Toast (made with unbleached all-purpose flour, cayenne, panko bread crumbs), on a dark stoneware plate. Bottom left: Steamed Couscous (made with couscous), on a dark stoneware plate. Bottom right: Pizza Pizzas (made with sugar, bread flour, instant yeast), on a dark stoneware plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 34** — save as `goodeats-grid-034.jpg`
+**Grid 34** — ✅ DONE (added Nov 24)
 
 - Top left: **Ramen Shrimp Pouch**
 - Top right: **Stone Fruit Pouches**
 - Bottom left: **Red Snapper En Papillote**
 - Bottom right: **Salmon Fillet En Papillote with Julienne Vegetable**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Ramen Shrimp Pouch (made with squares aluminum foil, packages ramen noodles, dried mushrooms), on a dark stoneware plate. Top right: Stone Fruit Pouches (made with crushed gingersnaps, apricots, plums), on a dark stoneware plate. Bottom left: Red Snapper En Papillote (made with couscous, package, bunch  oregano), on a dark stoneware plate. Bottom right: Salmon Fillet En Papillote with Julienne Vegetable (made with julienned fennel bulb, julienned leeks, julienned carrots), on a dark stoneware plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 35** — save as `goodeats-grid-035.jpg`
+**Grid 35** — ✅ DONE (added Nov 24)
 
 - Top left: **Split Pea Burgers**
 - Top right: **Fillet O Fu**
 - Bottom left: **Vegetable Curry**
 - Bottom right: **Vegetarian Steamed Dumplings**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Split Pea Burgers (made with onion, garlic, mushrooms), on a dark stoneware plate. Top right: Fillet O Fu (made with package, sherry vinegar, worcestershire sauce), on a dark stoneware plate. Bottom left: Vegetable Curry (made with bag, plain yogurt, cornstarch), on a dark stoneware plate. Bottom right: Vegetarian Steamed Dumplings (made with firm tofu, coarsely grated carrots, shredded napa cabbage), on a dark stoneware plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 36** — save as `goodeats-grid-036.jpg`
+**Grid 36** — ✅ DONE (added Nov 24)
 
 - Top left: **Abs Beefy Broth**
 - Top right: **Chicken Stock**
 - Bottom left: **Cheese Souffle**
 - Bottom right: **Good Eats Court Bouillon**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Abs Beefy Broth (made with onions, ribs celery, carrots), on a dark stoneware plate. Top right: Chicken Stock (made with chicken carcasses, onion, carrots), on a dark stoneware plate. Bottom left: Cheese Souffle (made with butter, grated parmesan, flour), on a dark stoneware plate. Bottom right: Good Eats Court Bouillon (made with white wine, lemon, onion), on a dark stoneware plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 37** — save as `goodeats-grid-037.jpg`
+**Grid 37** — ✅ DONE (added Nov 24)
 
 - Top left: **Haggis**
 - Top right: **Refrigerator Pie**
 - Bottom left: **Pear Walnut Wontons**
 - Bottom right: **Pressure Cooker Chili**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Haggis (made with sheep stomach, sheep liver, sheep heart), on a dark stoneware plate. Top right: Refrigerator Pie (made with heavy cream or half-and-half, eggs, freshly grated nutmeg), on a dark stoneware plate. Bottom left: Pear Walnut Wontons (made with sugar, vanilla bean, orange liqueur), on a dark stoneware plate. Bottom right: Pressure Cooker Chili (made with stew meat, bottle, container), on a dark stoneware plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 38** — save as `goodeats-grid-038.jpg`
+**Grid 38** — ✅ DONE (added Nov 24)
 
 - Top left: **Pad Thai**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Pad Thai (made with tamarind paste, fish sauce, palm sugar), on a dark stoneware plate. The top right, bottom left, bottom right squares are plain solid black. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
 ### Good Eats · Breakfast (27 dishes, 7 images)
 
-**Grid 39** — save as `goodeats-grid-039.jpg`
+**Grid 39** — ✅ DONE (added Nov 24)
 
 - Top left: **Instant Pancake Mix**
 - Top right: **Pancakes**
 - Bottom left: **Basic Waffle**
 - Bottom right: **Chocolate Waffle**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Instant Pancake Mix (made with unbleached all-purpose flour, baking soda, baking powder), on a breakfast plate. Top right: Pancakes (made with eggs, buttermilk, melted butter), on a breakfast plate. Bottom left: Basic Waffle (made with unbleached all-purpose flour, -wheat flour, baking soda), on a breakfast plate. Bottom right: Chocolate Waffle (made with unbleached all-purpose flour, sugar, cocoa powder), on a breakfast plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 40** — save as `goodeats-grid-040.jpg`
+**Grid 40** — ✅ DONE (added Nov 24)
 
 - Top left: **Pecan, Sour Cream Waffles**
 - Top right: **Sweet Potato Waffles**
 - Bottom left: **Crêpes**
 - Bottom right: **Crêpe Quiche Lorraine**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Pecan, Sour Cream Waffles (made with milk, sour cream, eggs), on a breakfast plate. Top right: Sweet Potato Waffles (made with unbleached all-purpose flour, baking powder, milk), on a breakfast plate. Bottom left: Crêpes (made with eggs, milk, flour), on a breakfast plate. Bottom right: Crêpe Quiche Lorraine (made with butter, yellow onion, strips cooked bacon), on a breakfast plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 41** — save as `goodeats-grid-041.jpg`
+**Grid 41** — ✅ DONE (added Nov 24)
 
 - Top left: **Crêpes Suzette**
 - Top right: **Scrambled Eggs Unscrambled**
 - Bottom left: **Omelet**
 - Bottom right: **Omelet for a Crowd**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Crêpes Suzette (made with sweet crepes, butter, your favorite liquor), on a breakfast plate. Top right: Scrambled Eggs Unscrambled (made with eggs, milk, pat of butter), on a breakfast plate. Bottom left: Omelet (made with eggs, room temperature butter, chives), on a breakfast plate. Bottom right: Omelet for a Crowd (made with eggs, any combination, room temperature butter), on a breakfast plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 42** — save as `goodeats-grid-042.jpg`
+**Grid 42** — ✅ DONE (added Nov 24)
 
 - Top left: **Eggs Over Easy**
 - Top right: **Poached Egg Tips**
 - Bottom left: **Frittata**
 - Bottom right: **Blueberry Muffins**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Eggs Over Easy (made with eggs), on a breakfast plate. Top right: Poached Egg Tips (made with very  eggs), on a breakfast plate. Bottom left: Frittata (made with eggs, parmesan, butter), on a breakfast plate. Bottom right: Blueberry Muffins (made with cake flour, baking soda, baking powder), on a breakfast plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 43** — save as `goodeats-grid-043.jpg`
+**Grid 43** — ✅ DONE (added Nov 24)
 
 - Top left: **English Muffins**
 - Top right: **Overnight Oatmeal**
 - Bottom left: **Steel Cut Oatmeal**
 - Bottom right: **Breakfast Sausage**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: English Muffins (made with non-fat powdered milk, sugar, shortening), on a breakfast plate. Top right: Overnight Oatmeal (made with steel cut oats, dried cranberries, dried figs), on a breakfast plate. Bottom left: Steel Cut Oatmeal (made with butter, steel cut oats, milk), on a breakfast plate. Bottom right: Breakfast Sausage (made with pork butt, fatback, finely   sage leaves), on a breakfast plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 44** — save as `goodeats-grid-044.jpg`
+**Grid 44** — ✅ DONE (added Nov 24)
 
 - Top left: **Italian Sausage**
 - Top right: **Fresh Yogurt**
 - Bottom left: **Lemon-ginger Frozen Yogurt**
 - Bottom right: **10 Minute Apple Sauce**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Italian Sausage (made with fennel seed, parsley leaves, pork butt), on a breakfast plate. Top right: Fresh Yogurt (made with 2-percent milk, powdered milk, honey), on a breakfast plate. Bottom left: Lemon-ginger Frozen Yogurt (made with plain yogurt, light corn syrup, granulated sugar), on a breakfast plate. Bottom right: 10 Minute Apple Sauce (made with golden delicious apples, fuji apples, unfiltered apple juice), on a breakfast plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 45** — save as `goodeats-grid-045.jpg`
+**Grid 45** — ✅ DONE (added Nov 24)
 
 - Top left: **Cheese Grits**
 - Top right: **French Toast**
 - Bottom left: **Savory Polenta**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Cheese Grits (made with milk, coarse ground cornmeal, sharp cheddar), on a breakfast plate. Top right: French Toast (made with half-and-half, eggs, honey), on a breakfast plate. Bottom left: Savory Polenta (made with finely  red onion, cloves garlic, chicken stock or broth), on a breakfast plate. The bottom right square is plain solid black. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
 ### Good Eats · Breads (8 dishes, 2 images)
 
-**Grid 46** — save as `goodeats-grid-046.jpg`
+**Grid 46** — ✅ DONE (added Nov 24)
 
 - Top left: **Very Basic Bread**
 - Top right: **Scones**
 - Bottom left: **Basic Cooked Wheat Berries**
 - Bottom right: **Olive Loaf**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Very Basic Bread (made with bread flour, instant rapid rise yeast, honey), on a dark stoneware plate. Top right: Scones (made with flour, baking powder, sugar), on a dark stoneware plate. Bottom left: Basic Cooked Wheat Berries (made with wheat berries), on a dark stoneware plate. Bottom right: Olive Loaf (made with unbleached all-purpose flour, baking powder, pitted), on a dark stoneware plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 47** — save as `goodeats-grid-047.jpg`
+**Grid 47** — ✅ DONE (added Nov 24)
 
 - Top left: **Corn Tortillas**
 - Top right: **Baked Barley**
 - Bottom left: **Barley Bread**
 - Bottom right: **Overnight Monkey Bread**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Corn Tortillas (made with dried corn kernels, slaked lime), on a dark stoneware plate. Top right: Baked Barley (made with hulled barley), on a dark stoneware plate. Bottom left: Barley Bread (made with barley flour, baking powder, honey), on a dark stoneware plate. Bottom right: Overnight Monkey Bread (made with egg yolks, egg, sugar), on a dark stoneware plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
 ### Good Eats · Appetizers (13 dishes, 4 images)
 
-**Grid 48** — save as `goodeats-grid-048.jpg`
+**Grid 48** — ✅ DONE (added Nov 24)
 
 - Top left: **Bruschetta**
 - Top right: **Fondue Vudu**
 - Bottom left: **Welsh Rarebit**
 - Bottom right: **Mango Chutney**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Bruschetta (made with head garlic), on a dark stoneware plate. Top right: Fondue Vudu (made with clove garlic, bottle, lemon juice), on a dark stoneware plate. Bottom left: Welsh Rarebit (made with unbleached all-purpose flour, dijon mustard, worcestershire sauce), on a dark stoneware plate. Bottom right: Mango Chutney (made with mangos, chile flakes, dice red onion), on a dark stoneware plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 49** — save as `goodeats-grid-049.jpg`
+**Grid 49** — ✅ DONE (added Nov 24)
 
 - Top left: **Spicy Pineapple Slices**
 - Top right: **Abs B & Bs**
 - Bottom left: **Firecrackers**
 - Bottom right: **Hurry Curry Cauliflower**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Spicy Pineapple Slices (made with chile powder, dark brown sugar, slices pineapple), on a dark stoneware plate. Top right: Abs B & Bs (made with onion, cucumbers, cider vinegar), on a dark stoneware plate. Bottom left: Firecrackers (made with mini carrots, sugar, cider vinegar), on a dark stoneware plate. Bottom right: Hurry Curry Cauliflower (made with cumin seed, coriander seed, curry powder), on a dark stoneware plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 50** — save as `goodeats-grid-050.jpg`
+**Grid 50** — ✅ DONE (added Nov 24)
 
 - Top left: **Kinda Sorta Sours**
 - Top right: **Pickled Beets**
 - Bottom left: **Summer Fruits**
 - Bottom right: **4- Pepper Deviled Eggs**
-
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Kinda Sorta Sours (made with onion, cucumbers, cider vinegar), on a dark stoneware plate. Top right: Pickled Beets (made with beets, shallots, sprigs rosemary), on a dark stoneware plate. Bottom left: Summer Fruits (made with bartlett pear, red plum, lemon), on a dark stoneware plate. Bottom right: 4- Pepper Deviled Eggs (made with hard boiled eggs, caper liquid, mayonnaise), on a dark stoneware plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
 
 **Grid 51** — save as `goodeats-grid-051.jpg`
 
