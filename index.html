@@ -158,6 +158,8 @@ table{width:100%;border-collapse:collapse}
 td{padding:11px 0;border-bottom:1px solid var(--line);vertical-align:top;font-size:15px}
 tr:last-child td{border-bottom:0}
 td.g{text-align:right;font:600 15px 'JetBrains Mono',monospace;color:var(--accent2);padding-left:10px;white-space:nowrap}
+td.v:empty{display:none}.wsub{font:500 11px 'JetBrains Mono',monospace;color:var(--muted)}
+.mtoggle{display:flex;gap:6px;margin:0 0 10px}.mtoggle button{flex:1;padding:8px 6px;border-radius:10px;border:1px solid var(--line,#ccc);background:transparent;color:var(--ink);font:600 13px inherit;cursor:pointer}.mtoggle button.on{background:var(--accent);border-color:var(--accent);color:#fff}
 td.v{text-align:right;color:var(--muted);padding-left:8px;font:500 12px 'JetBrains Mono',monospace;white-space:nowrap}
 tr.sec td{font:400 18px Fraunces,serif;padding-top:18px;color:var(--blue)}
 .chg{color:var(--blue);font-size:12px}
@@ -316,7 +318,7 @@ img{max-width:100%}
 <canvas id="scene" aria-hidden="true"></canvas>
 <div class="herotop"><div class="brandmark"><i></i>The Recipe Bench</div><span class="count-badge" id="totalCount"></span><button class="iconbtn" id="themeToggle" aria-label="Toggle dark mode" type="button"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" id="themeIcon"><circle cx="12" cy="12" r="4.5"/><path d="M12 2.5v2.3M12 19.2v2.3M4.4 4.4l1.6 1.6M18 18l1.6 1.6M2.5 12h2.3M19.2 12h2.3M4.4 19.6l1.6-1.6M18 6l1.6-1.6"/></svg></button><button class="iconbtn" id="cartBtnHome" aria-label="Shopping list" type="button"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="20" r="1.4" fill="currentColor" stroke="none"/><circle cx="18" cy="20" r="1.4" fill="currentColor" stroke="none"/><path d="M2.5 3h2.2l2 12.2a2 2 0 0 0 2 1.7h8.7a2 2 0 0 0 2-1.6L21 8H6"/></svg><span class="badge-dot" id="cartDotHome" style="display:none"></span></button></div>
 <div class="herocopy">
-<div class="eyebrow">v1.1 · Recipe Measurement Update</div>
+<div class="eyebrow">v1.2 · Holiday Favorites + cups &amp; spoons measuring</div>
 <div class="eyebrow">Find it · Make it · Make it yours</div>
 <h1 class="herotitle"><span>Cook it</span><span>your way.</span></h1>
 <p class="herosub" id="heroSub"></p>
@@ -429,8 +431,10 @@ img{max-width:100%}
 
 <details class="card">
 <summary>How to measure odd amounts</summary>
-<p class="note">Grams (bold) are the accurate number — a kitchen scale removes all guesswork. The lighter number next to it is the closest practical spoon or cup combo.</p>
-<p class="note">Standard spoons only come in ⅛, ¼, ½, and 1 tsp (and ½, 1 tbsp). An amount like ⅜ tsp isn't a single spoon — it's ¼ tsp <b>plus</b> ⅛ tsp, added together. This app writes it that way instead of showing a fraction you can't actually measure. Amounts marked <span class="approx">●</span> are close approximations — weigh them if it matters.</p>
+<p class="note">Every amount is written for a normal set of measuring cups (1, ½, ⅓, ¼) and spoons (1 tbsp, 1 tsp, ½, ¼, ⅛ tsp). The app picks the fewest scoops that land within 3% of the exact amount — closer than most people can level a cup. Have a kitchen scale? Tap <b>Grams (scale)</b> above the ingredients.</p>
+<p class="note">⅔ cup = two ⅓ cups. ¾ cup = ½ cup + ¼ cup. ⅜ tsp is written as ¼ tsp <b>+</b> ⅛ tsp, added together. 1 tbsp = 3 tsp. 1 stick of butter = 8 tbsp = ½ cup.</p>
+<p class="note"><b>Scant</b> means fill the spoon a little short of level. <b>Generous</b> means a little over level (slightly rounded). You'll only see these on tiny amounts where no spoon is exactly right.</p>
+<p class="note">Meat, whole vegetables and cans are listed the way they're sold (lb, oz, or cans) — match the store label. Flour: spoon it into the cup and level it off; don't scoop straight from the bag. Brown sugar: pack it in.</p>
 <p class="note">No ⅛ tsp spoon? Fill a ¼ tsp about halfway, or use a rounded pinch between two fingers — about ⅛ tsp. For a true dash under that, it's a light pinch.</p>
 </details>
 
@@ -2015,6 +2019,53 @@ var GE_DATA=[{"id":"ge-bruschetta","group":"Good Eats","gt":"apps","gsub":"Chees
 var GE_XTIPS=[["Coffee",["Buy whole beans from a busy shop or a roaster, and grind them yourself. If you can't, have the store grind whole beans for you instead of buying pre-ground.","Bulk bins are fine only if they're small and refilled often. Big bins mean beans sit around going stale.","Packaged beans should come in a foil bag with a small one-way valve. No valve usually means the coffee sat and went stale before it was bagged.","Buy about a week's worth at a time. Sealed valve bags stay fresh about 3 months unopened. Split big bulk buys into weekly batches in sealed jars and freeze them.","Keep the open beans airtight, in the dark, at room temperature, and use within a week. A paper bag with a twist top is for carrying, not storing.","Grind right before brewing: about 15–20 seconds in a blade grinder for drip, 10–12 seconds for a French press.","Use 2 heaping tablespoons of coffee per 6 ounces of clean, cool water. Want it milder? Brew full strength and add hot water after. Too little coffee over-extracts and tastes bitter.","A gold mesh filter lets more of the coffee's character through than paper.","Buy a coffee maker that brews into a thermal carafe. A glass pot on a hot plate keeps cooking the coffee and makes it bitter."]],["Tea",["Bring water to a full boil for black teas like English and Irish breakfast. Oolong likes about 200°F and green tea about 180°F.","Steep black tea 3–5 minutes, oolong 4–7, green 2–3. Longer just adds bitterness."]],["Biscuits",["Alton's grandmother Mae Skelton's advice: the biscuit recipe on a bag of White Lily self-rising flour is hard to beat — and easier than her grandson's."]],["Smoking at home",["Alton's cardboard box smoker: a heavy corrugated box with no paint inside, a flap door, an electric hot plate with a small cast-iron skillet of hardwood sawdust on it, two wooden dowels pushed through the box to hold an oven rack, and probe thermometers — one in the box, one in the food.","Use only untreated hardwood sawdust or chips. Never pressure-treated wood or plywood.","For smoked fish, keep the box between 150°F and 160°F and smoke until the thickest part hits 150°F.","Dry cured meat or fish until the surface is tacky and matte before smoking (a fan speeds it up) — smoke sticks to a dry surface."]],["Herbs",["Alton's ten herbs everyone should know: chives, mint, thyme, dill, rosemary, oregano, basil, tarragon, sage and parsley."]],["Canning & preserving",["Sterilize jars and lids by washing them in hot soapy water, then boiling them covered in water for 15 minutes. Handle them with tongs whose tips you've dipped in boiling water.","Use glass jars with no chips or cracks, and two-piece lids — they're the ones that vacuum seal.","Hot food goes into hot jars and cold food into cold jars, so the glass doesn't crack.","The band doesn't seal the jar. Leaving headspace lets the boiling drive the air out, and the vacuum as it cools does the sealing.","Water boils cooler at altitude, so processing takes longer: under 1,000 ft 5 minutes; 1,000–3,000 ft 10; 3,000–6,000 ft 15 (Prescott); 6,000–8,000 ft 20.","Don't start the processing timer until the water is at a true, hard boil."]],["Sushi words",["Maki-zushi: rice and fillings rolled in seaweed and sliced. Nigiri-zushi: fish on top of a small ball of rice. Temaki: a hand roll shaped like a cone. Sashimi: sliced raw seafood with no rice.","Nori is the seaweed sheet, shoyu is soy sauce, and wasabi is the green horseradish paste.","“Omakase” means “chef's choice — make me something good.” Add “o kudasai” after an item to ask for it, like “maguro o kudasai” for tuna.","“Kanpai!” is a toast. “Arigato” is thanks."]]];
 //@@GE_DATA_END
 GE_DATA.forEach(function(o){o.style=o.lbl;o.name=o.lbl;R.push(o)});
+// ---- Holiday additions (Nov 2026): each lives in its normal section ----
+// Amounts are in teaspoons (48 tsp = 1 cup) so they always show as cups & spoons.
+R.push(
+{id:'side-stuffing-martha',group:'Sides',side:'stuffing',style:'Classic Stuffing',lbl:'Classic Stuffing (Martha Stewart)',name:'Classic Stuffing (Martha Stewart)',holiday:1,
+ u:['cup','cups'],b:12,c:[6,12,18,24],d:12,min:3,max:48,k:'n',v:1,url:'https://www.marthastewart.com/337620/classic-stuffing',
+ ing:[['butter','Unsalted butter (1½ sticks), plus more for the dish',36,'tsp'],['onion','Onions, cut into ¼-inch dice (4 onions is about 2 lb)',4,'ea',1],['celery','Celery stalks, cut into ¼-inch dice',16,'ea',1],
+  ['sage','Large fresh sage leaves, chopped (no fresh? use 1 tsp crushed dried sage for every 5 leaves)',10,'ea',1],['stock','Chicken stock (low-sodium if store-bought)',288,'tsp'],
+  ['bread','Loaves of stale white bread, crusts on, cut into 1-inch cubes (about 18 slices per loaf; check the label for unenriched flour if that matters to you)',2,'ea',0],
+  ['salt','Salt',2,'tsp'],['pepper','Freshly ground black pepper',4,'tsp'],['parsley','Chopped fresh flat-leaf parsley (about 2 bunches)',144,'tsp'],
+  ['pecans','Pecans, toasted and chopped (optional)',96,'tsp'],['cherries','Dried cherries (optional)',96,'tsp']],
+ st:['Heat the oven to 375°F and butter a large baking dish (or two, for a big batch).','Melt the butter in a large skillet over medium heat. Add the onions and celery and cook, stirring now and then, until the onions are soft and see-through, about 10 minutes.','Stir in the sage and cook 3 to 4 minutes more.','Pour in {ing:stock:0.0833} of the stock and simmer about 5 minutes, until it cooks down by about half.','Move the vegetables to a very large bowl. Add the bread, salt, pepper, parsley, and the pecans and cherries if using. Add the rest of the stock a little at a time, tossing as you go, until the bread is moist but not soggy.','To stuff a turkey, fill it loosely right before it goes in the oven. Bake the rest in the buttered dish about 45 minutes, until golden on top and 165°F in the center.'],
+ nt:'Published recipe — Martha Stewart, "Classic Stuffing." The Martha Stewart site couldn’t be opened from here, so amounts were matched across several copies of her recipe. Steps are rewritten. Her listed yield is 12 cups.'},
+{id:'side-stuffing-oldfashioned',group:'Sides',side:'stuffing',style:'Old-Fashioned Stuffing',lbl:'Old-Fashioned Stuffing (Allrecipes)',name:'Old-Fashioned Stuffing (Allrecipes)',holiday:1,
+ u:['batch','batches'],b:1,c:[1,2,3],d:1,min:1,max:4,k:'n',v:1,url:'https://www.allrecipes.com/recipe/23412/old-fashioned-stuffing/',pan:{label:'9×13 dish',plural:'9×13 dishes',each:1},
+ ing:[['bread','Slices white bread, lightly toasted',30,'ea',1],['butter','Butter',6,'tsp'],['onion','Large onion, finely chopped',1,'ea',1],['celery','Celery stalks, finely chopped',2,'ea',1],
+  ['eggs','Eggs, lightly beaten',2,'ea',1],['broth','Chicken broth',96,'tsp'],['sage','Rubbed sage',2,'tsp'],['garlic','Garlic powder',1,'tsp'],['sp','Salt and pepper',0,'tt','to taste']],
+ st:['Toast the bread lightly, let it cool, and cut into cubes. Put the cubes in a large bowl.','Heat the oven to 350°F and butter a 9×13 baking dish.','Melt the butter in a skillet over medium heat. Cook the onion and celery until soft, 5 to 8 minutes, and add them to the bread.','Sprinkle in the sage, garlic powder, salt and pepper.','Whisk the eggs into the broth, pour it over the bread, and toss until everything is evenly moist.','Spread in the dish, cover with foil, and bake 30 minutes. Uncover and bake about 15 minutes more, until the top is golden and the center reaches 165°F. (Or use it to stuff the turkey.)'],
+ nt:'Ingredients are Allrecipes’ "Old Fashioned Stuffing" (recipe 23412), taken from a copy that credits Allrecipes, since Allrecipes couldn’t be opened from here. The bake time and dish size are standard for this amount of stuffing, not confirmed from the original. Steps are rewritten.'},
+{id:'entree-turkeybreast-sahc',group:'Entrees: American',style:'Turkey',name:'Simple Oven-Roasted Turkey Breast (The Stay At Home Chef)',lbl:'Simple Oven-Roasted Turkey Breast (The Stay At Home Chef)',prot:['turkey'],holiday:1,
+ u:['turkey breast','turkey breasts'],b:1,c:[1,2],d:1,min:1,max:4,k:'n',v:1,url:'https://thestayathomechef.com/oven-roasted-turkey-breast/',
+ ing:[['turkey','Turkey breast, bone-in or boneless, 3 to 8 lb',1,'ea',1],['oil','Olive oil (or melted butter)',6,'tsp'],['paprika','Paprika',2,'tsp'],['oregano','Dried oregano',2,'tsp'],['rosemary','Dried rosemary, crumbled',2,'tsp'],
+  ['salt','Salt (use less if the breast is kosher or "enhanced" — it’s already salted)',2,'tsp'],['thyme','Dried thyme',1,'tsp'],['pepper','Black pepper',1,'tsp'],['onionp','Onion powder',1,'tsp'],['garlicp','Garlic powder',1,'tsp']],
+ st:['Heat the oven to 375°F. Pat the turkey dry and set it skin side up on a rack in a roasting pan (or in a greased 9×13 pan).','Stir the oil and all the seasonings together into a paste.','Gently loosen the skin with your fingers and rub some of the paste on the meat under the skin. Rub the rest over the skin.','Roast about 20 minutes per pound. Start checking at about 12 minutes per pound, in the thickest part, away from the bone.','Take it out at 160°F. Tent with foil and rest 10 to 15 minutes — it will climb to 165°F as it rests.','Slice across the grain.'],
+ nt:'Published recipe — The Stay At Home Chef, "Simple Oven Roasted Turkey Breast." Amounts from her recipe card. Steps are rewritten. The rub is for one 3 to 8 lb breast; for two breasts, make it twice.'},
+{id:'entree-turkeybreast-ar',group:'Entrees: American',style:'Turkey',name:'Oven-Roasted Turkey Breast with Pan Gravy (Allrecipes)',lbl:'Oven-Roasted Turkey Breast with Pan Gravy (Allrecipes)',prot:['turkey'],holiday:1,
+ u:['turkey breast','turkey breasts'],b:1,c:[1,2],d:1,min:1,max:4,k:'n',v:1,url:'https://www.allrecipes.com/recipe/229658/oven-roasted-turkey-breast/',
+ ing:[['#','Turkey'],['butter','Butter, softened',12,'tsp'],['garlic','Garlic clove, minced',1,'ea',1],['paprika','Paprika',1,'tsp'],['italian','Italian seasoning',1,'tsp'],['herb','Salt-free garlic and herb seasoning (like Mrs. Dash)',0.5,'tsp'],['sp','Salt and black pepper',0,'tt','to taste'],['turkey','Turkey breast with skin, about 3 lb',1,'ea',1],
+  ['#','Pan gravy'],['shallot','Minced shallot',1,'tsp'],['butter2','Butter',3,'tsp'],['wine','Dry white wine',0,'tt','a splash'],['stock','Chicken stock',48,'tsp'],['flour','Unbleached all-purpose flour',9,'tsp'],['hh','Half-and-half (optional; milk works)',6,'tsp']],
+ st:['Heat the oven to 350°F.','Mix the softened butter, garlic, paprika, Italian seasoning, garlic-herb seasoning, salt and pepper.','Set the turkey skin side up in a roasting pan. Loosen the skin with your fingers and brush half the butter mixture over the meat and under the skin. Save the rest. Tent loosely with foil.','Roast 1 hour. Baste with the rest of the butter mixture and keep roasting until the thickest part reads 165°F. Go by the thermometer — a 3 lb breast usually needs another 30 to 60 minutes.','Move the turkey to a board and rest it 10 minutes before slicing.','Gravy: pour the pan drippings into a skillet over low heat. Cook the shallot in the drippings until soft, about 5 minutes. Melt in the butter, add the wine, and scrape up the browned bits.','Whisk in the stock and flour until smooth. Simmer, whisking, until thick. Stir in the half-and-half for a lighter, creamier gravy.'],
+ nt:'Allrecipes "Oven-Roasted Turkey Breast." Allrecipes couldn’t be opened from here, so ingredients and steps were matched across copies of the recipe. The roast time after basting wasn’t confirmed — use a thermometer. Steps are rewritten.'},
+{id:'entree-turkeylegs',group:'Entrees: American',style:'Turkey',name:'Roasted Turkey Legs',lbl:'Roasted Turkey Legs',prot:['turkey'],holiday:1,
+ u:['turkey leg','turkey legs'],b:4,c:[2,4,6,8],d:4,min:1,max:12,k:'n',v:0,url:'https://www.allrecipes.com/recipe/84456/roasted-turkey-legs/',
+ ing:[['legs','Turkey legs (drumsticks), about 1 lb each',4,'ea',1],['butter','Butter, melted',12,'tsp'],['salt','Salt',1,'tsp'],['garlicp','Garlic powder',1,'tsp'],['paprika','Paprika',1,'tsp'],['thyme','Dried thyme',1,'tsp'],['pepper','Black pepper',0.5,'tsp']],
+ st:['Heat the oven to 350°F. Pat the legs dry.','Mix the salt, garlic powder, paprika, thyme and pepper.','Brush the legs all over with the melted butter, then rub on the seasoning, getting some under the skin where you can.','Set them on a rack in a roasting pan and roast 1¼ to 1¾ hours, until the thickest part reads 175°F near (not touching) the bone. If the skin browns too fast, lay foil over the top.','Rest 10 minutes before serving.'],
+ nt:'Standard recipe — the Allrecipes page you sent couldn’t be opened from here, so this uses the common butter-and-seasoning ratio for roasted turkey legs. Send the Allrecipes amounts and they can be swapped in. Dark meat is safe at 165°F but turns tender around 175 to 180°F.'},
+{id:'side-white-rice',group:'Sides',side:'rice',style:'Perfect White Rice',lbl:'Perfect White Rice',name:'Perfect White Rice',holiday:1,
+ u:['serving','servings'],b:4,c:[2,4,6,8,12],d:4,min:2,max:24,k:'n',v:0,url:'https://www.allrecipes.com/recipe/281215/perfect-white-rice/',
+ ing:[['rice','Long-grain white rice',48,'tsp'],['water','Water',84,'tsp'],['butter','Butter (optional)',3,'tsp'],['salt','Salt',0.5,'tsp']],
+ st:['Rinse the rice in a strainer under cold water until the water runs mostly clear. Drain well.','Bring the water, salt and butter to a boil in a saucepan with a tight lid.','Stir in the rice, let it come back to a simmer, then cover and turn the heat to low. Cook 18 minutes without lifting the lid.','Take it off the heat and leave it covered 10 minutes.','Fluff with a fork and serve. For more than 3 cups of dry rice, use a wide pot so it cooks evenly.'],
+ an:'Up in the mountains (Prescott sits about 5,300 ft up) water boils cooler, so rice can come out firm. A common fix is about 2 tbsp more water per cup of rice and a few extra minutes on low. That’s a rule of thumb, not an exact number.',
+ nt:'Standard recipe — the Allrecipes page you sent couldn’t be opened from here, so this is the common rinse-boil-steam method at 1¾ cups water per cup of long-grain rice (1 cup dry rice makes about 3 cups cooked). Send the Allrecipes amounts and they can be swapped in.'},
+{id:'sauce-turkey-gravy-dd',group:'Sauces: Gravies',style:'Turkey Gravy (Damn Delicious)',lbl:'The Best Turkey Gravy (Damn Delicious)',name:'The Best Turkey Gravy (Damn Delicious)',holiday:1,
+ u:['batch','batches'],b:1,c:[1,2,3],d:1,min:1,max:6,k:'n',v:1,url:'https://damndelicious.net/2018/11/14/how-to-make-the-best-turkey-gravy/',
+ ing:[['drip','Turkey pan drippings, strained (short? top up with chicken or turkey stock)',120,'tsp'],['butter','Unsalted butter',12,'tsp'],['flour','Unbleached all-purpose flour',12,'tsp'],['thyme','Chopped fresh thyme',2,'tsp'],['parsley','Chopped fresh parsley',3,'tsp'],['sp','Salt and black pepper',0,'tt','to taste']],
+ st:['Strain the pan drippings and throw out the solids. You want {ing:drip}.','Melt the butter in a saucepan over medium heat. Whisk in the flour and thyme and cook about 1 minute, until lightly browned.','Slowly whisk in the drippings. Bring to a boil, then lower the heat and simmer, whisking, until thick, 5 to 10 minutes.','Stir in the parsley, season with salt and pepper, and serve warm.'],
+ nt:'Published recipe — Damn Delicious, "How to Make the Best Turkey Gravy." Amounts from her recipe card. Steps are rewritten. Makes about 2½ cups.'}
+);
 var GE_TABS=[['beef','Beef'],['porklamb','Pork & Lamb'],['chicken','Chicken & Poultry'],['fish','Fish & Seafood'],['more','More Entrees'],['breakfast','Breakfast'],['breads','Breads'],['apps','Appetizers'],['salads','Salads'],['sides','Sides'],['snacks','Snacks'],['toppings','Sauces & Toppings'],['desserts','Desserts'],['drinks','Drinks']];
 function geRow(r){return {id:r.id,label:r.lbl,sub:(r.gsub&&r.gsub!=='Other'?r.gsub+' · ':'')+(r.ep||'Good Eats')}}
 //@@CB_DATA_START
@@ -2107,8 +2158,7 @@ function parseLine(line){
 }
 // --- formatting ---
 function friendlyVol(tsp){
-  var measure=vol(tsp);
-  return (measure.approx?'≈ ':'')+measure.txt;
+  return vol(tsp).txt;
 }
 function friendlyWt(g){
   var oz=g/28.3495;
@@ -3116,35 +3166,49 @@ function fr(x){
   return s||'0';
 }
 
-function vol(tsp){
-  if(tsp<=0) return {txt:'0 tsp',approx:false};
-  var eighths=Math.round(tsp*8);
-  // Keep quantities that are poorly represented by an eighth-teaspoon
-  // increment in decimal teaspoons. The metric column remains available.
-  if(tsp<.125||Math.abs(eighths/8-tsp)>Math.min(.025,tsp*.05)){
-    var wholeCups=Math.floor(tsp/48), rest=tsp-wholeCups*48;
-    var wholeTablespoons=Math.floor(rest/3);
-    var spoonRemainder=rest-wholeTablespoons*3;
-    var precise=Number(spoonRemainder.toPrecision(5));
-    var mixed=[];
-    if(wholeCups) mixed.push(wholeCups+' cup'+(wholeCups===1?'':'s'));
-    if(wholeTablespoons) mixed.push(wholeTablespoons+' tbsp');
-    if(precise) mixed.push(precise+' tsp');
-    return {txt:mixed.join(' + '),approx:Math.abs(precise-spoonRemainder)>1e-9};
+// Turn any amount (in teaspoons) into something you can measure with a normal
+// set of cups (1, 1/2, 1/3, 1/4) and spoons (1 tbsp, 1, 1/2, 1/4, 1/8 tsp).
+// Picks the fewest scoops that land close to the real amount (within 5%, or
+// 12% for amounts under a tablespoon), trading one extra scoop for 5% accuracy.
+// Anything more than 4% off is labeled scant/generous so you can correct by eye. If no spoon
+// combo gets that close (only happens with tiny amounts), it says "scant"
+// (a little under the spoon) or "generous" (a little over).
+var CUPFR=[[0,'',0],[12,'¼',1],[16,'⅓',1],[24,'½',1],[32,'⅔',2],[36,'¾',2]];
+function spoonPieces(e){var w=Math.floor(e/8),r=e%8;return w+[0,1,1,2,1,2,2,3][r]}
+function tspText(e){
+  var w=Math.floor(e/8),r=e%8;
+  var g=['','⅛','¼','¼ + ⅛','½','½ + ⅛','¾','½ + ¼ + ⅛'][r];
+  if(!r) return w+' tsp';
+  if(r===3||r===5||r===7) return (w?w+' tsp + ':'')+g+' tsp';
+  return (w||'')+g+' tsp';
+}
+function vol(tsp,tolIn){
+  if(!(tsp>0)) return {txt:'0 tsp',approx:false,err:0};
+  if(tsp<0.09) return {txt:tsp<0.04?'a tiny pinch':'a pinch',approx:false,err:0};
+  var best=null,bestAny=null,tol=tolIn||(tsp>=3?0.05:0.12);
+  var c0=Math.floor(tsp/48);
+  for(var c=Math.max(0,c0-1);c<=c0+1;c++) for(var f=0;f<CUPFR.length;f++){
+    var base=c*48+CUPFR[f][0];
+    if(base>tsp*1.2+0.5) continue;
+    var kmax=Math.min(15,Math.max(0,Math.ceil((tsp-base)/3)+1));
+    for(var k=0;k<=kmax;k++) for(var e=0;e<24;e++){
+      var tot=base+k*3+e/8;if(tot<=0) continue;
+      if(k&&e>=24) continue;
+      var err=Math.abs(tot-tsp)/tsp,pcs=c+CUPFR[f][2]+k+spoonPieces(e);
+      var cand={c:c,f:f,k:k,e:e,tot:tot,err:err,pcs:pcs};
+      cand.cost=pcs+(tsp>=48?40:20)*err;
+      if(err<=tol&&(!best||cand.cost<best.cost-1e-9)) best=cand;
+      if(!bestAny||err<bestAny.err-1e-9||(Math.abs(err-bestAny.err)<1e-9&&pcs<bestAny.pcs)) bestAny=cand;
+    }
   }
-  var cups=Math.floor(eighths/384);
-  var remaining=eighths%384;
-  // Prefer an exact familiar cup fraction before breaking it into spoons.
-  var fractions={48:'⅛',96:'¼',128:'⅓',144:'⅜',192:'½',240:'⅝',256:'⅔',288:'¾',336:'⅞'};
-  var cupFraction=fractions[remaining];
-  if(cupFraction) remaining=0;
-  var tablespoons=Math.floor(remaining/24);
-  var teaspoons=(remaining%24)/8;
-  var parts=[];
-  if(cups||cupFraction) parts.push((cups||'')+(cupFraction||'')+' cup'+(cups>1||cups&&cupFraction?'s':''));
-  if(tablespoons) parts.push(tablespoons+' tbsp');
-  if(teaspoons) parts.push(fr(teaspoons)+' tsp');
-  return {txt:parts.join(' + '),approx:Math.abs(eighths/8-tsp)>1e-9};
+  var b=best||bestAny,parts=[];
+  if(b.c||b.f){var cn=b.c+(CUPFR[b.f][0]/48);parts.push((b.c||'')+CUPFR[b.f][1]+' cup'+(cn>1?'s':''))}
+  if(b.k) parts.push(b.k+' tbsp');
+  if(b.e) parts.push(tspText(b.e));
+  var txt=parts.join(' + ');
+  // the word goes on the last (smallest) spoon, since that's the one you fill short or over
+  if(b.err>0.04&&!tolIn) txt=txt.replace(/([\d⅛¼⅓½⅔¾]+)(\s(?:tsp|tbsp|cups?))$/,(b.tot>tsp?'scant ':'generous ')+'$1$2');
+  return {txt:txt,approx:b.err>0.15,err:b.err};
 }
 function gm(x,u){return (x<1?x.toFixed(2):x<10?x.toFixed(1):Math.round(x))+' '+u}
 
@@ -3312,6 +3376,7 @@ function computeBread(r,mult){
 }
 
 function renderBread(){
+  LAST_RENDER=renderBread;
   var r=curBread;
   var n,mult;
   if(curBMode==='loaves'){
@@ -3334,18 +3399,18 @@ function renderBread(){
     localStorage.setItem('bk_bcount',$('bcount').value||'');localStorage.setItem('bk_bweight',$('bweight').value||'');localStorage.setItem('bk_ktemp',String(temp));}catch(e){}
 
   CURRENT_ING=[];CURRENT_LABEL=r.name;CURRENT_QTY=n+' '+(n===1?r.unit:(r.unit==='loaf'?'loaves':r.unit+'s'));
-  var rows=c.flours.map(function(f){CURRENT_ING.push({name:f.name,amount:f.g,unit:'g'});return '<tr><td>'+f.name+'</td><td class="g">'+gm(f.g,'g')+'</td><td class="v">'+vol(f.g*f.v).txt+'</td></tr>'}).join('');
+  var rows=c.flours.map(function(f){CURRENT_ING.push({name:f.name,amount:f.g,unit:'g'});return '<tr><td>'+f.name+'</td>'+mcell(gm(f.g,'g'),vol(f.g*f.v).txt)+'</tr>'}).join('');
   CURRENT_ING.push({name:'Water',amount:c.waterDirect,unit:'ml'});
-  rows+='<tr><td>Water</td><td class="g">'+gm(c.waterDirect,'ml')+'</td><td class="v">'+vol(c.waterDirect*LQ).txt+'</td></tr>';
-  if(r.starter){CURRENT_ING.push({name:r.starter.name,amount:c.starterG,unit:'g'});rows+='<tr><td>'+r.starter.name+'</td><td class="g">'+gm(c.starterG,'g')+'</td><td class="v">—</td></tr>'}
+  rows+='<tr><td>Water</td>'+mcell(gm(c.waterDirect,'ml'),vol(c.waterDirect*LQ).txt)+'</tr>';
+  if(r.starter){CURRENT_ING.push({name:r.starter.name,amount:c.starterG,unit:'g'});rows+='<tr><td>'+r.starter.name+'</td>'+mcell(gm(c.starterG,'g'),'about '+vol(c.starterG*.2).txt)+'</tr>'}
   CURRENT_ING.push({name:'Fine sea salt',amount:c.saltG,unit:'g'});
-  rows+='<tr><td>Fine sea salt</td><td class="g">'+gm(c.saltG,'g')+'</td><td class="v">'+vol(c.saltG*SA).txt+'</td></tr>';
+  rows+='<tr><td>Fine sea salt</td>'+mcell(gm(c.saltG,'g'),vol(c.saltG*SA).txt)+'</tr>';
   c.other.forEach(function(o){
     var vt;
     if(o.unit==='egg'){var e=o.g/50,rr=Math.round(e*2)/2;vt=Math.abs(e-rr)<1e-9&&rr>=.5?fr(rr)+(rr>1?' eggs':' egg'):'beat & weigh'}
     else vt=vol(o.g*o.v).txt;
     CURRENT_ING.push({name:o.name,amount:o.g,unit:'g'});
-    rows+='<tr><td>'+o.name+'</td><td class="g">'+gm(o.g,'g')+'</td><td class="v">'+vt+'</td></tr>';
+    rows+='<tr><td>'+o.name+'</td>'+mcell(gm(o.g,'g'),vt)+'</tr>';
   });
 
   var bulk=r.coldRetard?r.bulkHrs[0]+' to '+r.bulkHrs[1]+' hours, refrigerated':fermRange(r.bulkHrs,temp);
@@ -3356,7 +3421,7 @@ function renderBread(){
   var plural=r.unit==='loaf'?'loaves':(r.unit+'s');
   var un=n===1?r.unit:plural;
   $('out').innerHTML=
-   '<section class="card"><h2>Ingredients for '+n+' '+un+'</h2><table>'+rows+'</table>'+
+   '<section class="card"><h2>Ingredients for '+n+' '+un+'</h2>'+measureBar()+'<table>'+rows+'</table>'+
    '<p class="note">Total dough: '+gm(c.totalDough,'g')+' · Hydration: '+Math.round(c.hydrationPct)+'% (starter\u2019s own flour and water included) · Whole grain: '+Math.round(c.wgPct)+'%</p>'+
    '<p class="note">'+srcLine+'</p></section>'+
    '<section class="card"><h2>Fermentation'+(r.coldRetard?'':', around '+temp+'°F')+'</h2>'+
@@ -3381,6 +3446,7 @@ function computeChefPizza(r,mult,n){
 }
 
 function renderChefPizza(){
+  LAST_RENDER=renderChefPizza;
   var r=curChefPizza;
   var res=parseQty($('cpcount').value,1,20);
   $('cpcounterr').textContent=res.err||'';
@@ -3389,21 +3455,21 @@ function renderChefPizza(){
   try{localStorage.setItem('bk_r','cp:'+r.id);localStorage.setItem('bk_cpcount',$('cpcount').value)}catch(e){}
   var c=computeChefPizza(r,mult,n);
   CURRENT_ING=[];CURRENT_LABEL=r.chef;CURRENT_QTY=n+' '+(n>1?'pizzas':'pizza');
-  var rows=c.flours.map(function(f){CURRENT_ING.push({name:f.name,amount:f.g,unit:'g'});return '<tr><td>'+f.name+'</td><td class="g">'+gm(f.g,'g')+'</td><td class="v">'+vol(f.g*f.v).txt+'</td></tr>'}).join('');
+  var rows=c.flours.map(function(f){CURRENT_ING.push({name:f.name,amount:f.g,unit:'g'});return '<tr><td>'+f.name+'</td>'+mcell(gm(f.g,'g'),vol(f.g*f.v).txt)+'</tr>'}).join('');
   var waterUnit=r.waterUnit||'ml';
   CURRENT_ING.push({name:'Water',amount:c.water,unit:waterUnit});
-  rows+='<tr><td>Water</td><td class="g">'+gm(c.water,waterUnit)+'</td><td class="v">'+vol(c.water*LQ).txt+'</td></tr>';
+  rows+='<tr><td>Water</td>'+mcell(gm(c.water,waterUnit),vol(c.water*LQ).txt)+'</tr>';
   CURRENT_ING.push({name:r.yeast?r.yeast.name:'Instant yeast',amount:c.yeast,unit:'g'});
-  rows+='<tr><td>'+(r.yeast?r.yeast.name:'Instant yeast')+'</td><td class="g">'+gm(c.yeast,'g')+'</td><td class="v">'+vol(c.yeast*(r.yeast?r.yeast.v:.32)).txt+'</td></tr>';
+  rows+='<tr><td>'+(r.yeast?r.yeast.name:'Instant yeast')+'</td>'+mcell(gm(c.yeast,'g'),vol(c.yeast*(r.yeast?r.yeast.v:.32)).txt)+'</tr>';
   CURRENT_ING.push({name:'Fine sea salt',amount:c.salt,unit:'g'});
-  rows+='<tr><td>Fine sea salt</td><td class="g">'+gm(c.salt,'g')+'</td><td class="v">'+vol(c.salt*SA).txt+'</td></tr>';
-  if(c.oil>0){var oilUnit=r.oilUnit||'ml';CURRENT_ING.push({name:'Olive oil',amount:c.oil,unit:oilUnit});rows+='<tr><td>Olive oil</td><td class="g">'+gm(c.oil,oilUnit)+'</td><td class="v">'+vol(c.oil*LQ/(oilUnit==='g'?.91:1)).txt+'</td></tr>'}
-  if(r.pct&&r.pct.malt){CURRENT_ING.push({name:'Diastatic malt powder',amount:c.malt,unit:'g'});rows+='<tr><td>Diastatic malt powder</td><td class="g">'+gm(c.malt,'g')+'</td><td class="v">'+vol(c.malt*.4).txt+'</td></tr>'}
+  rows+='<tr><td>Fine sea salt</td>'+mcell(gm(c.salt,'g'),vol(c.salt*SA).txt)+'</tr>';
+  if(c.oil>0){var oilUnit=r.oilUnit||'ml';CURRENT_ING.push({name:'Olive oil',amount:c.oil,unit:oilUnit});rows+='<tr><td>Olive oil</td>'+mcell(gm(c.oil,oilUnit),vol(c.oil*LQ/(oilUnit==='g'?.91:1)).txt)+'</tr>'}
+  if(r.pct&&r.pct.malt){CURRENT_ING.push({name:'Diastatic malt powder',amount:c.malt,unit:'g'});rows+='<tr><td>Diastatic malt powder</td>'+mcell(gm(c.malt,'g'),vol(c.malt*.4).txt)+'</tr>'}
   var perBall=c.totalDough/n;
   var steps=r.method.map(function(s){return '<li>'+s.replace('{N}',n).replace('{BALL}',Math.round(r.ballWeight||perBall))+'</li>'}).join('').replace(/\b1 balls\b/g,'1 ball');
   var srcLine='<a href="'+r.url+'" target="_blank" rel="noopener">'+r.source+'</a>'+(r.adapted?' — <b>adapted</b>, see note below':' — published recipe');
   $('out').innerHTML=
-   '<section class="card"><h2>'+r.chef+' ('+r.size+') for '+n+' '+(n>1?'pizzas':'pizza')+'</h2><table>'+rows+'</table>'+
+   '<section class="card"><h2>'+r.chef+' ('+r.size+') for '+n+' '+(n>1?'pizzas':'pizza')+'</h2>'+measureBar()+'<table>'+rows+'</table>'+
    '<p class="note">Total dough: '+gm(c.totalDough,'g')+', about '+gm(perBall,'g')+' per ball.</p>'+
    (r.flourNote?'<p class="note">'+r.flourNote+'</p>':'')+
    '<p class="note">'+srcLine+'</p>'+
@@ -3434,19 +3500,142 @@ function alt(ft,r){
 var cur=R[0],lastCount=null,countTouched=false;
 
 var CURRENT_ING=[],CURRENT_LABEL='',CURRENT_QTY='';
+// ---- measuring mode: cups & spoons (default) or grams for kitchen-scale users ----
+var MEASURE='cups';try{if(localStorage.getItem('rb_measure')==='grams')MEASURE='grams'}catch(e){}
+var LAST_RENDER=null;
+function measureBar(){
+  return '<div class="mtoggle" role="group" aria-label="How to measure"><button type="button" data-measure="cups" class="'+(MEASURE==='cups'?'on':'')+'">Cups &amp; spoons</button><button type="button" data-measure="grams" class="'+(MEASURE==='grams'?'on':'')+'">Grams (scale)</button></div>';
+}
+document.addEventListener('click',function(ev){
+  var b=ev.target&&ev.target.closest&&ev.target.closest('[data-measure]');if(!b) return;
+  MEASURE=b.getAttribute('data-measure');try{localStorage.setItem('rb_measure',MEASURE)}catch(e){}
+  if(LAST_RENDER) LAST_RENDER();
+});
+// Two amount cells. household = cups/spoons/count/lb, metric = grams or ml.
+// Cups mode shows only the household amount; grams mode puts grams first.
+function mcell(metric,household){
+  if(MEASURE==='grams') return '<td class="g">'+metric+'</td><td class="v">'+household+'</td>';
+  return '<td class="g">'+household+'</td><td class="v"></td>';
+}
+// Grams per level US cup for things that are normally weighed in a recipe but can
+// be scooped. Matched against the ingredient name, first match wins, so more
+// specific names come first. Values: King Arthur weight chart and USDA FoodData.
+var CUPG=[
+ [/powdered sugar|confectioners/,120],[/brown sugar/,213],[/coconut sugar/,150],[/\bsugar\b/,200],
+ [/whole wheat flour/,120],[/bread flour/,120],[/cake flour/,114],[/almond flour/,96],[/masa/,114],[/barley flour/,100],[/\bflour\b/,125],
+ [/pickling salt|canning salt/,290],[/zest/,96],[/whole (black )?peppercorns|peppercorns/,136],[/cocoa/,85],[/chocolate chips|chocolate chunks|chips\b/,170],[/chocolate.*(chopped|grated)|(chopped|grated).*chocolate/,150],
+ [/rolled oats|\boats\b/,90],[/cornmeal|polenta|grits/,140],[/panko/,50],[/bread ?crumbs/,110],[/cornflakes|corn flakes|rice cereal|chex/,30],
+ [/uncooked rice|long.grain|basmati|jasmine|arborio|white rice|brown rice|\brice\b(?!.*cooked)/,185],[/cooked rice/,160],[/quinoa/,170],[/lentils/,190],[/split peas/,200],[/dried corn/,190],[/wheat berries/,185],[/barley/,200],
+ [/peanut butter/,260],[/honey/,340],[/maple syrup/,320],[/molasses/,340],[/corn syrup/,328],[/\bjam\b|preserves|jelly/,320],[/nutella|hazelnut spread/,300],
+ [/cream cheese/,230],[/sour cream/,230],[/ricotta/,245],[/cottage cheese/,225],[/yogurt/,245],[/mayonnaise|\bmayo\b/,220],[/ketchup/,270],[/salsa/,260],[/tomato paste/,260],[/tomato sauce|crushed tomatoes|tomato puree|marinara/,245],
+ ['LOOSE'], [/(grated|shredded).*(parmesan|parmigiano|pecorino|romano)|(parmesan|parmigiano|pecorino|romano).*(grated|shredded)/,100],
+ [/pizza sauce|bbq sauce|barbecue sauce|enchilada sauce|hot sauce|alfredo sauce/,250],[/(shredded|grated).*(cheese|cheddar|mozzarella|jack|swiss|gruy|fontina|colby|gouda|provolone|havarti)|(cheese|cheddar|mozzarella|jack|swiss|gruy|fontina|colby|gouda|provolone|havarti).*(shredded|grated)/,113],
+ [/crumbled.*(feta|blue|goat|cotija|gorgonzola)|(feta|blue cheese|goat cheese|cotija|gorgonzola).*crumbled/,140],
+ [/sliced almonds/,85],[/slivered almonds/,110],[/almonds/,140],[/pecans|walnuts/,115],[/peanuts/,145],[/cashews/,130],[/pistachios/,125],[/macadamia/,135],[/hazelnuts/,135],[/pine nuts/,135],[/pumpkin seeds|pepitas/,130],[/sunflower seeds/,140],[/sesame seeds/,145],
+ [/raisins|currants/,150],[/dried cranberries|craisins/,120],[/dried cherries|dried apricots|dates|prunes|dried fruit|candied/,150],[/coconut/,85],[/marshmallows/,50],
+ [/(chopped|diced|minced|sliced).*onion|onion.*(chopped|diced|minced|sliced)/,160],[/(sliced|chopped).*(green onion|scallion)|(green onion|scallion).*(sliced|chopped)/,100],[/shallots?.*(minced|chopped)|(minced|chopped).*shallot/,160],
+ [/garlic.*(minced|chopped)|(minced|chopped).*garlic/,136],[/ginger.*(minced|grated|chopped)|(minced|grated).*ginger/,96],
+ [/(bell )?peppers?.*(chopped|diced|sliced)|(chopped|diced|sliced).*(bell pepper|peppers)/,150],[/jalape.*(chopped|diced|minced|sliced)|(chopped|diced|minced|sliced).*jalape/,90],
+ [/celery.*(chopped|diced|sliced)|(chopped|diced|sliced).*celery/,120],[/carrots?.*(shredded|grated)|(shredded|grated).*carrot/,110],[/carrots?.*(chopped|diced|sliced)|(chopped|diced|sliced).*carrot/,128],[/mini carrots|baby carrots/,128],
+ [/mushroom|shiitake|cremini|baby bella/,70],[/broccoli/,90],[/cauliflower/,107],[/frozen spinach/,190],[/spinach|arugula/,30],[/kale/,67],[/lettuce|romaine/,47],[/cabbage|slaw/,70],[/bean sprouts/,104],
+ [/(chopped|diced).*tomato|tomato.*(chopped|diced)|cherry tomatoes|grape tomatoes/,180],[/potato.*(diced|cubed|chopped)|(diced|cubed|chopped).*potato/,150],[/sweet potato.*(cubed|diced|mashed)|(cubed|diced).*sweet potato/,133],[/zucchini|squash.*(diced|cubed|chopped)/,125],
+ [/cucumber.*(sliced|chopped|diced)|(sliced|chopped|diced).*cucumber/,130],[/corn kernels|frozen corn|\bcorn\b(?!.*(starch|syrup|meal|tortilla|flakes))/,165],[/\bpeas\b/,145],[/green beans/,110],[/edamame/,155],
+ [/(parsley|cilantro|basil|mint|dill).*(chopped|minced|leaves)|(chopped|minced).*(parsley|cilantro|basil|mint|dill)/,60],
+ [/pickles?.*(sliced|chopped)|(sliced|chopped).*pickle|relish/,155],[/olives/,135],[/capers/,135],
+ [/blueberries|raspberries|blackberries|strawberries|cranberries|cherries/,145],[/apples?.*(sliced|chopped|diced)|(sliced|chopped|diced).*apple/,110],[/mango.*(diced|cubed|chopped)/,165],[/pineapple.*(diced|chunks|chopped)/,165],
+ [/(drained|rinsed).*beans|beans.*(drained|rinsed)|chickpeas|garbanzo/,170]
+];
+var LOOSE_FROM=0;
+var NO_CUP=/\b(steak|roast|brisket|ribs?|chuck|sirloin|ribeye|tenderloin|loin|chops?|breasts?|thighs?|wings?|drumsticks?|legs?|whole|fillets?|filets?|salmon|tuna|cod|halibut|tilapia|shrimp|scallops|lobster|crab|squid|clams|mussels|ground (beef|pork|turkey|chicken|lamb)|beef|pork|lamb|veal|chicken|turkey|duck|sausage|chorizo|bacon|ham|pancetta|guanciale|prosciutto|tofu|halved|quartered|peeled and halved|heads?|bunch|block|loaf|loaves|slab)\b/;
+for(var _i=0;_i<CUPG.length;_i++) if(CUPG[_i][0]==='LOOSE'){LOOSE_FROM=_i;CUPG.splice(_i,1);break}
+// grated cheeses are an estimate too
+function cupDensity(name){
+  var t=(name||'').toLowerCase();
+  // Butter stays in tbsp/sticks no matter what else the name says
+  if(/\bbutter\b/.test(t)&&!/peanut butter|apple butter|nut butter|almond butter|buttermilk|butternut|butter beans/.test(t)) return {g:227,butter:true};
+  if(/\b(lard|shortening|ghee|tallow|coconut oil)\b/.test(t)) return {g:205};
+  for(var i=0;i<CUPG.length;i++) if(CUPG[i][0].test(t)){
+    if(/peppercorns|zest|seeds/.test(t)) return {g:CUPG[i][1]};
+    // a piece of meat or a whole vegetable is bought and used by weight, not scooped
+    if(NO_CUP.test(t)&&!/(chopped|diced|minced|sliced|shredded|grated|crumbled|cubed)/.test(t)) return null;
+    return {g:CUPG[i][1],loose:i>=LOOSE_FROM};
+  }
+  return null;
+}
+// The source's own cup amount, written in the name ("approximately 1 1/2 cups", "(1 stick)").
+function statedTsp(name){
+  var t=(name||'').replace(/[½¼¾⅓⅔⅛]/g,function(c){return ' '+{'½':'1/2','¼':'1/4','¾':'3/4','⅓':'1/3','⅔':'2/3','⅛':'1/8'}[c]});
+  var m=t.match(/(\d+(?:\s+\d+\/\d+)?|\d+\/\d+)\s*(cups?|sticks?|tablespoons?|tbsp|quarts?)\b/i);
+  if(!m) return null;
+  var n=m[1].trim().split(/\s+/).reduce(function(a,x){if(x.indexOf('/')>-1){var q=x.split('/');return a+(+q[0])/(+q[1])}return a+(+x)},0);
+  var u=m[2].toLowerCase();
+  return n*(u.indexOf('cup')===0?48:u.indexOf('stick')===0?24:u.indexOf('quart')===0?192:3);
+}
+// Household amount for an ingredient stored only as a weight.
+function weightOnly(name,amt,base){
+  var t=(name||'').toLowerCase();
+  if(/^(can|cans|jar|package|pkg|box|bottle|bag)\b|\b(can|jar|package|box|bottle)\b.*\b(of|drained)\b/.test(t)&&base>0){
+    var cnt=amt/base,word=(t.match(/\b(can|jar|package|box|bottle|bag)\b/)||['','can'])[1];
+    return fmtCount(cnt)+' '+word+(cnt>1.01?(word==='box'?'es':'s'):'')+' ('+friendlyWt(base)+' each)';
+  }
+  var st=statedTsp(name);
+  if(st&&base>0&&!/\b(about|approximately|approx)\b.*\b(lb|pound|ounce|oz)\b/.test(t)){
+    var v=vol(st*amt/base).txt;
+    if(/\bbutter\b/.test(t)&&!/peanut butter/.test(t)) v=butterText(amt);
+    return v;
+  }
+  var d=cupDensity(name);
+  if(d&&d.butter) return butterText(amt);
+  if(d) return vol(amt/d.g*48,d.loose?0.1:0).txt;
+  // cheese in a block: say the weight, plus roughly how much that grates to
+  if(/cheddar|mozzarella|gruy|swiss|jack|fontina|gouda|parmesan|parmigiano|provolone|colby|havarti|cheese/.test(t)&&!/cream cheese/.test(t)&&amt>=28){
+    var crumb=/blue|feta|goat|cotija|gorgonzola|queso fresco/.test(t);
+    return friendlyWt(amt)+' <span class="wsub">(about '+vol(amt/(crumb?140:/parm|pecorino|romano/.test(t)?100:113)*48,0.1).txt+(crumb?' crumbled':' shredded')+')</span>';
+  }
+  // the name already gives a count ("Star anise, 2 whole", "Dried chiles, 6")
+  var cm=t.match(/,\s*(\d+)(?:\s+(?:whole|pieces?|large|small|medium|slices?|cloves?|links?|sprigs?|leaves|sheets?))?\s*(?:\(|$|,)|\b(\d+)\s+(?:whole|pieces)\b/);
+  if(cm&&base>0&&amt<60){var c=+(cm[1]||cm[2])*amt/base;return fmtCount(c)}
+  for(var k=0;k<EACHG.length;k++) if(EACHG[k][0].test(t)&&!/(chopped|ground|crushed|flakes)/.test(t)){
+    var n=Math.max(1,Math.round(amt/EACHG[k][1]));var w=EACHG[k][2];
+    return 'about '+n+(w?' '+w+(n>1?(w==='leaves'?'':'s'):''):'').replace('leaves'+'','leaves');
+  }
+  var w2=roughWt(amt);
+  var about=t.match(/(?:about|approximately|approx\.?)\s+(\d+)\s+(?:small to medium|small|medium|large)?\s*([a-z]+)/);
+  var hint=about&&about[2]!=='to'&&base>0&&!/\b(oz|ounces?|lbs?|pounds?|cups?|quarts?|tablespoons?|teaspoons?)\b/.test(about[2])?' <span class="wsub">(about '+fmtCount(+about[1]*amt/base)+' '+about[2]+')</span>':'';
+  if(!w2) return 'a small amount'+hint;
+  return w2+(hint||(NO_CUP.test(t)&&amt>=200?' <span class="wsub">(package weight)</span>':''));
+}
+// Weights for things bought whole: round to what a store label or a
+// cook would actually say (no "15¾ oz").
+function roughWt(g){
+  var oz=g/28.3495;
+  if(oz>=12){var q=Math.round(oz/4)/4*1;var lbq=Math.round(oz/16*4)/4;
+    if(Math.abs(lbq*16-oz)/oz<0.04) return fr(lbq)+' lb';
+    var lb=Math.floor(oz/16),ro=Math.round(oz-lb*16);if(ro>=16){lb++;ro=0}
+    return (lb?lb+' lb':'')+(ro?(lb?' ':'')+ro+' oz':'');}
+  if(oz>=2) return fr(Math.round(oz*2)/2)+' oz';
+  if(oz>=0.5) return fr(Math.round(oz*4)/4)+' oz';
+  return null;
+}
+// Small whole things, by typical weight of one
+var EACHG=[[/bay leaves?/,0.3,'leaves'],[/dried (red )?chil(i|e)s?|dried red chili peppers|whole dried chili|chiles? de arbol|dried chil/,0.5,''],[/bouillon cubes?/,4,'cube'],[/star anise/,1,''],[/egg yolks?/,18,'yolk'],[/egg whites?/,33,'white'],[/cinnamon sticks?/,3,'stick']];
+function butterText(g){
+  var v=vol(g/227*48).txt,sticks=Math.round(g/113.4*4)/4;
+  return v+(g>=56&&Math.abs(sticks*113.4-g)/g<0.06?' <span class="wsub">('+fr(sticks)+' stick'+(sticks>1?'s':'')+')</span>':'');
+}
 function ingRow(i,mult,a,r){
   if(i[0]==='#') return '<tr class="sec"><td colspan="3">'+i[1]+'</td></tr>';
   if(i[3]==='tt'){CURRENT_ING.push({name:i[1],amount:0,unit:'tt',lbl:i[4]||''});return '<tr><td>'+i[1]+'</td><td class="g">'+(i[4]||'to taste')+'</td><td class="v"></td></tr>'}
-  if(i[3]==='tsp'){var ts=i[2]*mult;CURRENT_ING.push({name:i[1],amount:ts,unit:'tsp'});return '<tr><td>'+i[1]+'</td><td class="g">'+friendlyVol(ts)+'</td><td class="v">'+metricVol(ts)+'</td></tr>'}
+  if(i[3]==='tsp'){var ts=i[2]*mult;CURRENT_ING.push({name:i[1],amount:ts,unit:'tsp'});return '<tr><td>'+i[1]+'</td><td class="g">'+friendlyVol(ts)+'</td><td class="v">'+(MEASURE==='grams'?metricVol(ts):'')+'</td></tr>'}
   if(i[3]==='ea'){var ea=i[2]*mult;if(i[4])ea=Math.max(1,Math.ceil(ea-1e-6));CURRENT_ING.push({name:i[1],amount:ea,unit:'ea'});return '<tr><td>'+i[1]+'</td><td class="g">'+fmtCount(ea)+'</td><td class="v"></td></tr>'}
   var amt=i[2]*mult,ch='',v=i[4],vt,approx=false;
   if(r.cut&&r.cut.indexOf(i[0])>-1&&a.l){amt*=1-a.l;ch=' <span class="chg">reduced</span>'}
   if(i[0]===r.li&&a.q){amt+=a.q*14.79*mult;ch=' <span class="chg">increased</span>'}
   if(v==='egg'){var e=amt/50,rr=Math.round(e*2)/2;if(Math.abs(e-rr)>.15||rr<.5)approx=true;vt=Math.abs(e-rr)<1e-9&&rr>=.5?fr(rr)+(rr>1?' eggs':' egg'):'beat & weigh'}
-  else if(v===0){var oz=amt/28.35;vt=oz>=16?fr(Math.round(oz/4)/4)+' lb':fr(Math.round(oz*2)/2)+' oz'}
+  else if(v===0){vt=weightOnly(i[1],amt,i[2])}
   else{var vv=vol(amt*v);vt=vv.txt;approx=vv.approx}
   CURRENT_ING.push({name:i[1],amount:amt,unit:i[3]});
-  return '<tr><td>'+i[1]+ch+'</td><td class="g">'+gm(amt,i[3])+'</td><td class="v">'+(approx?'<span class="approx">●</span> ':'')+vt+'</td></tr>';
+  return '<tr><td>'+i[1]+ch+'</td>'+mcell(gm(amt,i[3]),(approx?'<span class="approx">●</span> ':'')+vt)+'</tr>';
 }
 
 // Resolve {ing:key} and {ing:key:frac} placeholders in instruction text to the
@@ -3465,7 +3654,7 @@ function ingText(key,mult,a,r,frac){
   if(i[0]===r.li&&a.q) amt+=a.q*14.79*mult;
   if(frac) amt*=frac;
   if(v==='egg'){var e=amt/50,rr=Math.round(e*2)/2;return Math.abs(e-rr)<1e-9&&rr>=.5?fr(rr)+(rr>1?' eggs':' egg'):gm(amt,'g')+' beaten egg'}
-  if(v===0){var oz=amt/28.35;return oz>=16?fr(Math.round(oz/4)/4)+' lb':fr(Math.round(oz*2)/2)+' oz'}
+  if(v===0) return weightOnly(i[1],amt,i[2]).replace(/<[^>]+>/g,'');
   return vol(amt*v).txt
 }
 function fillIngPlaceholders(s,mult,a,r){
@@ -3547,6 +3736,7 @@ function fmtTime(mins){
   return h+'h'+(m?' '+m+'m':'');
 }
 function renderGeneric(){
+  LAST_RENDER=renderGeneric;
   var r=cur;
   var res=parseQty($('count').value,r.min,r.max);
   $('counterr').textContent=res.err||'';
@@ -3591,7 +3781,7 @@ function renderGeneric(){
   var tt=parseTotalTime(r);
   var ttHtml=tt?'<p class="note" style="margin:0 0 6px">⏱ About '+fmtTime(tt.minutes)+(tt.hasOptionalLong?', plus an optional longer rest \u2014 see method':'')+' <span style="color:var(--muted)">(estimated by adding up the times below)</span></p>':'';
   out.innerHTML=
-   '<section class="card"><h2>Ingredients for '+n+' '+un+'</h2><table>'+rows+'</table>'+tips+'</section>'+
+   '<section class="card"><h2>Ingredients for '+n+' '+un+'</h2>'+measureBar()+'<table>'+rows+'</table>'+tips+'</section>'+
    (r.k==='n'?'':'<section class="card"><h2>Elevation: '+ft.toLocaleString()+' ft</h2>'+eh+'</section>')+
    (r.tips?'<section class="card"><h2>Alton’s tips</h2><ul class="swaplist">'+r.tips.map(function(x){return '<li>'+x+'</li>'}).join('')+'</ul><p class="note"><a href="#/tool/alton">All of Alton’s tips →</a></p></section>':'')+
    (r.swaps?'<section class="card"><h2>Swaps</h2><ul class="swaplist">'+r.swaps.map(function(x){return '<li>'+x+'</li>'}).join('')+'</ul></section>':'')+
@@ -3601,6 +3791,7 @@ function renderGeneric(){
 
 var curPStyle='ny',curPSizeIdx=2;
 function renderPizza(){
+  LAST_RENDER=renderPizza;
   var st=PSTYLES[curPStyle];
   var opt=curPSizeIdx;
   var chosen=st.options[opt]||st.options[0];
@@ -3618,18 +3809,18 @@ function renderPizza(){
   var ft=parseInt(($('elev').value||'0').replace(/[^\d]/g,''),10)||0;
   CURRENT_ING=[{name:'Bread or all-purpose flour',amount:flour,unit:'g'},{name:'Water, cool',amount:water,unit:'ml'},{name:'Salt',amount:salt,unit:'g'}];
   CURRENT_LABEL=st.label+' pizza dough';CURRENT_QTY=n+' '+(n>1?(st.unit+'s'):st.unit);
-  var rows='<tr><td>Bread or all-purpose flour</td><td class="g">'+gm(flour,'g')+'</td><td class="v">'+vol(flour*FL).txt+'</td></tr>'+
-   '<tr><td>Water, cool</td><td class="g">'+gm(water,'ml')+'</td><td class="v">'+vol(water*LQ).txt+'</td></tr>'+
-   '<tr><td>Salt</td><td class="g">'+gm(salt,'g')+'</td><td class="v">'+vol(salt*SA).txt+'</td></tr>';
-  if(oil>0){CURRENT_ING.push({name:'Olive oil',amount:oil,unit:'ml'});rows+='<tr><td>Olive oil</td><td class="g">'+gm(oil,'ml')+'</td><td class="v">'+vol(oil*LQ).txt+'</td></tr>'}
+  var rows='<tr><td>Bread or all-purpose flour</td>'+mcell(gm(flour,'g'),vol(flour*FL).txt)+'</tr>'+
+   '<tr><td>Water, cool</td>'+mcell(gm(water,'ml'),vol(water*LQ).txt)+'</tr>'+
+   '<tr><td>Salt</td>'+mcell(gm(salt,'g'),vol(salt*SA).txt)+'</tr>';
+  if(oil>0){CURRENT_ING.push({name:'Olive oil',amount:oil,unit:'ml'});rows+='<tr><td>Olive oil</td>'+mcell(gm(oil,'ml'),vol(oil*LQ).txt)+'</tr>'}
   CURRENT_ING.push({name:'Instant yeast',amount:yeast,unit:'g'});
-  rows+='<tr><td>Instant yeast</td><td class="g">'+gm(yeast,'g')+'</td><td class="v">'+vol(yeast*.32).txt+'</td></tr>';
+  rows+='<tr><td>Instant yeast</td>'+mcell(gm(yeast,'g'),vol(yeast*.32).txt)+'</tr>';
   var eh='<p class="note" style="margin:0">No numeric cut to the yeast — reliable altitude guidance for yeast dough is about behavior, not a fixed percentage.</p>'+
    '<ul><li>Dough rises faster above about 3,000 ft. Let it rise until doubled by look, not by a fixed time — that could be 25 to 50% quicker above 5,000 ft.</li>'+
    '<li>If the dough feels stiff, dry high-altitude air may call for a splash more water, added a tablespoon at a time.</li></ul>';
   var un=n>1?(st.unit+'s'):st.unit;
   out.innerHTML=
-   '<section class="card"><h2>'+st.label+' dough for '+n+' '+un+' ('+chosen[0]+')</h2><table>'+rows+'</table>'+
+   '<section class="card"><h2>'+st.label+' dough for '+n+' '+un+' ('+chosen[0]+')</h2>'+measureBar()+'<table>'+rows+'</table>'+
    '<p class="note">Total dough: '+gm(totalDough,'g')+', about '+gm(perUnit,'g')+' per '+st.unit+'.</p>'+(st.note?'<p class="note">'+st.note+'</p>':'')+'</section>'+
    '<section class="card"><h2>Elevation: '+ft.toLocaleString()+' ft</h2>'+eh+'</section>'+
    '<section class="card"><h2>Method</h2><ol>'+
@@ -3822,6 +4013,7 @@ function marItems(p){return R.filter(function(r){return r.group==='Marinades'&&(
 function cuItems(c){return R.filter(function(r){return cuisine(r)===c}).map(rrow)}
 function sideItems(s){return R.filter(function(r){return r.side===s}).map(rrow)}
 var CATS=[
+ {key:'holiday',label:'Holiday Favorites',special:'section',sectionKey:'holiday',icon:'pie'},
  {key:'baking',label:'Baking & Dough',special:'section',sectionKey:'baking',icon:'bread'},
  {key:'breakfast',label:'Breakfast',special:'section',sectionKey:'breakfast',icon:'pan'},
  {key:'mealprep',label:'Meal Prep',special:'section',sectionKey:'mealprep',icon:'bowl'},
@@ -3845,8 +4037,26 @@ function rrow(r){
   var showedName=r.name&&r.name!=='Classic';
   return {id:r.id,label:recipeLabel(r),sub:showedName&&r.group.indexOf('Entrees:')!==0?(r.style+' · '+status):(r.group.indexOf('Entrees:')===0?r.style+' · '+status:status)};
 }
+// Holiday list keeps the order written here; ids starting with bread: are bread calculators
+function holidayIds(ids){
+  var out=[];
+  ids.forEach(function(id){
+    if(id.indexOf('bread:')===0){var b=BREADS.filter(function(x){return 'bread:'+x.id===id})[0];if(b) out.push(breadrow(b));return}
+    var r=R.filter(function(x){return x.id===id})[0];if(r) out.push(rrow(r));
+  });
+  return out;
+}
 function breadrow(b){return {id:'bread:'+b.id,label:b.name+(b.adapted?' (adapted)':''),sub:b.source.replace(/\s*\([^)]*\)\s*$/,'')}}
 var SECTIONS={
+ holiday:{label:'Holiday Favorites',top:function(){return '<p class="note" style="margin:0 0 10px">Turkey, stuffing, gravy, sides and pies from all over the app, in one place. Each recipe also stays in its usual section.</p>'},tabs:[
+  {key:'turkey',label:'Turkey & Ham',items:function(){return holidayIds(['entree-turkeybreast-sahc','entree-turkeybreast-ar','entree-turkeylegs','ge-good-eats-roast-turkey','ge-turkey-with-stuffing','ge-deep-fried-turkey','ge-city-ham','ge-country-ham'])}},
+  {key:'stuffing',label:'Stuffing & Gravy',items:function(){return holidayIds(['side-stuffing-martha','side-stuffing-oldfashioned','sauce-turkey-gravy-dd','card-gravies-4','sauce-gravy-pan','ge-gravy-from-roast-drippings','sauce-gravy-mushroom','ge-tart-cranberry-dipping-sauce','ge-in-a-cranberry-jam'])}},
+  {key:'sides',label:'Sides',items:function(){return holidayIds(['ge-mashers-mashed-potatoes','card-smashed-potatoes','ge-chipotle-smashed-sweet-potatoes','side-white-rice','ge-broccoli-casserole','ge-glazed-carrots','card-vegseas-2','card-vegseas-3','ge-baked-macaroni-and-cheese','ge-stuffed-squash','ge-squash-soup'])}},
+  {key:'breads',label:'Rolls & Breads',items:function(){return holidayIds(['bread:rolls-ka','corn','ge-creamed-corn-cornbread','ge-southern-biscuits','ge-pumpkin-bread','ge-overnight-cinnamon-rolls'])}},
+  {key:'pies',label:'Pies & Desserts',items:function(){return holidayIds(['pie','pie-pecan','pie-apple','pie-cherry','ge-sweet-potato-pie','ge-lemon-meringue-pie','ge-no-pan-pear-pie','ge-carrot-cake','ge-eggnog','ge-eggnog-ice-cream'])}},
+  {key:'christmas',label:'Christmas Treats',items:function(){return R.filter(function(r){return r.gsub==='Christmas Treats'}).map(rrow)}},
+  {key:'leftovers',label:'Leftovers',items:function(){return holidayIds(['ge-turkey-re-hash','card-broths-3','ge-turkey-piccata'])}}
+ ]},
  baking:{label:'Baking & Dough',tabs:[
   {key:'biscuits',label:'Biscuits',items:function(){return byGroup('Biscuits')}},
   {key:'breads',label:'Breads',items:function(){return BREADS.filter(function(b){return ['bagels-reinhart','tpl-ww-pita'].indexOf(b.id)===-1}).map(breadrow).concat(byIds(['corn']))}},
@@ -3888,7 +4098,8 @@ var SECTIONS={
   {key:'potatoes',label:'Potatoes & Fries',items:function(){return sideItems('potatoes')}},
   {key:'veg',label:'Vegetables',items:function(){return sideItems('veg')}},
   {key:'pickles',label:'Quick Pickles',items:function(){return sideItems('pickles')}},
-  {key:'rice',label:'Rice',items:function(){return byIds(['entree-mexicanrice','entree-fried-rice'])}}
+  {key:'stuffing',label:'Stuffing & Dressing',items:function(){return sideItems('stuffing')}},
+  {key:'rice',label:'Rice',items:function(){return sideItems('rice').concat(byIds(['entree-mexicanrice','entree-fried-rice']))}}
  ]},
  soups:{label:'Soups & Stocks',tabs:[
   {key:'bases',label:'Soup & Stew Bases',items:function(){return byGroup('Soups: Soup & Stew Bases')}},
