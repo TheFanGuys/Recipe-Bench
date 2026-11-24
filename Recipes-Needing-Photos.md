@@ -1,19 +1,17 @@
 # Recipes Still Needing Images
 
-Updated 2026-11-24 — **231 recipes**: 96 need a recipe card, 135 (Good Eats) need a plain dish photo.
+Updated 2026-11-24 — **153 recipes**: 96 need a recipe card, 57 (Good Eats) need a plain dish photo.
 
 **How to use:** paste a prompt into your image generator, save the image with the exact file name shown, and send it to Claude to add.
 
 - **Part 1 — Recipe cards (96).** Same black-and-gold card as your current ones. Holiday recipes first; this week's 7 new ones are marked (new). Check the text on each card before sending — image generators sometimes misspell words or change numbers. The app always uses its own measurements, not the card's. Long steps were cut to their first sentence so the card stays readable.
-- **Part 2 — Good Eats dish photos (135).** Square photo of the dish only, no card or text. Holiday dishes first, then grouped like the Good Eats tabs.
+- **Part 2 — Good Eats dish photos (57).** Square photo of the dish only, no card or text. Holiday dishes first, then grouped like the Good Eats tabs.
 
 ## Contents
 
 - Part 1 — Recipe cards: 96 (19 holiday)
-- Part 2 — Good Eats dish photos: 135
-  - Snacks — 8
-  - Sauces & Toppings — 34
-  - Desserts — 82
+- Part 2 — Good Eats dish photos: 57
+  - Desserts — 46
   - Drinks — 11
 
 ## Part 1 — Recipe cards (96)
@@ -594,687 +592,293 @@ Portrait recipe card, 2:3 ratio (1024×1536). Solid black background with a thin
 
 Portrait recipe card, 2:3 ratio (1024×1536). Solid black background with a thin gold border around the whole card. At the top, the dish name in large bold gold serif capital letters, then a white italic line. A thin gold divider line. Left column: a gold serif heading "INGREDIENTS" with the ingredient list in white serif text. Right side: a professional food photo of breakfast chorizo tacos, made with chorizo, eggs, milk, butter, shredded monterey jack, plated on a dark rustic stoneware plate on a dark wood table, warm side lighting, moody dark background, shallow depth of field, the photo fading softly into the black card. Another thin gold divider, then a gold serif heading "METHOD" with numbered steps in white serif text. Thin gold divider, then a white italic footer line centered at the bottom. All text must be spelled exactly as given. Title: "BREAKFAST CHORIZO TACOS". Italic line: "Makes 4 servings". Ingredients: "8 oz chorizo, casing removed"; "6 eggs"; "¼ cup milk"; "Salt and pepper, to taste"; "1 tbsp butter"; "1 cup shredded Monterey Jack"; "8 small flour tortillas"; "Salsa or hot sauce, as needed"; "Chopped cilantro, as needed". Method steps: 1. "Brown the chorizo over medium and set aside." 2. "Whisk the eggs with milk, salt and pepper." 3. "Scramble in the butter until just set." 4. "Fill warm tortillas with chorizo, eggs, cheese and cilantro." Footer: "Organic ingredients if preferred. No seed oils."
 
-## Part 2 — Good Eats dish photos (135)
+## Part 2 — Good Eats dish photos (57)
 
-### Good Eats · Snacks (8)
+### Good Eats · Desserts (46)
 
-**97. Slacker Jacks**  
-File name: `slacker-jacks.jpg`
-
-> Professional food photograph of Slacker Jacks, made with popped popcorn, salted peanuts, unsalted butter, dark brown sugar, dark corn syrup, pure vanilla extract. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**98. Brown Rice Crispy Bar**  
-File name: `brown-rice-crispy-bar.jpg`
-
-> Professional food photograph of Brown Rice Crispy Bar, made with puffed brown rice, orange blossom honey, mini marshmallows, toasted slivered almonds, coarsely dried cranberries, coarsely dried cherries, dried blueberries. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**99. Granola**  
-File name: `granola.jpg`
-
-> Professional food photograph of Granola, made with rolled oats, slivered almonds, cashews, shredded sweet coconut, dark brown sugar, maple syrup, raisins. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**100. Granola Bars**  
-File name: `granola-bars.jpg`
-
-> Professional food photograph of Granola Bars, made with old-fashioned rolled oats, raw sunflower seeds, almonds, wheat germ, honey, dark brown sugar, unsalted butter. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**101. Parmesan Crisps**  
-File name: `parmesan-crisps.jpg`
-
-> Professional food photograph of Parmesan Crisps, made with parmigiano-reggiano, freshly ground black pepper. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**102. Protein Bars**  
-File name: `protein-bars.jpg`
-
-> Professional food photograph of Protein Bars, made with soy protein powder, oat bran, whole-wheat flour, wheat germ, raisins, dried cherries, dried blueberries. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**103. Beef Jerky**  
-File name: `beef-jerky.jpg`
-
-> Professional food photograph of Beef Jerky, made with flank steak, worcestershire sauce, soy sauce, honey, freshly ground black pepper, onion powder, liquid smoke. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**104. Lime Tortilla Chips**  
-File name: `lime-tortilla-chips.jpg`
-
-> Professional food photograph of Lime Tortilla Chips, made with freshly squeezed lime juice, corn tortillas. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-### Good Eats · Sauces & Toppings (34)
-
-**105. Avocado Compound Butter**  
-File name: `avocado-compound-butter.jpg`
-
-> Professional food photograph of Avocado Compound Butter, made with ripe avocado meat, freshly squeezed lemon juice, unsalted butter, garlic clove, freshly cilantro leaves, ground cumin, kosher salt and freshly ground black pepper. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**106. Compound Butter**  
-File name: `compound-butter.jpg`
-
-> Professional food photograph of Compound Butter, made with butter, chives, thyme, sage, rosemary. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**107. Honey Butter**  
-File name: `honey-butter.jpg`
-
-> Professional food photograph of Honey Butter, made with butter, honey, ground cinnamon, vanilla extract. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**108. Raymond Burre Blanc**  
-File name: `raymond-burre-blanc.jpg`
-
-> Professional food photograph of Raymond Burre Blanc, made with shallots, white wine, lemon juice, heavy cream, cold unsalted butter, salt and white pepper. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**109. Ghee**  
-File name: `ghee.jpg`
-
-> Professional food photograph of Ghee, made with butter. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**110. Clotted Cream**  
-File name: `clotted-cream.jpg`
-
-> Professional food photograph of Clotted Cream, made with pasteurized. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**111. Chicken Liver Mousse**  
-File name: `chicken-liver-mousse.jpg`
-
-> Professional food photograph of Chicken Liver Mousse, made with butter, onion, tart apple, thyme leaves, chicken livers, ground white pepper, brandy. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**112. Guacamole**  
-File name: `guacamole.jpg`
-
-> Professional food photograph of Guacamole, made with haas avocados, lime, ground cumin, cayenne, onion, roma tomatoes, cilantro. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**113. Hot Spinach and Artichoke Dip**  
-File name: `hot-spinach-and-artichoke-dip.jpg`
-
-> Professional food photograph of Hot Spinach and Artichoke Dip, made with thawed, cream cheese, sour cream, mayonnaise, parmesan, red pepper flakes, garlic powder. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**114. Onion Dip From Scratch**  
-File name: `onion-dip-from-scratch.jpg`
-
-> Professional food photograph of Onion Dip From Scratch, made with onions, sour cream, mayonnaise, garlic powder, ground white pepper. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**115. Hollandaise**  
-File name: `hollandaise.jpg`
-
-> Professional food photograph of Hollandaise, made with egg yolks, unsalted butter, freshly squeezed lemon juice, cayenne pepper. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**116. Tomato Sauce**  
-File name: `tomato-sauce.jpg`
-
-> Professional food photograph of Tomato Sauce, made with roma tomatoes, finely onion, garlic, finely oregano leaves, finely thyme leaves, white wine. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**117. Pantry Friendly Tomato Sauce**  
-File name: `pantry-friendly-tomato-sauce.jpg`
-
-> Professional food photograph of Pantry Friendly Tomato Sauce, made with sherry vinegar, red pepper flakes, dried oregano, dried basil, onion, carrot, stalk celery. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**118. Sawmill Gravy**  
-File name: `sawmill-gravy.jpg`
-
-> Professional food photograph of Sawmill Gravy, made with bulk breakfast sausage, flour, milk, salt and pepper to taste. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**119. Spicy Pineapple Sauce**  
-File name: `spicy-pineapple-sauce.jpg`
-
-> Professional food photograph of Spicy Pineapple Sauce, made with pineapple chunks, habanero pepper, mint leaves, corn tortillas, sugar and cinnamon mixture. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**120. Sweet and Sour Dessert Sauce**  
-File name: `sweet-and-sour-dessert-sauce.jpg`
-
-> Professional food photograph of Sweet and Sour Dessert Sauce, made with light honey, sour cream. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**121. Tarragon Yogurt Sauce**  
-File name: `tarragon-yogurt-sauce.jpg`
-
-> Professional food photograph of Tarragon Yogurt Sauce, made with finely onion, finely garlic, chicken stock, ground black pepper, dried tarragon, plain yogurt. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**122. Turbo Hummus**  
-File name: `turbo-hummus.jpg`
-
-> Professional food photograph of Turbo Hummus, made with cloves garlic, garbanzo beans, smooth peanut butter, a handful parsley leaves, lemon, freshly ground black pepper. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**123. White Roux**  
-File name: `white-roux.jpg`
-
-> Professional food photograph of White Roux, made with pan drippings and/or butter, flour. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**124. Horseradish Cream Sauce**  
-File name: `horseradish-cream-sauce.jpg`
-
-> Professional food photograph of Horseradish Cream Sauce, made with sour cream, horseradish, dijon mustard, white wine vinegar, freshly ground black pepper. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**125. Spiced Blueberry Jammin**  
-File name: `spiced-blueberry-jammin.jpg`
-
-> Professional food photograph of Spiced Blueberry Jammin, made with package, star anise, freshly nutmeg, lemon juice, cider vinegar. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**126. Mayonnaise**  
-File name: `mayonnaise.jpg`
-
-> Professional food photograph of Mayonnaise, made with egg yolk*, fine salt, dry mustard, squeezed lemon juice, white wine vinegar. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**127. Party Mayonnaise**  
-File name: `party-mayonnaise.jpg`
-
-> Professional food photograph of Party Mayonnaise, made with white wine vinegar, lime juice, egg yolk*, whole egg*, fine grain salt, dry mustard. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**128. Herb Oil**  
-File name: `herb-oil.jpg`
-
-> Professional food photograph of Herb Oil, made with bunch parsley, basil, bunch thyme, oregano, orange, whole dried arbol chile, whole black pepper corns. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**129. Roasted Vegetable Spread**  
-File name: `roasted-vegetable-spread.jpg`
-
-> Professional food photograph of Roasted Vegetable Spread, made with red bell pepper, onion, cloves garlic, zucchini, cream cheese, freshly ground black pepper, challah. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**130. Salsa**  
-File name: `salsa.jpg`
-
-> Professional food photograph of Salsa, made with roma tomatoes, garlic cloves, seeded and jalapenos, red bell pepper, red onion, dry ancho chiles, lime. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**131. Tarragon Chive Vinegar**  
-File name: `tarragon-chive-vinegar.jpg`
-
-> Professional food photograph of Tarragon Chive Vinegar, made with *cook's notes you will need half of the herbs when you start the recipe and half in 2 weeks. it is best to purchase the second half of the herbs when they are needed., household bleach, sprigs tarragon*, chive shoots, white wine vinegar. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**132. Curry Powder Blend**  
-File name: `curry-powder-blend.jpg`
-
-> Professional food photograph of Curry Powder Blend, made with whole cumin seeds, whole cardamom seeds, whole coriander seeds, ground turmeric, dry mustard, cayenne. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**133. Herb Spread**  
-File name: `herb-spread.jpg`
-
-> Professional food photograph of Herb Spread, made with roasted, picked and finely thyme, squeezed lemon juice, plain yogurt, worcestershire sauce, salt and pepper. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**134. Yogurt Cheese**  
-File name: `yogurt-cheese.jpg`
-
-> Professional food photograph of Yogurt Cheese, made with plain yogurt. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**135. Cashew Sauce**  
-File name: `cashew-sauce.jpg`
-
-> Professional food photograph of Cashew Sauce, made with cashew butter, coconut milk, cayenne pepper, honey, roasted cashews. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**136. Pistachio Mixed Herb Pesto**  
-File name: `pistachio-mixed-herb-pesto.jpg`
-
-> Professional food photograph of Pistachio Mixed Herb Pesto, made with clove garlic, flat-leaf parsley, lemon thyme leaves, tarragon leaves, sage leaves, oregano leaves, parmesan. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**137. Abs Chili Powder**  
-File name: `abs-chili-powder.jpg`
-
-> Professional food photograph of Abs Chili Powder, made with ancho chiles, cascabel chiles, dried arbol chiles, whole cumin seeds, garlic powder, dried oregano, smoked paprika. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**138. Tapenade**  
-File name: `tapenade.jpg`
-
-> Professional food photograph of Tapenade, made with pitted mixed olives, anchovy fillets, clove garlic, capers, basil leaves, freshly squeezed lemon juice. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-### Good Eats · Desserts (82)
-
-**139. Angel Food Cake**  
-File name: `angel-food-cake.jpg`
-
-> Professional food photograph of Angel Food Cake, made with cream of tartar, egg whites, warm water, orange extract, cake flour. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**140. Aunt Verna's Orange Cake**  
-File name: `aunt-vernas-orange-cake.jpg`
-
-> Professional food photograph of Aunt Verna's Orange Cake, made with orange blossom honey, eggs, orange zest, unbleached all-purpose flour, butter. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**141. Free Range Fruitcake**  
-File name: `free-range-fruitcake.jpg`
-
-> Professional food photograph of Free Range Fruitcake, made with golden raisins, currants, sun dried cranberries, sun dried blueberries, sun dried cherries, dried apricots, candied ginger. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**142. Funnel Cake**  
-File name: `funnel-cake.jpg`
-
-> Professional food photograph of Funnel Cake, made with butter, flour, eggs, powdered sugar. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**143. Gold Cake**  
-File name: `gold-cake.jpg`
-
-> Professional food photograph of Gold Cake, made with butter flavored vegetable shortening, cake flour, egg yolks, milk, vanilla. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**144. Lemon Curd**  
-File name: `lemon-curd.jpg`
-
-> Professional food photograph of Lemon Curd, made with egg yolks, lemons, butter. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**145. Pineapple Upside-down Cornmeal Cake**  
-File name: `pineapple-upside-down-cornmeal-cake.jpg`
-
-> Professional food photograph of Pineapple Upside-down Cornmeal Cake, made with whole milk, coarse ground cornmeal, unsalted butter, dark brown sugar, slices canned pineapple in heavy syrup, maraschino cherries, pecans. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**146. Savory Cheesecake**  
-File name: `savory-cheesecake.jpg`
-
-> Professional food photograph of Savory Cheesecake, made with crust, melted butter, egg white, crushed bagel chips, cream cheese, sour cream, eggs. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**147. Shortcake**  
-File name: `shortcake.jpg`
-
-> Professional food photograph of Shortcake, made with flour, butter, shortening, half and half, melted butter to brush shortcakes, berries, ice cream or whipped cream. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**148. Sour Cream Cheesecake**  
-File name: `sour-cream-cheesecake.jpg`
-
-> Professional food photograph of Sour Cream Cheesecake, made with crust, unsalted butter, graham cracker squares, filling, sour cream, cream cheese, vanilla extract. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**149. Toffee Lace Cups**  
-File name: `toffee-lace-cups.jpg`
-
-> Professional food photograph of Toffee Lace Cups, made with unsalted butter, brown sugar, dark corn syrup, juice of a quarter lemon, flour. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**150. Yeast Doughnuts**  
-File name: `yeast-doughnuts.jpg`
-
-> Professional food photograph of Yeast Doughnuts, made with milk, vegetable shortening, packages instant yeast, warm water, eggs, freshly ground nutmeg, unbleached all-purpose flour. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**151. Doughnut Glaze**  
-File name: `doughnut-glaze.jpg`
-
-> Professional food photograph of Doughnut Glaze, made with whole milk, vanilla extract, confectioners' sugar. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**152. Chocolate Doughnut Glaze**  
-File name: `chocolate-doughnut-glaze.jpg`
-
-> Professional food photograph of Chocolate Doughnut Glaze, made with unsalted butter, whole milk, light corn syrup, vanilla extract, bittersweet chocolate, confectioners' sugar. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**153. Individual Peach Upside-down Cake**  
-File name: `individual-peach-upside-down-cake.jpg`
-
-> Professional food photograph of Individual Peach Upside-down Cake, made with unsalted butter, light brown sugar, peaches, finely crystallized ginger, unbleached all-purpose flour, granulated sugar, buttermilk. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**154. Avocado Buttercream Frosting**  
-File name: `avocado-buttercream-frosting.jpg`
-
-> Professional food photograph of Avocado Buttercream Frosting, made with avocado meat, freshly squeezed lemon juice, powdered sugar, lemon extract. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**155. Cream Cheese Frosting**  
-File name: `cream-cheese-frosting.jpg`
-
-> Professional food photograph of Cream Cheese Frosting, made with cream cheese, unsalted butter, vanilla extract, powdered sugar. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**156. Ganache**  
-File name: `ganache.jpg`
-
-> Professional food photograph of Ganache, made with corn syrup, heavy cream, dark chocolate, vanilla extract. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**157. Ganache Frosting**  
-File name: `ganache-frosting.jpg`
-
-> Professional food photograph of Ganache Frosting, made with bittersweet chocolate, heavy cream. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**158. Buttercream**  
-File name: `buttercream.jpg`
-
-> Professional food photograph of Buttercream, made with *4 eggs, dark corn syrup, butter. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**159. Writing Chocolate**  
-File name: `writing-chocolate.jpg`
-
-> Professional food photograph of Writing Chocolate, made with chocolate chips. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**160. Royal Icing**  
-File name: `royal-icing.jpg`
-
-> Professional food photograph of Royal Icing, made with pasteurized egg whites, vanilla extract, confectioners' sugar. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**161. Chocolate-Covered Nutty Coconut Balls**  
-File name: `chocolate-covered-nutty-coconut-balls.jpg`
-
-> Professional food photograph of Chocolate-Covered Nutty Coconut Balls, made with shredded or flaked coconut, toasted macadamia nuts, sweetened condensed milk, almond extract, shortening. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**162. Chocolate Lava Muffins**  
-File name: `chocolate-lava-muffins.jpg`
-
-> Professional food photograph of Chocolate Lava Muffins, made with semisweet chocolate chips, butter, vanilla extract, flour, eggs, butter to coat muffin tin, cocoa powder. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**163. Chocolate Mousse**  
-File name: `chocolate-mousse.jpg`
-
-> Professional food photograph of Chocolate Mousse, made with whipping cream, quality semi- sweet chocolate chips, espresso or strong coffee, dark rum, butter, flavorless. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**164. Cocoa Brownies**  
-File name: `cocoa-brownies.jpg`
-
-> Professional food photograph of Cocoa Brownies, made with soft butter, flour, eggs, brown sugar, melted butter, cocoa, vanilla extract. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**165. Moo-less Chocolate Pie**  
-File name: `moo-less-chocolate-pie.jpg`
-
-> Professional food photograph of Moo-less Chocolate Pie, made with chocolate chips, coffee liqueur, vanilla extract, block silken tofu, honey, prepared chocolate wafer crust. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**166. Chocolate Taffy**  
-File name: `chocolate-taffy.jpg`
-
-> Professional food photograph of Chocolate Taffy, made with dutch process cocoa powder, light corn syrup, white vinegar, butter. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**167. Instant Chocolate Pudding Mix**  
-File name: `instant-chocolate-pudding-mix.jpg`
-
-> Professional food photograph of Instant Chocolate Pudding Mix, made with dutch-processed cocoa, confectioners' sugar, instant non-fat dry milk. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**168. Chocolate Pudding**  
-File name: `chocolate-pudding.jpg`
-
-> Professional food photograph of Chocolate Pudding, made with instant chocolate pudding mix, milk, heavy cream, vanilla extract. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**169. Chocolate Peppermint Pinwheel Cookies**  
-File name: `chocolate-peppermint-pinwheel-cookies.jpg`
-
-> Professional food photograph of Chocolate Peppermint Pinwheel Cookies, made with batch sugar cookies, unsweetened chocolate, vanilla extract, egg yolk, peppermint extract, crushed candy canes or peppermint candies. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**170. Chocolate Fudge**  
-File name: `chocolate-fudge.jpg`
-
-> Professional food photograph of Chocolate Fudge, made with unsweetened chocolate, butter, half-and-half, corn syrup, vanilla extract. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**171. Chocolate Truffles**  
-File name: `chocolate-truffles.jpg`
-
-> Professional food photograph of Chocolate Truffles, made with bittersweet chocolate, unsalted butter, heavy cream, light corn syrup, brandy, dutch-process cocoa, semisweet or bittersweet chocolate. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**172. Individual Berry Crisps**  
-File name: `individual-berry-crisps.jpg`
-
-> Professional food photograph of Individual Berry Crisps, made with frozen berries, crisp topping, unbleached all-purpose flour, nuts, crushed crackers, unsalted butter. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**173. Rhubarb Peach Cobbler**  
-File name: `rhubarb-peach-cobbler.jpg`
-
-> Professional food photograph of Rhubarb Peach Cobbler, made with unbleached all-purpose flour, freshly lime zest, unsalted butter, lard, ice water, rhubarb, peaches. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**174. Blackberry Grunt**  
-File name: `blackberry-grunt.jpg`
-
-> Professional food photograph of Blackberry Grunt, made with unbleached all-purpose flour, unsalted butter, buttermilk, frozen blackberries, ground ginger. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
-
-**175. The Chewy**  
+**97. The Chewy**  
 File name: `the-chewy.jpg`
 
 > Professional food photograph of The Chewy, made with hardware, ice cream scooper, parchment paper, baking sheets, mixer, unsalted butter, bread flour. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**176. The Puffy**  
+**98. The Puffy**  
 File name: `the-puffy.jpg`
 
 > Professional food photograph of The Puffy, made with hardware, ice cream scooper, parchment paper, baking sheets, mixer, butter-flavored shortening, brown sugar. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**177. The Thin**  
+**99. The Thin**  
 File name: `the-thin.jpg`
 
 > Professional food photograph of The Thin, made with hardware, ice cream scooper, parchment paper, baking sheets, mixer, unbleached all-purpose flour, egg. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**178. Sugar Cookies**  
+**100. Sugar Cookies**  
 File name: `sugar-cookies.jpg`
 
 > Professional food photograph of Sugar Cookies, made with unbleached all-purpose flour, unsalted butter, egg, milk, powdered sugar. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**179. Cinnamon Cherry Heart**  
+**101. Cinnamon Cherry Heart**  
 File name: `cinnamon-cherry-heart.jpg`
 
 > Professional food photograph of Cinnamon Cherry Heart, made with packages unflavored powdered gelatin, cherry flavored juice, cinnamon extract. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**180. Panna Cotta Brain with Cranberry Glaze**  
+**102. Panna Cotta Brain with Cranberry Glaze**  
 File name: `panna-cotta-brain-with-cranberry-glaze.jpg`
 
 > Professional food photograph of Panna Cotta Brain with Cranberry Glaze, made with packages unflavored powdered gelatin, heavy cream, vanilla bean, bourbon, cranberry juice. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**181. Sparkling Gingered Face**  
+**103. Sparkling Gingered Face**  
 File name: `sparkling-gingered-face.jpg`
 
 > Professional food photograph of Sparkling Gingered Face, made with bottle sparkling wine, packages unflavored powdered gelatin, ginger beer. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**182. Spooky Edible Eyes**  
+**104. Spooky Edible Eyes**  
 File name: `spooky-edible-eyes.jpg`
 
 > Professional food photograph of Spooky Edible Eyes, made with packages of unflavored powdered gelatin, low fat milk, coconut extract, food coloring set. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**183. Baker, Baker: Oatmeal Filled Apples**  
+**105. Baker, Baker: Oatmeal Filled Apples**  
 File name: `baker-baker-oatmeal-filled-apples.jpg`
 
 > Professional food photograph of Baker, Baker: Oatmeal Filled Apples, made with oats, flour, light brown sugar, ground cinnamon, ground ginger, cold unsalted butter, braeburn apples. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**184. Banana Splitsville**  
+**106. Banana Splitsville**  
 File name: `banana-splitsville.jpg`
 
 > Professional food photograph of Banana Splitsville, made with caramel, light corn syrup, sauce, heavy cream, bananas, ice cream of your choice. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**185. Banana's Foster**  
+**107. Banana's Foster**  
 File name: `bananas-foster.jpg`
 
 > Professional food photograph of Banana's Foster, made with unsalted butter, dark brown sugar, ground allspice, freshly ground nutmeg, banana liqueur, under ripe bananas, dark rum. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**186. Fruit Tart**  
+**108. Fruit Tart**  
 File name: `fruit-tart.jpg`
 
 > Professional food photograph of Fruit Tart, made with sheet puff pastry, granny smith apple, lemon juice, apricot jam. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**187. Honey Plums**  
+**109. Honey Plums**  
 File name: `honey-plums.jpg`
 
 > Professional food photograph of Honey Plums, made with wildflower honey, slightly under ripe plums. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**188. Macerated Strawberries**  
+**110. Macerated Strawberries**  
 File name: `macerated-strawberries.jpg`
 
 > Professional food photograph of Macerated Strawberries, made with size strawberries, bottle red wine, orange blossom honey, finely lemon zest, ground black pepper. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**189. Dried Pear and Fig Compote**  
+**111. Dried Pear and Fig Compote**  
 File name: `dried-pear-and-fig-compote.jpg`
 
 > Professional food photograph of Dried Pear and Fig Compote, made with dried figs, dried pears, apple cider, white wine, orange blossom honey, whole cloves, cinnamon. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**190. Strawberry Pudding**  
+**112. Strawberry Pudding**  
 File name: `strawberry-pudding.jpg`
 
 > Professional food photograph of Strawberry Pudding, made with slices stale potato bread, butter, macerated strawberries. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**191. Toasty Coconut Macaroons**  
+**113. Toasty Coconut Macaroons**  
 File name: `toasty-coconut-macaroons.jpg`
 
 > Professional food photograph of Toasty Coconut Macaroons, made with egg whites, package. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**192. Pistachio Fruit Balls**  
+**114. Pistachio Fruit Balls**  
 File name: `pistachio-fruit-balls.jpg`
 
 > Professional food photograph of Pistachio Fruit Balls, made with roasted pistachios, dried cherries, dried apricots, golden raisins, pitted dates, orange juice, crème de cassis. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**193. Grilled Peach Melba**  
+**115. Grilled Peach Melba**  
 File name: `grilled-peach-melba.jpg`
 
 > Professional food photograph of Grilled Peach Melba, made with freshly squeezed lemon juice, vanilla bean, peaches, frozen raspberries, vanilla ice cream. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**194. Vanilla Ice Cream**  
+**116. Vanilla Ice Cream**  
 File name: `vanilla-ice-cream.jpg`
 
 > Professional food photograph of Vanilla Ice Cream, made with half-and-half, heavy cream, egg yolks, vanilla sugar, pure vanilla extract. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**195. "serious" Vanilla Ice Cream**  
+**117. "serious" Vanilla Ice Cream**  
 File name: `serious-vanilla-ice-cream.jpg`
 
 > Professional food photograph of "serious" Vanilla Ice Cream, made with half-and-half, whipping cream, minus 2 tablespoons sugar, peach preserves, vanilla bean. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**196. Chocolate Ice Cream**  
+**118. Chocolate Ice Cream**  
 File name: `chocolate-ice-cream.jpg`
 
 > Professional food photograph of Chocolate Ice Cream, made with unsweetened cocoa powder, half-and-half, heavy cream, egg yolks, pure vanilla extract. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**197. Mint Chip Ice Cream**  
+**119. Mint Chip Ice Cream**  
 File name: `mint-chip-ice-cream.jpg`
 
 > Professional food photograph of Mint Chip Ice Cream, made with half-and-half, heavy cream, egg yolks, chocolate-mint candies. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**198. Banana Ice Cream**  
+**120. Banana Ice Cream**  
 File name: `banana-ice-cream.jpg`
 
 > Professional food photograph of Banana Ice Cream, made with ripe bananas, squeezed lemon juice, light corn syrup, vanilla bean, heavy cream. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**199. Avocado Ice Cream**  
+**121. Avocado Ice Cream**  
 File name: `avocado-ice-cream.jpg`
 
 > Professional food photograph of Avocado Ice Cream, made with avocado meat, freshly squeezed lemon juice, whole milk, heavy cream. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**200. Burned Peach Ice Cream**  
+**122. Burned Peach Ice Cream**  
 File name: `burned-peach-ice-cream.jpg`
 
 > Professional food photograph of Burned Peach Ice Cream, made with half-n-half, whipping cream, peach preserves, vanilla bean, peaches. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**201. Key Lime Sorbet**  
+**123. Key Lime Sorbet**  
 File name: `key-lime-sorbet.jpg`
 
 > Professional food photograph of Key Lime Sorbet, made with key lime preserves, lime flavored club soda or seltzer, lemon, lime. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**202. Melon Sorbet**  
+**124. Melon Sorbet**  
 File name: `melon-sorbet.jpg`
 
 > Professional food photograph of Melon Sorbet, made with watermelon, freshly squeezed lemon juice, vodka. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**203. Coffee Granita**  
+**125. Coffee Granita**  
 File name: `coffee-granita.jpg`
 
 > Professional food photograph of Coffee Granita, made with lukewarm espresso or strong black coffee, coffee flavored liqueur, orange or lemon zest. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**204. Crème Brulee**  
+**126. Crème Brulee**  
 File name: `cr-me-brulee.jpg`
 
 > Professional food photograph of Crème Brulee, made with heavy cream, vanilla bean, vanilla sugar, egg yolks, hot water. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**205. Good Eats Fudgepops**  
+**127. Good Eats Fudgepops**  
 File name: `good-eats-fudgepops.jpg`
 
 > Professional food photograph of Good Eats Fudgepops, made with bittersweet chocolate, heavy cream, whole milk, unsweetened cocoa powder, vanilla extract. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**206. Black Pepper Mango Sorbet**  
+**128. Black Pepper Mango Sorbet**  
 File name: `black-pepper-mango-sorbet.jpg`
 
 > Professional food photograph of Black Pepper Mango Sorbet, made with ripe mango flesh, freshly squeezed lime juice, pepper vodka. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**207. Pie Crust**  
+**129. Pie Crust**  
 File name: `pie-crust.jpg`
 
 > Professional food photograph of Pie Crust, made with butter, lard, unbleached all-purpose flour, table salt, ice water, approximately 32 ounces of dried beans. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**208. Macadamia Nut Crust**  
+**130. Macadamia Nut Crust**  
 File name: `macadamia-nut-crust.jpg`
 
 > Professional food photograph of Macadamia Nut Crust, made with roasted macadamia nuts, panko, unbleached all-purpose flour, butter. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**209. Pocket Pies**  
+**131. Pocket Pies**  
 File name: `pocket-pies.jpg`
 
 > Professional food photograph of Pocket Pies, made with pastry, unbleached all-purpose flour, shortening, milk, egg mixed with 1 to 2 teaspoons water, butter, curried mango filling. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**210. Acid Jellies**  
+**132. Acid Jellies**  
 File name: `acid-jellies.jpg`
 
 > Professional food photograph of Acid Jellies, made with envelopes gelatin, freshly squeezed lime juice, freshly squeezed lemon juice, lime zest, lemon zest, non-stick spray. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**211. Cherry Couscous Pudding**  
+**133. Cherry Couscous Pudding**  
 File name: `cherry-couscous-pudding.jpg`
 
 > Professional food photograph of Cherry Couscous Pudding, made with milk, dried cherries, vanilla bean, steamed couscous, container, ground cinnamon. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**212. Cocoa Whipped Cream**  
+**134. Cocoa Whipped Cream**  
 File name: `cocoa-whipped-cream.jpg`
 
 > Professional food photograph of Cocoa Whipped Cream, made with gelatin, heavy cream, good eats cocoa mix, vanilla extract. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**213. Flandango**  
+**135. Flandango**  
 File name: `flandango.jpg`
 
 > Professional food photograph of Flandango, made with whole milk, half-and-half, vanilla extract, eggs, jams. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**214. Indian Rice Pudding**  
+**136. Indian Rice Pudding**  
 File name: `indian-rice-pudding.jpg`
 
 > Professional food photograph of Indian Rice Pudding, made with long grain or basmati rice, whole milk, heavy cream, coconut milk, ground cardamom, golden raisins, unsalted pistachios. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**215. Peanut Brittle**  
+**137. Peanut Brittle**  
 File name: `peanut-brittle.jpg`
 
 > Professional food photograph of Peanut Brittle, made with lightly salted, cinnamon, cayenne pepper, softened butter for spatula. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**216. Peanut Butter Fudge**  
+**138. Peanut Butter Fudge**  
 File name: `peanut-butter-fudge.jpg`
 
 > Professional food photograph of Peanut Butter Fudge, made with butter, peanut butter, vanilla, powdered sugar. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**217. Sweet or Savory Pate a Choux**  
+**139. Sweet or Savory Pate a Choux**  
 File name: `sweet-or-savory-pate-a-choux.jpg`
 
 > Professional food photograph of Sweet or Savory Pate a Choux, made with butter, sugar plus 1/8 teaspoon salt, flour, eggs. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**218. Tapioca Pudding**  
+**140. Tapioca Pudding**  
 File name: `tapioca-pudding.jpg`
 
 > Professional food photograph of Tapioca Pudding, made with pearl tapioca, cold water, whole milk, heavy cream, egg yolk, lemon. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**219. Vanilla Sugar**  
+**141. Vanilla Sugar**  
 File name: `vanilla-sugar.jpg`
 
 > Professional food photograph of Vanilla Sugar, made with vanilla bean, granulated sugar. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**220. Overnight Citrus Ginger Ring**  
+**142. Overnight Citrus Ginger Ring**  
 File name: `overnight-citrus-ginger-ring.jpg`
 
 > Professional food photograph of Overnight Citrus Ginger Ring, made with dough, egg yolks, whole egg, unsalted butter, buttermilk, unbleached all-purpose flour, package instant dry yeast. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
 ### Good Eats · Drinks (11)
 
-**221. Cocoa Syrup**  
+**143. Cocoa Syrup**  
 File name: `cocoa-syrup.jpg`
 
 > Professional food photograph of Cocoa Syrup, made with dutch-processed cocoa, vanilla extract, light corn syrup. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**222. Sweet Tea**  
+**144. Sweet Tea**  
 File name: `sweet-tea.jpg`
 
 > Professional food photograph of Sweet Tea, made with loose black tea, hot water, room temperature water, simple syrup, cold water. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**223. Tall & Tangy Tofu Thangy**  
+**145. Tall & Tangy Tofu Thangy**  
 File name: `tall-and-tangy-tofu-thangy.jpg`
 
 > Professional food photograph of Tall & Tangy Tofu Thangy, made with instant lemonade mix, cranberry juice, block silken tofu. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**224. Good Brew: Beer**  
+**146. Good Brew: Beer**  
 File name: `good-brew-beer.jpg`
 
 > Professional food photograph of Good Brew: Beer, made with spring water, crystal grain, light liquid malt extract, cascade hops, kent goldings hops, irish moss, vial british ale yeast. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**225. Daiquiri**  
+**147. Daiquiri**  
 File name: `daiquiri.jpg`
 
 > Professional food photograph of Daiquiri, made with crushed ice, light rum, freshly squeezed lime juice, simple syrup. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**226. Abs Martini**  
+**148. Abs Martini**  
 File name: `abs-martini.jpg`
 
 > Professional food photograph of Abs Martini, made with crushed ice, dry vermouth, gin, olive. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**227. Mint Julep**  
+**149. Mint Julep**  
 File name: `mint-julep.jpg`
 
 > Professional food photograph of Mint Julep, made with mint leaves, superfine sugar, seltzer water, crushed ice, kentucky bourbon whiskey. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**228. Barley Water**  
+**150. Barley Water**  
 File name: `barley-water.jpg`
 
 > Professional food photograph of Barley Water, made with hulled barley, lemons, honey. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**229. Pepper Vodka**  
+**151. Pepper Vodka**  
 File name: `pepper-vodka.jpg`
 
 > Professional food photograph of Pepper Vodka, made with peppercorns, bottle of vodka. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**230. Hot Cocoa**  
+**152. Hot Cocoa**  
 File name: `hot-cocoa.jpg`
 
 > Professional food photograph of Hot Cocoa, made with powdered sugar, cocoa, powdered milk, cayenne pepper, hot water or warm milk. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
 
-**231. Perfect Cup of Tea**  
+**153. Perfect Cup of Tea**  
 File name: `perfect-cup-of-tea.jpg`
 
 > Professional food photograph of Perfect Cup of Tea, made with heaping teaspoons loose tea. Shown plated and ready to eat on a dark stoneware plate, on a dark rustic wood table. Dark, moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks. Three-quarter angle. No text, no labels, no hands, no logos. Square image.
