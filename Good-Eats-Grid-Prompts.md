@@ -6,7 +6,7 @@ Updated 2026-11-24 — **399 Good Eats dishes in 105 images**, 4 dishes per imag
 
 **Check before sending:** make sure each square shows the dish listed for that spot (top left, top right, bottom left, bottom right). Generators sometimes swap two dishes or blend them. If one square is wrong, still send the grid and say which square. Claude will skip that one and it will stay on the list.
 
-Holiday dishes come first. **Grids 1–10 are done** (39 photos added Nov 24). Next up: Grid 11.
+Holiday dishes come first. **Grids 1–20 are done** (73 photos added Nov 24). Next up: Grid 21.
 
 ### Good Eats · Holiday Favorites (27 dishes, 7 images)
 
@@ -81,95 +81,75 @@ Holiday dishes come first. **Grids 1–10 are done** (39 photos added Nov 24). N
 - Bottom left: **Skirt Steak**
 - Bottom right: **Strip Steak with Pepper Cream Sauce**
 
-**Grid 11** — save as `goodeats-grid-011.jpg`
+**Grid 11** — ✅ DONE (added Nov 24)
 
 - Top left: **Beef Paillard**
 - Top right: **Beef Tenderloin in Salt Crust**
 - Bottom left: **Dry Aged Standing Rib Roast with Sage Jus**
 - Bottom right: **Sauerbraten**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Beef Paillard (made with beef tenderloin), on a dark stoneware plate. Top right: Beef Tenderloin in Salt Crust (made with unbleached all-purpose flour, egg whites, herbs), on a dark stoneware plate. Bottom left: Dry Aged Standing Rib Roast with Sage Jus (made with standing rib roast, red wine, sage leaves), on a dark stoneware plate. Bottom right: Sauerbraten (made with cider vinegar, red wine vinegar, onion), on a dark stoneware plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 12** — save as `goodeats-grid-012.jpg`
+**Grid 12** — ✅ DONE (added Nov 24)
 
 - Top left: **Spicy Beef Kababs**
 - Top right: **Steak au Poivre**
 - Bottom left: **Center Cut Tenderloin Roast**
 - Bottom right: **Chain of Bull Cheese Steaks**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Spicy Beef Kababs (made with boneless beef sirloin, cloves garlic, smoked paprika), on a dark stoneware plate. Top right: Steak au Poivre (made with tenderloin steaks, cognac, heavy cream), on a dark stoneware plate. Bottom left: Center Cut Tenderloin Roast (made with freshly ground cumin), on a dark stoneware plate. Bottom right: Chain of Bull Cheese Steaks (made with onion, hoagie rolls, grated mimolette cheese), on a dark stoneware plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 13** — save as `goodeats-grid-013.jpg`
+**Grid 13** — ✅ DONE (added Nov 24)
 
 - Top left: **Beef Carpaccio**
 - Top right: **Stuffed Tenderloin**
 - Bottom left: **Swiss Steak**
 - Bottom right: **Chicken Fried Steak**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Beef Carpaccio (made with your favorite vinaigrette, shaved parmesan), on a dark stoneware plate. Top right: Stuffed Tenderloin (made with head roast of tenderloin, blue cheese), on a dark stoneware plate. Bottom left: Swiss Steak (made with beef bottom round, unbleached all-purpose flour, onion), on a dark stoneware plate. Bottom right: Chicken Fried Steak (made with beef bottom round, unbleached all-purpose flour, eggs), on a dark stoneware plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 14** — save as `goodeats-grid-014.jpg`
+**Grid 14** — ✅ DONE (added Nov 24)
 
 - Top left: **Country Style Steak**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Country Style Steak (made with beef bottom round, unbleached all-purpose flour, chicken broth), on a dark stoneware plate. The top right, bottom left, bottom right squares are plain solid black. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
 ### Good Eats · Pork & Lamb (10 dishes, 3 images)
 
-**Grid 15** — save as `goodeats-grid-015.jpg`
+**Grid 15** — ✅ DONE (added Nov 24)
 
 - Top left: **Scrap Iron Chef's Bacon**
 - Top right: **Sweet and Sour Pork**
 - Bottom left: **Stuffed Grilled Pork Chops**
 - Bottom right: **Who Loves Ya Baby-back?: Ribs**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Scrap Iron Chef's Bacon (made with sugar, molasses, apple cider), on a dark stoneware plate. Top right: Sweet and Sour Pork (made with soy sauce, garlic, ginger), on a dark stoneware plate. Bottom left: Stuffed Grilled Pork Chops (made with brown sugar, mustard powder, cider vinegar), on a dark stoneware plate. Bottom right: Who Loves Ya Baby-back?: Ribs (made with light brown sugar, chili powder, jalapeño seasoning), on a dark stoneware plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 16** — save as `goodeats-grid-016.jpg`
+**Grid 16** — ✅ DONE (added Nov 24)
 
 - Top left: **Pulled Pork**
 - Top right: **Perfect Potstickers**
 - Bottom left: **Slow Cooker Pepper Pork Chops**
 - Bottom right: **Silence of the Leg O Lamb**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Pulled Pork (made with molasses, boston butt, cumin seed), on a dark stoneware plate. Top right: Perfect Potstickers (made with ground pork, finely  scallions, egg), on a dark stoneware plate. Bottom left: Slow Cooker Pepper Pork Chops (made with vegetable broth, light brown sugar, bone-in pork chops), on a dark stoneware plate. Bottom right: Silence of the Leg O Lamb (made with cloves garlic, mint leaves, brown sugar), on a dark stoneware plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 17** — save as `goodeats-grid-017.jpg`
+**Grid 17** — ✅ DONE (added Nov 24)
 
 - Top left: **Gyro Meat with Tzatziki Sauce**
 - Top right: **Barley and Lamb Stew**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Gyro Meat with Tzatziki Sauce (made with onion, ground lamb, finely  garlic), on a dark stoneware plate. Top right: Barley and Lamb Stew (made with boneless lamb shoulder, unbleached all-purpose flour, carrots), on a dark stoneware plate. The bottom left, bottom right squares are plain solid black. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
 ### Good Eats · Chicken & Poultry (7 dishes, 2 images)
 
-**Grid 18** — save as `goodeats-grid-018.jpg`
+**Grid 18** — ✅ DONE (added Nov 24)
 
 - Top left: **Fried Chicken**
 - Top right: **40 Cloves and a Chicken**
 - Bottom left: **Broiled, Butterflied Chicken**
 - Bottom right: **Chicken Kiev**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Fried Chicken (made with broiler/fryer chicken, low fat buttermilk, vegetable shortening), on a dark stoneware plate. Top right: 40 Cloves and a Chicken (made with chicken, sprigs  thyme, peeled cloves garlic), on a dark stoneware plate. Bottom left: Broiled, Butterflied Chicken (made with garlic cloves, lemon, onions), on a dark stoneware plate. Bottom right: Chicken Kiev (made with dried parsley, dried tarragon, boneless), on a dark stoneware plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 19** — save as `goodeats-grid-019.jpg`
+**Grid 19** — ✅ DONE (added Nov 24)
 
 - Top left: **Curry Chicken Pot Pie**
 - Top right: **Coq au Vin**
 - Bottom left: **Mighty Duck**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Curry Chicken Pot Pie (made with frozen vegetable mix, butter, onion), on a dark stoneware plate. Top right: Coq au Vin (made with pearl onions, chicken thighs and legs, unbleached all-purpose flour), on a dark stoneware plate. Bottom left: Mighty Duck (made with pineapple orange juice, bunch  thyme, cloves garlic), on a dark stoneware plate. The bottom right square is plain solid black. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
 ### Good Eats · Fish & Seafood (35 dishes, 9 images)
 
-**Grid 20** — save as `goodeats-grid-020.jpg`
+**Grid 20** — ✅ DONE (added Nov 24)
 
 - Top left: **Catfish au Lait**
 - Top right: **Chimney Tuna Loin**
 - Bottom left: **Chips and Fish**
 - Bottom right: **Pan Fried Fish**
-
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Catfish au Lait (made with can, onion, catfish fillets), on a dark stoneware plate. Top right: Chimney Tuna Loin (made with dark soy sauce, honey, dry wasabi powder), on a dark stoneware plate. Bottom left: Chips and Fish (made with russet potatoes, flour, baking powder), on a dark stoneware plate. Bottom right: Pan Fried Fish (made with or two  skin-on fish fillets, flour for dredging, butter), on a dark stoneware plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
 
 **Grid 21** — save as `goodeats-grid-021.jpg`
 
