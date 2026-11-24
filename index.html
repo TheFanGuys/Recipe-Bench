@@ -5179,7 +5179,7 @@ if(location.hash&&location.hash!=='#/'){applyRoute(parseHash())}
 else{try{history.replaceState(null,'','#/')}catch(e){} applyRoute({screen:'home'})}
 
 // ==== New UI layer: photo tiles, tilt, reveal ====
-function catImg(k){return DU(({baking:'img/dish/focaccia-1.jpg',breakfast:'img/dish/sheetpanbreakfast-1.jpg',mealprep:'img/dish/burritobowls-1.jpg',glutenfree:'img/dish/gfbread-1.jpg',soups:'img/dish/soupbases-2.jpg',desserts:'img/dish/dessertsauce-1.jpg',entrees:'img/dish/burgers-1.jpg',sides:'img/dish/vegseas-5.jpg',sauces:'img/dish/mother-6.jpg',marinades:'img/dish/beefmar-2.jpg',rubs:'img/dish/seasblends-1.jpg',intl:'img/dish/asian-5.jpg',copycat:'img/dish/bbqsauce-1.jpg'})[k])}
+function catImg(k){return DU(({baking:'img/dish/focaccia-1.jpg',breakfast:'img/dish/sheetpanbreakfast-1.jpg',mealprep:'img/dish/burritobowls-1.jpg',glutenfree:'img/dish/gfbread-1.jpg',soups:'img/dish/soupbases-2.jpg',desserts:'img/dish/dessertsauce-1.jpg',entrees:'img/dish/burgers-1.jpg',sides:'img/dish/vegseas-5.jpg',sauces:'img/dish/mother-6.jpg',marinades:'img/dish/beefmar-2.jpg',rubs:'img/dish/seasblends-1.jpg',intl:'img/dish/asian-5.jpg',copycat:'img/dish/bbqsauce-1.jpg',holiday:'img/food/good-eats-roast-turkey.jpg',goodeats:'img/goodeats-cover.jpg'})[k])}
 function catGen(k){return ({baking:'gen1',desserts:'gen2',glutenfree:'gen3',mealprep:'gen3',breakfast:'gen1'})[k]}
 function imgFor(id){return DU(imgFor0(id))}
 function imgFor0(id){if(typeof ITEM_IMG!=='undefined'&&ITEM_IMG[id])return ITEM_IMG[id].img;var r=R.filter(function(x){return x.id===id})[0];if(r&&r.img)return r.img;var fs=typeof foodFile==='function'?foodFile(id):null;if(fs&&typeof FOOD_IMGS!=='undefined'&&FOOD_IMGS[fs])return 'img/food/'+fs+'.jpg';var p=(typeof PH!=='undefined'&&PH.rows)?PH.rows.filter(function(x){return x.kind==='dish'&&x.rid===id})[0]:null;return p?photoUrl(p):null}
@@ -5221,7 +5221,8 @@ function renderHome(){
     t.innerHTML=(img?'<div class="ph" style="background-image:url(\''+img+'\')"></div>':'<div class="ph gen '+(catGen(cat.key)||'gen1')+'"><div class="genicon">'+iconSvg(cat.icon,90)+'</div></div>')+
       '<div class="shine"></div><div class="ic">'+iconSvg(cat.icon,18)+'</div><div class="tx"><div class="tt">'+cat.label+'</div><div class="tn">'+n+' recipes</div></div>';
     t.addEventListener('click',function(){openCategory(cat)});
-    if(img){t._gal=galleryFor(cat,img);t.insertAdjacentHTML('afterbegin','<div class="ph ph2"></div>')}
+    // Good Eats keeps its show cover; every other tile rotates through its recipes' photos
+    if(img&&cat.key!=='goodeats'){t._gal=galleryFor(cat,img);t.insertAdjacentHTML('afterbegin','<div class="ph ph2"></div>')}
     tilt(t);reveal(t,Math.min(i,4)*.06);grid.appendChild(t);
   });
   $('filterSection').style.display=hasF?'block':'none';
@@ -5265,7 +5266,7 @@ function galleryFor(cat,first){
   var seen={},big=[],all=[];seen[first]=1;
   itemsForCat(cat).forEach(function(it){var u=imgFor(it.id);if(!u||seen[u])return;seen[u]=1;all.push(u);
     var raw=imgFor0(it.id);if(window.BIG_IMGS&&BIG_IMGS[raw])big.push(u)});
-  var pool=big.length>=3?big:all;
+  var pool=big.length>=8?big:all;
   for(var i=pool.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),x=pool[i];pool[i]=pool[j];pool[j]=x}
   return [first].concat(pool.slice(0,11));
 }
