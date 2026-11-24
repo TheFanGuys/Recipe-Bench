@@ -6,7 +6,7 @@ Updated 2026-11-24 — **399 Good Eats dishes in 105 images**, 4 dishes per imag
 
 **Check before sending:** make sure each square shows the dish listed for that spot (top left, top right, bottom left, bottom right). Generators sometimes swap two dishes or blend them. If one square is wrong, still send the grid and say which square. Claude will skip that one and it will stay on the list.
 
-Holiday dishes come first. **Grids 1–20 are done** (73 photos added Nov 24). Next up: Grid 21.
+Holiday dishes come first. **Grids 1–30 are done** (112 photos added Nov 24). Next up: Grid 31.
 
 ### Good Eats · Holiday Favorites (27 dishes, 7 images)
 
@@ -151,96 +151,76 @@ Holiday dishes come first. **Grids 1–20 are done** (73 photos added Nov 24). N
 - Bottom left: **Chips and Fish**
 - Bottom right: **Pan Fried Fish**
 
-**Grid 21** — save as `goodeats-grid-021.jpg`
+**Grid 21** — ✅ DONE (added Nov 24)
 
 - Top left: **Striped Bass in Salt Dome**
 - Top right: **The Frenchman's Bass**
 - Bottom left: **Grilled Salmon Steaks**
 - Bottom right: **Island Ceviche and Pickled Onions**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Striped Bass in Salt Dome (made with striped bass, handful parsley, fennel bulb), on a dark stoneware plate. Top right: The Frenchman's Bass (made with package), on a dark stoneware plate. Bottom left: Grilled Salmon Steaks (made with salmon steaks 1-inch thick, cumin seed, coriander seed), on a dark stoneware plate. Bottom right: Island Ceviche and Pickled Onions (made with pompano fillets, bay scallops, lime juice), on a dark stoneware plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 22** — save as `goodeats-grid-022.jpg`
+**Grid 22** — ✅ DONE (added Nov 24)
 
 - Top left: **Salmon Turnovers**
 - Top right: **Smoked Salmon**
 - Bottom left: **Broiled Salmon with Abs Spice Pomade**
 - Bottom right: **Macadamia Nut Crusted Mahi Mahi**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Salmon Turnovers (made with flour, sheet puff pastry, can boneless), on a dark stoneware plate. Top right: Smoked Salmon (made with sugar, dark brown sugar, salmon fillets or sides), on a dark stoneware plate. Bottom left: Broiled Salmon with Abs Spice Pomade (made with side of salmon, coriander, fennel seed), on a dark stoneware plate. Bottom right: Macadamia Nut Crusted Mahi Mahi (made with coarsely ground, panko, unbleached all-purpose flour), on a dark stoneware plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 23** — save as `goodeats-grid-023.jpg`
+**Grid 23** — ✅ DONE (added Nov 24)
 
 - Top left: **Baked Stuffed Flounder**
 - Top right: **Oil Poached Flounder**
 - Bottom left: **Clams on the Half Shell with Fresh Mayonnaise**
 - Bottom right: **Radonsky for the New Millennium: Clams**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Baked Stuffed Flounder (made with onion, clove garlic, frozen  spinach), on a dark stoneware plate. Top right: Oil Poached Flounder (made with flounder fillets, lemons, bunch  parsley), on a dark stoneware plate. Bottom left: Clams on the Half Shell with Fresh Mayonnaise (made with littleneck clams, mayonnaise), on a dark stoneware plate. Bottom right: Radonsky for the New Millennium: Clams (made with little neck clams, flour, seasoned bread crumbs), on a dark stoneware plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 24** — save as `goodeats-grid-024.jpg`
+**Grid 24** — ✅ DONE (added Nov 24)
 
 - Top left: **Mojo Moulies: Mussels**
 - Top right: **Squid Vicious**
 - Bottom left: **Stuffed Lobster**
 - Bottom right: **The Shrimp Cocktail**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Mojo Moulies: Mussels (made with nonreactive, garlic, leek), on a dark stoneware plate. Top right: Squid Vicious (made with squid tentacles and tubes, soy sauce, cornstarch), on a dark stoneware plate. Bottom left: Stuffed Lobster (made with package, herbs: parsley, butter), on a dark stoneware plate. Bottom right: The Shrimp Cocktail (made with shell-on, sugar, can), on a dark stoneware plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 25** — save as `goodeats-grid-025.jpg`
+**Grid 25** — ✅ DONE (added Nov 24)
 
 - Top left: **Coconut Shrimp with Peanut Sauce**
 - Top right: **Garlic Shrimp Casserole**
 - Bottom left: **Salt Roasted Shrimp**
 - Bottom right: **Sushi Rice**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Coconut Shrimp with Peanut Sauce (made with cornstarch, egg whites, sweetened shredded coconut), on a dark stoneware plate. Top right: Garlic Shrimp Casserole (made with chicken stock, heavy cream, leftover rice), on a dark stoneware plate. Bottom left: Salt Roasted Shrimp (made with jumbo shrimp), on a dark stoneware plate. Bottom right: Sushi Rice (made with sushi or short grain rice, rice vinegar, sugar), on a dark stoneware plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 26** — save as `goodeats-grid-026.jpg`
+**Grid 26** — ✅ DONE (added Nov 24)
 
 - Top left: **California Roll**
 - Top right: **Fish Roll with Compound Butter**
 - Bottom left: **Steamed Alaska King Crab Claws**
 - Bottom right: **Crab Cakes or Fritters**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: California Roll (made with juice of 1/2 lemon, avocado, sheets nori), on a dark stoneware plate. Top right: Fish Roll with Compound Butter (made with thin salmon fillets, flounder fillets, sea scallops), on a dark stoneware plate. Bottom left: Steamed Alaska King Crab Claws (made with alaskan king crab claws, sprigs dill), on a dark stoneware plate. Bottom right: Crab Cakes or Fritters (made with lump or backfin crabmeat, special crabmeat, mayonnaise), on a dark stoneware plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 27** — save as `goodeats-grid-027.jpg`
+**Grid 27** — ✅ DONE (added Nov 24)
 
 - Top left: **Baked Oysters Brownefeller**
 - Top right: **Seared Scallops**
 - Bottom left: **Scallops on the Half Shell**
 - Bottom right: **Scallop Mousse**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Baked Oysters Brownefeller (made with finely  onion, finely  celery, garlic), on a dark stoneware plate. Top right: Seared Scallops (made with dry sea scallops), on a dark stoneware plate. Bottom left: Scallops on the Half Shell (made with bay scallops, garlic, size very ripe tomatoes), on a dark stoneware plate. Bottom right: Scallop Mousse (made with wet sea scallops, egg whites, freshly ground nutmeg), on a dark stoneware plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 28** — save as `goodeats-grid-028.jpg`
+**Grid 28** — ✅ DONE (added Nov 24)
 
 - Top left: **Dry Fried Calamari**
 - Top right: **Wet Fried Calamari**
 - Bottom left: **Squid Stuffed Squid**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Dry Fried Calamari (made with squid, unbleached all-purpose flour, plain cornmeal), on a dark stoneware plate. Top right: Wet Fried Calamari (made with squid, egg, unbleached all-purpose flour), on a dark stoneware plate. Bottom left: Squid Stuffed Squid (made with finely  onion, clove garlic, squid), on a dark stoneware plate. The bottom right square is plain solid black. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
 ### Good Eats · More Entrees (37 dishes, 10 images)
 
-**Grid 29** — save as `goodeats-grid-029.jpg`
+**Grid 29** — ✅ DONE (added Nov 24)
 
 - Top left: **Big Cheese Squeeze**
 - Top right: **Cuban Sandwich**
 - Bottom left: **Pan Bagnat**
 - Bottom right: **Bird to the Last Drop: Vegetable Soup**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Big Cheese Squeeze (made with thin slices bread, smooth dijon mustard, grated cheese), on a dark stoneware plate. Top right: Cuban Sandwich (made with hoagie rolls, yellow mustard, baked ham), on a dark stoneware plate. Bottom left: Pan Bagnat (made with red wine vinegar, dijon mustard, baguette), on a dark stoneware plate. Bottom right: Bird to the Last Drop: Vegetable Soup (made with vegetable stock, turkey carcass, package), on a dark stoneware plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 30** — save as `goodeats-grid-030.jpg`
+**Grid 30** — ✅ DONE (added Nov 24)
 
 - Top left: **Clam Chowder**
 - Top right: **Chicken Noodle Soup**
 - Bottom left: **French Onion Soup**
 - Bottom right: **Leftover Baked Potato Soup**
-
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Clam Chowder (made with yellow onion, baking potatoes, milk), on a dark stoneware plate. Top right: Chicken Noodle Soup (made with chicken stock, onion, celery), on a dark stoneware plate. Bottom left: French Onion Soup (made with sweet onions, butter, white wine), on a dark stoneware plate. Bottom right: Leftover Baked Potato Soup (made with butter, finely  leeks, garlic), on a dark stoneware plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
 
 **Grid 31** — save as `goodeats-grid-031.jpg`
 
