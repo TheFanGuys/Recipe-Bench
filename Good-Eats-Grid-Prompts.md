@@ -6,7 +6,7 @@ Updated 2026-11-24 — **399 Good Eats dishes in 105 images**, 4 dishes per imag
 
 **Check before sending:** make sure each square shows the dish listed for that spot (top left, top right, bottom left, bottom right). Generators sometimes swap two dishes or blend them. If one square is wrong, still send the grid and say which square. Claude will skip that one and it will stay on the list.
 
-Holiday dishes come first. **Grids 1–90 are done** (342 photos added Nov 24). Next up: Grid 91.
+Holiday dishes come first. **Grids 1–104 are done** (396 photos added Nov 24). Only Grid 105 left.
 
 ### Good Eats · Holiday Favorites (27 dishes, 7 images)
 
@@ -648,131 +648,103 @@ Holiday dishes come first. **Grids 1–90 are done** (342 photos added Nov 24). 
 - Bottom left: **Rhubarb Peach Cobbler**
 - Bottom right: **Blackberry Grunt**
 
-**Grid 91** — save as `goodeats-grid-091.jpg`
+**Grid 91** — ✅ DONE (added Nov 24)
 
 - Top left: **The Chewy**
 - Top right: **The Puffy**
 - Bottom left: **The Thin**
 - Bottom right: **Sugar Cookies**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: The Chewy (made with ice cream scooper, parchment paper, baking sheets), on a dessert plate. Top right: The Puffy (made with ice cream scooper, parchment paper, baking sheets), on a dessert plate. Bottom left: The Thin (made with ice cream scooper, parchment paper, baking sheets), on a dessert plate. Bottom right: Sugar Cookies (made with unbleached all-purpose flour, baking powder, sugar), on a dessert plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 92** — save as `goodeats-grid-092.jpg`
+**Grid 92** — ✅ DONE (added Nov 24)
 
 - Top left: **Cinnamon Cherry Heart**
 - Top right: **Panna Cotta Brain with Cranberry Glaze**
 - Bottom left: **Sparkling Gingered Face**
 - Bottom right: **Spooky Edible Eyes**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Cinnamon Cherry Heart (made with cherry flavored juice, cinnamon extract), on a dessert plate. Top right: Panna Cotta Brain with Cranberry Glaze (made with can, heavy cream, sugar), on a dessert plate. Bottom left: Sparkling Gingered Face (made with bottle sparkling wine, ginger beer, sugar), on a dessert plate. Bottom right: Spooky Edible Eyes (made with low fat milk, sugar, coconut extract), on a dessert plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 93** — save as `goodeats-grid-093.jpg`
+**Grid 93** — ✅ DONE (added Nov 24)
 
 - Top left: **Baker, Baker: Oatmeal Filled Apples**
 - Top right: **Banana Splitsville**
 - Bottom left: **Banana's Foster**
 - Bottom right: **Fruit Tart**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Baker, Baker: Oatmeal Filled Apples (made with oats, flour, light brown sugar), on a dessert plate. Top right: Banana Splitsville (made with sugar, light corn syrup, heavy cream), on a dessert plate. Bottom left: Banana's Foster (made with dark brown sugar, ground allspice, freshly ground nutmeg), on a dessert plate. Bottom right: Fruit Tart (made with sheet puff pastry, sugar, granny smith apple), on a dessert plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 94** — save as `goodeats-grid-094.jpg`
+**Grid 94** — ✅ DONE (added Nov 24)
 
 - Top left: **Honey Plums**
 - Top right: **Macerated Strawberries**
 - Bottom left: **Dried Pear and Fig Compote**
 - Bottom right: **Strawberry Pudding**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Honey Plums (made with wildflower honey, slightly under ripe plums), on a dessert plate. Top right: Macerated Strawberries (made with size strawberries, bottle red wine, orange blossom honey), on a dessert plate. Bottom left: Dried Pear and Fig Compote (made with dried figs, dried pears, apple cider), on a dessert plate. Bottom right: Strawberry Pudding (made with slices stale potato bread, butter, macerated strawberries), on a dessert plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 95** — save as `goodeats-grid-095.jpg`
+**Grid 95** — ✅ DONE (added Nov 24)
 
 - Top left: **Toasty Coconut Macaroons**
 - Top right: **Pistachio Fruit Balls**
 - Bottom left: **Grilled Peach Melba**
 - Bottom right: **Vanilla Ice Cream**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Toasty Coconut Macaroons (made with egg whites, sugar, package), on a dessert plate. Top right: Pistachio Fruit Balls (made with roasted pistachios, dried cherries, dried apricots), on a dessert plate. Bottom left: Grilled Peach Melba (made with sugar, freshly squeezed lemon juice, vanilla bean), on a dessert plate. Bottom right: Vanilla Ice Cream (made with half-and-half, heavy cream, egg yolks), on a dessert plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 96** — save as `goodeats-grid-096.jpg`
+**Grid 96** — ✅ DONE (added Nov 24)
 
 - Top left: **"serious" Vanilla Ice Cream**
 - Top right: **Chocolate Ice Cream**
 - Bottom left: **Mint Chip Ice Cream**
 - Bottom right: **Banana Ice Cream**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: "serious" Vanilla Ice Cream (made with half-and-half, whipping cream, minus 2 tablespoons sugar), on a dessert plate. Top right: Chocolate Ice Cream (made with unsweetened cocoa powder, half-and-half, heavy cream), on a dessert plate. Bottom left: Mint Chip Ice Cream (made with half-and-half, heavy cream, egg yolks), on a dessert plate. Bottom right: Banana Ice Cream (made with ripe bananas, squeezed lemon juice, light corn syrup), on a dessert plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 97** — save as `goodeats-grid-097.jpg`
+**Grid 97** — ✅ DONE (added Nov 24)
 
 - Top left: **Avocado Ice Cream**
 - Top right: **Burned Peach Ice Cream**
 - Bottom left: **Key Lime Sorbet**
 - Bottom right: **Melon Sorbet**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Avocado Ice Cream (made with avocado meat, freshly squeezed lemon juice, milk), on a dessert plate. Top right: Burned Peach Ice Cream (made with half-n-half, whipping cream, sugar), on a dessert plate. Bottom left: Key Lime Sorbet (made with sugar, key lime preserves, lemon), on a dessert plate. Bottom right: Melon Sorbet (made with freshly squeezed lemon juice, vodka, sugar), on a dessert plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 98** — save as `goodeats-grid-098.jpg`
+**Grid 98** — ✅ DONE (added Nov 24)
 
 - Top left: **Coffee Granita**
 - Top right: **Crème Brulee**
 - Bottom left: **Good Eats Fudgepops**
 - Bottom right: **Black Pepper Mango Sorbet**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Coffee Granita (made with sugar, coffee flavored liqueur, orange or lemon zest), on a dessert plate. Top right: Crème Brulee (made with heavy cream, vanilla bean, vanilla sugar), on a dessert plate. Bottom left: Good Eats Fudgepops (made with bittersweet chocolate, heavy cream, milk), on a dessert plate. Bottom right: Black Pepper Mango Sorbet (made with ripe mango flesh, freshly squeezed lime juice, sugar), on a dessert plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 99** — save as `goodeats-grid-099.jpg`
+**Grid 99** — ✅ DONE (added Nov 24)
 
 - Top left: **Pie Crust**
 - Top right: **Macadamia Nut Crust**
 - Bottom left: **Pocket Pies**
 - Bottom right: **Acid Jellies**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Pie Crust (made with butter, lard, unbleached all-purpose flour), on a dessert plate. Top right: Macadamia Nut Crust (made with roasted macadamia nuts, panko, sugar), on a dessert plate. Bottom left: Pocket Pies (made with unbleached all-purpose flour, baking powder, shortening), on a dessert plate. Bottom right: Acid Jellies (made with envelopes gelatin, freshly squeezed lime juice, freshly squeezed lemon juice), on a dessert plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 100** — save as `goodeats-grid-100.jpg`
+**Grid 100** — ✅ DONE (added Nov 24)
 
 - Top left: **Cherry Couscous Pudding**
 - Top right: **Cocoa Whipped Cream**
 - Bottom left: **Flandango**
 - Bottom right: **Indian Rice Pudding**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Cherry Couscous Pudding (made with milk, sugar, dried cherries), on a dessert plate. Top right: Cocoa Whipped Cream (made with gelatin, heavy cream, vanilla extract), on a dessert plate. Bottom left: Flandango (made with milk, half-and-half, vanilla extract), on a dessert plate. Bottom right: Indian Rice Pudding (made with milk, heavy cream, coconut milk), on a dessert plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 101** — save as `goodeats-grid-101.jpg`
+**Grid 101** — ✅ DONE (added Nov 24)
 
 - Top left: **Peanut Brittle**
 - Top right: **Peanut Butter Fudge**
 - Bottom left: **Sweet or Savory Pate a Choux**
 - Bottom right: **Tapioca Pudding**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Peanut Brittle (made with cinnamon, sugar, softened butter for spatula), on a dessert plate. Top right: Peanut Butter Fudge (made with butter, peanut butter, vanilla), on a dessert plate. Bottom left: Sweet or Savory Pate a Choux (made with butter, flour, eggs), on a dessert plate. Bottom right: Tapioca Pudding (made with pearl tapioca, milk, heavy cream), on a dessert plate. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 102** — save as `goodeats-grid-102.jpg`
+**Grid 102** — ✅ DONE (added Nov 24)
 
 - Top left: **Vanilla Sugar**
 - Top right: **Overnight Citrus Ginger Ring**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Vanilla Sugar (made with vanilla bean, granulated sugar), on a dessert plate. Top right: Overnight Citrus Ginger Ring (made with egg yolks, egg, sugar), on a dessert plate. The bottom left, bottom right squares are plain solid black. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
 ### Good Eats · Drinks (11 dishes, 3 images)
 
-**Grid 103** — save as `goodeats-grid-103.jpg`
+**Grid 103** — ✅ DONE (added Nov 24)
 
 - Top left: **Cocoa Syrup**
 - Top right: **Sweet Tea**
 - Bottom left: **Tall & Tangy Tofu Thangy**
 - Bottom right: **Good Brew: Beer**
 
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Cocoa Syrup (made with sugar, dutch-processed cocoa, vanilla extract), in a glass. Top right: Sweet Tea (made with loose black tea, sugar), in a glass. Bottom left: Tall & Tangy Tofu Thangy (made with can, instant lemonade mix, cranberry juice), in a glass. Bottom right: Good Brew: Beer (made with crystal grain, light liquid malt extract, cascade hops), in a glass. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
-
-**Grid 104** — save as `goodeats-grid-104.jpg`
+**Grid 104** — ✅ DONE (added Nov 24)
 
 - Top left: **Daiquiri**
 - Top right: **Abs Martini**
 - Bottom left: **Mint Julep**
 - Bottom right: **Barley Water**
-
-> Square image (1536×1536) split into an even 2-by-2 grid of four separate food photographs, divided by thin straight solid black lines so each square is clearly its own photo. Each square shows one dish, centered and filling its square, never spilling into a neighbor. Top left: Daiquiri (made with crushed ice, light rum, freshly squeezed lime juice), in a glass. Top right: Abs Martini (made with crushed ice, dry vermouth, gin), in a glass. Bottom left: Mint Julep (made with mint leaves, superfine sugar, crushed ice), in a glass. Bottom right: Barley Water (made with hulled barley, lemons, honey), in a glass. Every square: professional food photography, dark moody background, warm side lighting, shallow depth of field, rich realistic textures, appetizing and true to how the dish really looks, three-quarter angle. No text, no labels, no numbers, no hands, no logos anywhere.
 
 **Grid 105** — save as `goodeats-grid-105.jpg`
 
