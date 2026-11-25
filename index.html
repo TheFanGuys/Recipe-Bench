@@ -158,7 +158,9 @@ table{width:100%;border-collapse:collapse}
 td{padding:11px 0;border-bottom:1px solid var(--line);vertical-align:top;font-size:15px}
 tr:last-child td{border-bottom:0}
 td.g{text-align:right;font:600 15px 'JetBrains Mono',monospace;color:var(--accent2);padding-left:10px;white-space:nowrap}
-td.v:empty{display:none}.wsub{font:500 11px 'JetBrains Mono',monospace;color:var(--muted)}
+td.v:empty{display:none}
+#zoomView{position:fixed;inset:0;z-index:9999;background:#000}#zoomView .zoomscroll{position:absolute;inset:0;overflow:auto;-webkit-overflow-scrolling:touch;touch-action:pinch-zoom pan-x pan-y;display:flex;align-items:flex-start;justify-content:center}#zoomView img{width:100%;max-width:900px;height:auto;display:block;margin:auto 0}#zoomView img.big{width:250%;max-width:none}#zoomView .zoomscroll{justify-content:flex-start}#zoomView .zoomx{position:fixed;top:calc(env(safe-area-inset-top,0px) + 10px);right:12px;z-index:2;width:46px;height:46px;border-radius:50%;border:2px solid #fff;background:rgba(0,0,0,.6);color:#fff;font:700 22px/1 system-ui;cursor:pointer}
+.fullcard[data-zoom]{cursor:zoom-in}.wsub{font:500 11px 'JetBrains Mono',monospace;color:var(--muted)}
 .mtoggle{display:flex;gap:6px;margin:0 0 10px}.mtoggle button{flex:1;padding:8px 6px;border-radius:10px;border:1px solid var(--line,#ccc);background:transparent;color:var(--ink);font:600 13px inherit;cursor:pointer}.mtoggle button.on{background:var(--accent);border-color:var(--accent);color:#fff}
 td.v{text-align:right;color:var(--muted);padding-left:8px;font:500 12px 'JetBrains Mono',monospace;white-space:nowrap}
 tr.sec td{font:400 18px Fraunces,serif;padding-top:18px;color:var(--blue)}
@@ -4602,7 +4604,7 @@ function renderCard(key){
     if(!p){box.innerHTML='<p class="note">'+(PH.ready?'This card was removed.':'Loading…')+'</p>';return}
     box.innerHTML='<h2 class="cardh">'+esc(cardName(p))+'</h2>'+
       (canUpload()?'<div class="titleedit"><input id="cardRename" class="tin" type="text" value="'+esc(p.title||'')+'" placeholder="Card title" aria-label="Card title"><button type="button" id="cardRenameSave">Save</button>'+(PH.sample?'<button type="button" id="cardAutoName" title="Read the title from the image">Auto</button>':'')+'</div>':'')+
-      '<p class="note" style="margin:0 0 10px">'+(p.autoTitled?'Title read from the image automatically. Fix it above if it\u2019s off. ':'')+'Not typed in yet. Ask Claude to add it.</p><a href="'+esc(photoUrl(p))+'" target="_blank" rel="noopener"><img class="fullcard" src="'+esc(photoUrl(p))+'" alt="Recipe card"></a>'+
+      '<p class="note" style="margin:0 0 10px">'+(p.autoTitled?'Title read from the image automatically. Fix it above if it\u2019s off. ':'')+'Not typed in yet. Ask Claude to add it.</p><img class="fullcard" data-zoom="'+esc(photoUrl(p))+'" src="'+esc(photoUrl(p))+'" alt="Recipe card">'+
       (canUpload()?'<button type="button" class="phdel" style="margin-top:12px" data-doc="'+esc(p.docId)+'" data-asset="'+esc(p.assetId)+'">Remove</button>':'');
     wireDeletes(box);
     var sv=$('cardRenameSave');
@@ -4614,14 +4616,48 @@ function renderCard(key){
   var c=CARDS.filter(function(x){return x.key===key})[0];
   if(!c){box.innerHTML='<p class="note">Card not found.</p>';return}
   $('cardTitleBar').textContent='RECIPE CARD';
-  box.innerHTML='<h2 class="cardh">'+esc(c.title)+'</h2><p class="note" style="margin:0 0 10px">Tap the image to open it full size and zoom.</p><a href="'+c.img+'" target="_blank" rel="noopener"><img class="fullcard" src="'+c.img+'" alt="'+esc(c.title)+'"></a><div class="sectionlabel">RECIPES ON THIS CARD</div><div class="navlist" id="cardRecipes"></div>';
+  box.innerHTML='<h2 class="cardh">'+esc(c.title)+'</h2><p class="note" style="margin:0 0 10px">Tap the image to open it full size. Tap it again to zoom in, drag to move around, tap ✕ to close.</p><img class="fullcard" data-zoom="'+c.img+'" src="'+c.img+'" alt="'+esc(c.title)+'"><button type="button" class="addlistbtn" id="cardShopBtn" style="margin-top:12px">+ Add card ingredients to Shopping List</button><div class="note" id="cardShopFlash" style="display:none;margin-top:8px"></div><div class="sectionlabel">RECIPES ON THIS CARD</div><div class="navlist" id="cardRecipes"></div>';
   if(c.note) $('cardRecipes').insertAdjacentHTML('beforebegin','<p class="note" style="margin:-4px 2px 12px">'+esc(c.note)+'</p>');
   if(c.link&&c.link.indexOf(':')>0||c.link==='pizza'){var it=findItemById(c.link);if(it)$('cardRecipes').appendChild(makeRow({img:imgFor(c.link),title:it.label,sub:'Open the recipe',onClick:function(){navigate({screen:'recipe',id:c.link})}}))}
   R.filter(function(r){return r.card===key||(r.alsoCards&&r.alsoCards.indexOf(key)>-1)}).forEach(function(r){
     var also=r.card!==key;
     $('cardRecipes').appendChild(makeRow({img:imgFor(r.id),title:r.lbl||recipeLabel(r),sub:also?(r.card?'Same recipe as on \u201c'+cardTitle(r.card)+'\u201d':'Open the recipe'):'Scale it, shop it, save it',onClick:function(){navigate({screen:'recipe',id:r.id})}}));
   });
+  // Shopping list straight from the card: adds every recipe on this card at its
+  // normal batch size, using the app's own measurements (not the card's text).
+  var recs=R.filter(function(r){return r.ing&&(r.card===key||(r.alsoCards&&r.alsoCards.indexOf(key)>-1)||r.id===c.link)});
+  var sb=$('cardShopBtn'),fl=$('cardShopFlash');
+  if(!recs.length){sb.style.display='none';return}
+  if(recs.length>1) sb.textContent='+ Add all '+recs.length+' recipes on this card to Shopping List';
+  sb.addEventListener('click',function(){
+    recs.forEach(shopRecipeDefault);updateCartDots();
+    fl.textContent=recs.length>1?'Added '+recs.length+' recipes to your shopping list at their normal batch size. Open a recipe to change the amount, then add it again.':'Added to your shopping list at '+((recs[0].d||recs[0].b)+' '+recs[0].u[(recs[0].d||recs[0].b)>1?1:0])+'. Want more or less? Open the recipe, change the amount, and add it again.';
+    fl.style.display='block';
+  });
 }
+function shopRecipeDefault(r){
+  var keep=[CURRENT_ING,CURRENT_LABEL,CURRENT_QTY],n=r.d||r.b,mult=n/r.b;
+  CURRENT_ING=[];
+  r.ing.forEach(function(i){ingRow(i,mult,{l:0,q:0,o:0},r)});
+  var label=recipeLabel(r),d=loadShopData();
+  d.entries[label]={label:label,qty:n+' '+r.u[n>1?1:0],ingredients:CURRENT_ING.slice(),addedAt:Date.now()};
+  saveShopData(d);
+  CURRENT_ING=keep[0];CURRENT_LABEL=keep[1];CURRENT_QTY=keep[2];
+}
+// ---- full-size image viewer that stays inside the app (a new window can't be closed from a home-screen app) ----
+function openZoom(src){
+  closeZoom();
+  var o=document.createElement('div');o.id='zoomView';
+  o.innerHTML='<button type="button" class="zoomx" aria-label="Close">✕</button><div class="zoomscroll"><img src="'+src+'" alt=""></div>';
+  o.querySelector('.zoomx').addEventListener('click',closeZoom);
+  // tap the picture to zoom in 2.5×, tap again to fit; drag to move around
+  var im=o.querySelector('img');im.addEventListener('click',function(){im.classList.toggle('big')});
+  document.body.appendChild(o);document.body.style.overflow='hidden';
+}
+function closeZoom(){var o=$('zoomView');if(o){o.remove();document.body.style.overflow=''}}
+document.addEventListener('click',function(e){var t=e.target.closest&&e.target.closest('[data-zoom]');if(t){e.preventDefault();openZoom(t.getAttribute('data-zoom'))}});
+document.addEventListener('keydown',function(e){if(e.key==='Escape')closeZoom()});
+window.addEventListener('hashchange',closeZoom);
 
 // ---- recipes that still have no picture (built-in or uploaded) ----
 function needPhotoItems(){
